@@ -1,0 +1,11 @@
+﻿  Header.cpp
+  Main.cpp
+  Создание кода...
+Header.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Child::Work(void)" (?Work@Child@@UEAAXXZ).
+Header.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Nanny::Work(void)" (?Work@Nanny@@UEAAXXZ).
+Header.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Soldier::Work(void)" (?Work@Soldier@@UEAAXXZ).
+Header.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Heardsant::Work(void)" (?Work@Heardsant@@UEAAXXZ).
+Header.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Collector::Work(void)" (?Work@Collector@@UEAAXXZ).
+Header.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Builder::Work(void)" (?Work@Builder@@UEAAXXZ).
+Header.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Cleaner::Work(void)" (?Work@Cleaner@@UEAAXXZ).
+C:\Users\proek\source\repos\Anthill\x64\Debug\Anthill.exe : fatal error LNK1120: неразрешенных внешних элементов: 7
