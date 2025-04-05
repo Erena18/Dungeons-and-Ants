@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <memory>
+#include <vector>
 #include <ctime>
 using namespace std;
 
@@ -162,23 +163,46 @@ void Aphid::restoreHpAphid(int point)
 	}
 }
 
-void Aphid::Eat(Aphid& aphid, int& food)
+void Aphid::Eat(Aphid& aphid, int& amountFood)
 {
 	if (!hasHeardsant) // пастух, должен быть в радиусе n-метров от тли
 	{
 		//информер: ѕј—“”’  ”Ўј“№
 		return;
 	}
-	if (food < 1)
+	if (amountFood < 1)
 	{
-		aphid.loseHpAphid(3);
+		aphid.loseHpAphid(3, amountFood);
 	}
 	else
 	{
 		aphid.restoreHpAphid(3);
-		food -= 3;
+		amountFood -= 3;
 	}
 }
+
+//INFORMER 
+void InformerDay::subscribe(Nanny* nanny)
+{
+	nannies.push_back(nanny);
+}
+
+void InformerDay::unsubscribe(Nanny* nanny)
+{
+	nannies.erase(remove(nannies.begin(), 
+		nannies.end(), nanny), nannies.end());
+}
+
+void InformerDay::notifyChildrenWantToEat()
+{
+	for (Nanny* nanny : nannies) 
+	{
+		nanny->Work();
+		//в планах, когда н€ню зовут, она должна прибежать к дет€м 
+		//и, допустим, переменна€ ImHere становитс€ true и дети могут поесть
+	}
+}
+
 
 //NANNY
 void Nanny::Work()
@@ -321,3 +345,4 @@ void Collector::Eat(Ant& ant, int& food)
 	}
 }
 */
+

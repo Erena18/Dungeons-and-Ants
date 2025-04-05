@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <memory>
+#include <vector>
 using namespace std;
 
 class Role //абстрактный класс Role
@@ -48,6 +49,18 @@ public:
 private:
 	int hpAphid, ageAphid;
 
+};
+
+//INFORMER 
+class InformerDay
+{
+public:
+	void subscribe(Nanny* nanny);
+	void unsubscribe(Nanny* nanny);
+	void notifyChildrenWantToEat();
+
+private:
+	vector<Nanny*> nannies;
 };
 
 class Nanny : public Role
