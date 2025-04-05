@@ -22,6 +22,7 @@ public:
 
 	void growth();
 	void updateRole();
+	void loseHpEndDay();
 	void loseHp(int damageHp);
 	void restoreHp(int point);
 	void die();
@@ -33,6 +34,20 @@ public:
 private:
 	int hp, age;
 	unique_ptr<Role> role;
+};
+
+class Aphid
+{
+public:
+	Aphid();
+
+	void growthAphid(int& amountFood);
+	void dieAphid(int& amountFood);
+	void loseHpAphid(int damageHp, int& amountFood);
+	void restoreHpAphid(int point);
+private:
+	int hpAphid, ageAphid;
+
 };
 
 class Nanny : public Role
@@ -61,6 +76,7 @@ public:
 	{
 		cout << "королева Работает" << endl;
 	}
+	virtual void Eat(Ant& ant, int& food) override;
 };
 
 class Builder : public Role
@@ -70,6 +86,7 @@ public:
 	{
 		cout << "строитель Работает" << endl;
 	}
+	virtual void Eat(Ant& ant, int& food) override;
 };
 
 class Cleaner : public Role
@@ -79,6 +96,7 @@ public:
 	{
 		cout << "уборщик Работает" << endl;
 	}
+	virtual void Eat(Ant& ant, int& food) override;
 };
 
 //Пишу не я, но добавлю, чтобы синтаксических ошибок не было
@@ -90,6 +108,7 @@ public:
 	{
 		cout << "солдат Работает" << endl;
 	}
+	virtual void Eat(Ant& ant, int& food) override;
 };
 
 class Heardsant : public Role //пастух :)
@@ -99,6 +118,7 @@ public:
 	{
 		cout << "пастух Работает" << endl;
 	}
+	virtual void Eat(Ant& ant, int& food) override;
 };
 
 class Collector : public Role
@@ -108,6 +128,7 @@ public:
 	{
 		cout << "собиратель Работает" << endl;
 	}
+	virtual void Eat(Ant& ant, int& food) override;
 };
 
 

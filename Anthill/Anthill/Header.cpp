@@ -63,6 +63,15 @@ void Ant::updateRole()
 	}
 }
 
+void Ant::loseHpEndDay()
+{
+	hp -= rand() % 11;
+	if (hp < 0)
+	{
+		die();
+	}
+}
+
 void Ant::loseHp(int damageHp)
 {
 	hp -= damageHp;
@@ -85,13 +94,13 @@ void Ant::growth()
 {
 	age++;
 	updateRole();
-	if ((hp <= 0) || (age >= 100))
+	if ((hp <= 0) || (age > 100))
 	{
-		die(); //НАПИСАТЬ
+		die();
 	}
 }
 
-void Ant::die()
+void Ant::die() 
 {
 	delete this; // смэрть
 }
@@ -112,6 +121,64 @@ void Ant::Eat(Ant& ant, int& food)
 	}
 }
 
+//APHID
+Aphid::Aphid() : hpAphid(20), ageAphid(0) {}
+
+void Aphid::growthAphid(int& amountFood)
+{
+	ageAphid++;
+	if ((hpAphid <= 0) || (ageAphid > 10))
+	{
+		dieAphid(amountFood);
+	}
+}
+
+void Aphid::dieAphid(int& amountFood)
+{
+	//здесь должна быть реализация, что тля умерла внутри муравейника
+	amountFood++;
+	//если тля умерла на улице, она становится МУСОРОМ
+
+	//новая рождается в муравейнике в любом случае
+	auto newAphid = make_unique<Aphid>();
+}
+
+void Aphid::loseHpAphid(int damageHp, int& amountFood)
+{
+	hpAphid -= damageHp;
+	if (hpAphid < 0)
+	{
+		//int countFood = getAmountFood();
+		dieAphid(amountFood);
+	}
+}
+
+void Aphid::restoreHpAphid(int point)
+{
+	hpAphid += point;
+	if (hpAphid > 20)
+	{
+		hpAphid = 20;
+	}
+}
+
+void Aphid::Eat(Aphid& aphid, int& food)
+{
+	if (!hasHeardsant) // пастух, должен быть в радиусе n-метров от тли
+	{
+		//информер: ПАСТУХ КУШАТЬ
+		return;
+	}
+	if (food < 1)
+	{
+		aphid.loseHpAphid(3);
+	}
+	else
+	{
+		aphid.restoreHpAphid(3);
+		food -= 3;
+	}
+}
 
 //NANNY
 void Nanny::Work()
@@ -121,6 +188,18 @@ void Nanny::Work()
 	//Т.К. ЕЁ ПРЯМАЯ РАБОТА - КОРМИТЬ ДЕТЕЙ
 }
 
+void Nanny::Eat(Ant& ant, int& food)
+{
+	if (food < 7)
+	{
+		ant.loseHp(5);
+	}
+	else
+	{
+		ant.restoreHp(10);
+		food -= 7;
+	}
+}
 
 //CHILD
 void Child::Eat(Ant& ant, int& food)
@@ -140,3 +219,105 @@ void Child::Eat(Ant& ant, int& food)
 		food -= 5;
 	}
 }
+void Child::Work()
+{
+	return; // дети не работают
+}
+
+//QUEEN
+void Queen::Eat(Ant& ant, int& food)
+{
+	if (food < 30)
+	{
+		ant.loseHp(30);
+	}
+	else
+	{
+		ant.restoreHp(20);
+		food -= 30;
+	}
+}
+
+void Queen::Work()
+{
+	int count = rand() % 11; //количество родившихся 0-10
+	for (int i = 0; i < count; ++i)
+	{
+		unique_ptr<Ant> newAnt = make_unique<Ant>(100, 0, make_unique<Child>());
+	}
+}
+
+//HEARDSANT
+void Heardsant::Eat(Ant& ant, int& food)
+{
+	if (food < 15)
+	{
+		ant.loseHp(10);
+	}
+	else
+	{
+		ant.restoreHp(15);
+		food -= 15;
+	}
+}
+
+
+
+
+/*
+//BUILDER
+void Builder::Eat(Ant& ant, int& food)
+{
+	if (food < 20)
+	{
+		ant.loseHp(15);
+	}
+	else
+	{
+		ant.restoreHp(20);
+		food -= 20;
+	}
+}
+
+//CLEANER
+void Cleaner::Eat(Ant& ant, int& food)
+{
+	if (food < 10)
+	{
+		ant.loseHp(10);
+	}
+	else
+	{
+		ant.restoreHp(15);
+		food -= 10;
+	}
+}
+
+//SOLDIER
+void Soldier::Eat(Ant& ant, int& food)
+{
+	if (food < 20)
+	{
+		ant.loseHp(15);
+	}
+	else
+	{
+		ant.restoreHp(20);
+		food -= 20;
+	}
+}
+
+//COLLECTOR
+void Collector::Eat(Ant& ant, int& food)
+{
+	if (food < 15)
+	{
+		ant.loseHp(10);
+	}
+	else
+	{
+		ant.restoreHp(15);
+		food -= 15;
+	}
+}
+*/
