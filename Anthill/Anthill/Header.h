@@ -1,11 +1,13 @@
 #pragma once
 #include <iostream>
+#include <memory>
 using namespace std;
 
 class Role //абстрактный класс Role
 {
 public:
 	virtual void Work() = 0; //чистая виртуальная функция «Work»
+	virtual void Eat(Ant& ant, int& food) = 0;
 	virtual ~Role() {};
 };
 
@@ -13,69 +15,117 @@ class Ant
 {
 public:
 	Ant();
-	Ant(int initHp, int initAge, int initExp, Role* initRole);
+	Ant(int initHp, int initAge, unique_ptr<Role> initRole);
 
-	// это для теста проги
 	int getHp() const { return hp; }
 	int getAge() const { return age; }
-	Role* getRole() const { return role; }
-	void incrementAge() { age++; }
-	// но потом может пригодиться
 
-	void setRole(Role* newRole);
+	void growth();
 	void updateRole();
-	//void Work(); //это то, что делает муравей (в зависимости от роли)
-	~Ant(); //надо дописать
+	void loseHp(int damageHp);
+	void restoreHp(int point);
+	void die();
+	
+	//Виртуальные
+	void Work();
+	void Eat(Ant& ant, int& food);
+
 private:
-	int hp, age, exp;
-	Role* role;
-};
-
-class Queen : public Role
-{
-public:
-	void Work(); //муравей делает, что положено
-};
-
-class Child : public Role
-{
-public:
-	void Work(); //муравей делает, что положено
+	int hp, age;
+	unique_ptr<Role> role;
 };
 
 class Nanny : public Role
 {
 public:
-	void Work(); //муравей делает, что положено
+	virtual void Work() override;
+	virtual void Eat(Ant& ant, int& food) override;
 };
 
-class Soldier : public Role
+class Child : public Role
 {
 public:
-	void Work(); //муравей делает, что положено
+	virtual void Work() override
+	{
+		cout << "ребенок Работает" << endl;
+	}
+	virtual void Eat(Ant& ant, int& food) override;
 };
 
-class Heardsant : public Role //пастух :)
-{
-public:
-	void Work(); //муравей делает, что положено
-};
 
-class Collector : public Role
+//здесь перечисленно либо, что не успела, либо не мое
+class Queen : public Role
 {
 public:
-	void Work(); //муравей делает, что положено
+	virtual void Work() override
+	{
+		cout << "королева Работает" << endl;
+	}
 };
 
 class Builder : public Role
 {
 public:
-	void Work(); //муравей делает, что положено
+	virtual void Work() override
+	{
+		cout << "строитель Работает" << endl;
+	}
 };
 
 class Cleaner : public Role
 {
 public:
-	void Work(); //муравей делает, что положено
+	virtual void Work() override
+	{
+		cout << "уборщик Работает" << endl;
+	}
 };
 
+//Пишу не я, но добавлю, чтобы синтаксических ошибок не было
+
+class Soldier : public Role
+{
+public:
+	virtual void Work() override
+	{
+		cout << "солдат Работает" << endl;
+	}
+};
+
+class Heardsant : public Role //пастух :)
+{
+public:
+	virtual void Work() override 
+	{
+		cout << "пастух Работает" << endl;
+	}
+};
+
+class Collector : public Role
+{
+public:
+	virtual void Work() override
+	{
+		cout << "собиратель Работает" << endl;
+	}
+};
+
+
+class Food 
+{
+public:
+	Food(int amtFd) : amountFood(amtFd) {}
+
+	int getAmountFood() const { return amountFood; }
+
+	void consume(int amtFd) 
+	{
+		if (amtFd <= amountFood)
+			amountFood -= amtFd;
+		else
+			amountFood = 0;
+	}
+private:
+	int amountFood; 
+
+};

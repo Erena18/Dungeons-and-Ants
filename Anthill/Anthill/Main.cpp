@@ -1,28 +1,24 @@
 #include "Header.h"
 #include <iostream>
+#include <memory>
 using namespace std;
 int main() 
 {
+    setlocale(LC_ALL, "Russian");
     //Проверка минимальной работоспособности кода...
-    Ant ant(100, 0, 0, nullptr);
-    for (int day = 0; day <= 100; ++day) 
+    /*unique_ptr<Role> initialRole = make_unique<Child>();
+    Ant ant(100, 0, move(initialRole));
+
+    for (int day = 1; day < 100; ++day) 
     {
-        ant.updateRole();
-        cout << "День: " << day << ", Возраст: " << ant.getAge() << ", Роль: ";
-
-        Role* currentRole = ant.getRole();
-
-        if (dynamic_cast<Child*>(currentRole)) cout << "Ребенок";
-        else if (dynamic_cast<Nanny*>(currentRole)) cout << "Нянька";
-        else if (dynamic_cast<Soldier*>(currentRole)) cout << "Солдат";
-        else if (dynamic_cast<Heardsant*>(currentRole)) cout << "Пастух";
-        else if (dynamic_cast<Builder*>(currentRole)) cout << "Строитель";
-        else if (dynamic_cast<Collector*>(currentRole)) cout << "Собиратель";
-        else if (dynamic_cast<Cleaner*>(currentRole)) cout << "Уборщик";
-
-        cout << endl;
-        ant.incrementAge();
-    }
+        cout << "День: " << day << ", Возраст: " << ant.getAge() << ", Здоровье: " << ant.getHp() << endl;
+        if (ant.getHp() <= 0 || ant.getAge() >= 99) 
+        {
+            cout << "Муравей умер." << endl;
+            break;
+        }
+        ant.growth();
+    }*/
 
     return 0;
 }
