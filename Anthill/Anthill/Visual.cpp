@@ -1,25 +1,28 @@
 #define SFML_STATIC
 #include <SFML/Graphics.hpp>
+using namespace sf;
 
-int main()
+/*int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
+    RenderWindow window(VideoMode(200, 200), "SFML works!");
+    CircleShape shape(100.f);
+    shape.setFillColor(Color::Cyan);
 
     while (window.isOpen())
     {
-        sf::Event event;
+        Event event;
         while (window.pollEvent(event))
         {
-            if (event.type == sf::Event::Closed)
+            if (event.type == Event::Closed)
                 window.close();
         }
 
-        window.clear();
+        window.clear(Color(25, 100, 200, 0));
         window.draw(shape);
         window.display();
     }
 
     return 0;
 }
+
+*/

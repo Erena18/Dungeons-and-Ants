@@ -1,1 +1,6 @@
-﻿  Anthill.vcxproj -> C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\x64\Debug\Anthill.exe
+﻿  Visual.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Visual.cpp(1,9): warning C4005: SFML_STATIC: изменение макроопределения
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Visual.cpp(1,9):
+      "SFML_STATIC" ранее объявлен в командной строке
+  
+  Anthill.vcxproj -> C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\x64\Debug\Anthill.exe
