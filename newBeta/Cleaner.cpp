@@ -44,5 +44,5 @@ void Cleaner::Eat(Ant& ant, Food& food) {
 }
 
 void Cleaner::receiveNotification(const std::string& message) {
-    // Обработка уведомления (логика по вашему усмотрению)
+  
 }

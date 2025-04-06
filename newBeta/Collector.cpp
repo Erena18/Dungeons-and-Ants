@@ -52,5 +52,5 @@ void Collector::Eat(Ant& ant, Food& food) {
 }
 
 void Collector::receiveNotification(const std::string& message) {
-    // Обработка уведомления (логика по вашему усмотрению)
+ 
 }
