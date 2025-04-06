@@ -4,8 +4,6 @@
 #include <memory>
 #include "anthill.h"
 #include "Collector.h"
-#include "InformerCleaner.h" // Новое включение
-#include "InformerCollector.h" // Новое включение
 Ant::Ant(int initHp, int initAge, std::unique_ptr<Role> initRole)
     : hp(initHp), age(initAge), alive(true), role(std::move(initRole)) {
 }
