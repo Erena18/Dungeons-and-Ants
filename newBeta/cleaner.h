@@ -1,11 +1,11 @@
 // Cleaner.h
 #ifndef CLEANER_H
 #define CLEANER_H
-class Anthill; // Прямое объявление
-class InformerCleaner; // Прямое объявление
+
 #include "Role.h"
 #include "InformerCleaner.h"
 #include <string>
+#include <memory>
 
 class Cleaner : public Role {
 public:
@@ -19,7 +19,9 @@ public:
 private:
     int maxDistance;            // Максимальное расстояние (15-35)
     int healthLossPerDay;       // Потеря здоровья в день (1-3)
-    InformerCleaner* informer; // Теперь использует прямое объявление
+    InformerCleaner* informer;
+
+    bool helpRequested;         // Флаг запроса помощи
 };
 
 #endif // CLEANER_H

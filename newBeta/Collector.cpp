@@ -7,7 +7,7 @@
 #include <algorithm>
 
 Collector::Collector()
-    : cargoCapacity(3), healthLossPerDay(1 + rand() % 3) {
+    : cargoCapacity(3), healthLossPerDay(1 + rand() % 3), helpRequested(false) {
     informer = &Anthill::getInstance().getInformerCollector();
     informer->subscribe(this);
 }
@@ -17,8 +17,17 @@ Collector::~Collector() {
 }
 
 void Collector::Work(Ant& ant) {
-    int foundResources = rand() % 5; // Еда (0-4)
-    int foundMaterials = rand() % 3; // Материалы (0-2)
+    int foundResources, foundMaterials;
+
+    if (helpRequested) {
+        foundResources = rand() % 3;
+        foundMaterials = rand() % 2;
+        helpRequested = false;
+    }
+    else {
+        foundResources = rand() % 5;
+        foundMaterials = rand() % 3;
+    }
 
     int totalFound = foundResources + foundMaterials;
     int capacityLeft = cargoCapacity;
@@ -33,6 +42,7 @@ void Collector::Work(Ant& ant) {
         Anthill::getInstance().addMaterials(cargoMaterials);
 
         if (totalFound > cargoCapacity) {
+            // Оповещаем других собирателей
             informer->notify("Collector needs help collecting resources!");
         }
     }
@@ -52,5 +62,7 @@ void Collector::Eat(Ant& ant, Food& food) {
 }
 
 void Collector::receiveNotification(const std::string& message) {
- 
+    if (message == "Collector needs help collecting resources!") {
+        helpRequested = true;
+    }
 }

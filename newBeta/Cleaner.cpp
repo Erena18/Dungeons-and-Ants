@@ -6,7 +6,7 @@
 #include <cstdlib>
 
 Cleaner::Cleaner()
-    : healthLossPerDay(1 + rand() % 3) {
+    : healthLossPerDay(1 + rand() % 3), helpRequested(false) {
     maxDistance = 15 + rand() % 21; // 15-35
     informer = &Anthill::getInstance().getInformerCleaner();
     informer->subscribe(this);
@@ -17,16 +17,25 @@ Cleaner::~Cleaner() {
 }
 
 void Cleaner::Work(Ant& ant) {
-    // Уборка мусора
+    int garbageToClean = 1;
+
+    if (helpRequested) {
+        garbageToClean = 2; // Убираем больше мусора
+        helpRequested = false;
+    }
+
     auto& garbageList = GarbageManager::getInstance().getGarbageList();
-    if (!garbageList.empty()) {
+    for (int i = 0; i < garbageToClean && !garbageList.empty(); ++i) {
         GarbageManager::getInstance().removeGarbage(0);
     }
 
-    // Потеря здоровья
+    // Если после уборки мусор всё ещё есть
+    if (!garbageList.empty()) {
+        informer->notify("Cleaner needs help cleaning garbage!");
+    }
+
     ant.loseHp(healthLossPerDay);
 
-    // Проверка здоровья
     if (ant.getHp() <= 5) {
         ant.die();
     }
@@ -44,5 +53,7 @@ void Cleaner::Eat(Ant& ant, Food& food) {
 }
 
 void Cleaner::receiveNotification(const std::string& message) {
-  
+    if (message == "Cleaner needs help cleaning garbage!") {
+        helpRequested = true;
+    }
 }

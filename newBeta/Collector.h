@@ -5,6 +5,7 @@
 #include "Role.h"
 #include "InformerCollector.h"
 #include <string>
+#include <memory>
 
 class Collector : public Role {
 public:
@@ -19,6 +20,8 @@ private:
     int cargoCapacity;          // Максимальная грузоподъемность (3 единицы)
     int healthLossPerDay;       // Потеря здоровья в день (1-3)
     InformerCollector* informer;
+
+    bool helpRequested;         // Флаг запроса помощи
 };
 
 #endif // COLLECTOR_H

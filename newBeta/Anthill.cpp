@@ -48,15 +48,21 @@ void Anthill::dailyUpdate() {
 
     food.dailyUpdate();
     materials.dailyUpdate();
-}
 
+    // Если мусора много, отправляем уведомление уборщикам
+    if (GarbageManager::getInstance().getGarbageList().size() > 10) {
+        informerCleaner.notify("Garbage accumulated, need cleaning!");
+    }
+    if (GarbageManager::getInstance().getGarbageList().size() > 5) {
+        informerCleaner.notify("Cleaner needs help cleaning garbage!");
+    }
+}
 void Anthill::removeDeadAnts() {
     for (auto it = ants.begin(); it != ants.end();) {
         if (!(*it)->isAlive()) {
             GarbageManager::getInstance().addGarbage(Garbage::Type::Corpse, 1);
             it = ants.erase(it);
-        }
-        else {
+        } else {
             ++it;
         }
     }
