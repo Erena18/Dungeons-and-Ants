@@ -16,7 +16,8 @@ int main() {
         auto collector = std::make_unique<Ant>(40, age, std::make_unique<Collector>());
         anthill.addAnt(std::move(collector));
     }
-
+    // Расширение центрального склада
+    anthill.getCentralWarehouse().extend(50, 130);
     // Запускаем симуляцию на 30 дней
     for (int day = 1; day <= 30; ++day) {
         anthill.dailyUpdate();

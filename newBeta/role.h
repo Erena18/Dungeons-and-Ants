@@ -3,6 +3,7 @@
 #define ROLE_H
 
 #include <string>
+#include <memory>
 
 class Ant;
 class Food;

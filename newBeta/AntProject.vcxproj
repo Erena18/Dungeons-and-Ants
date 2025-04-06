@@ -21,6 +21,8 @@
   <ItemGroup>
     <ClCompile Include="ant.cpp" />
     <ClCompile Include="Anthill.cpp" />
+    <ClCompile Include="Bulding.cpp" />
+    <ClCompile Include="CentralWarehouse.cpp" />
     <ClCompile Include="Cleaner.cpp" />
     <ClCompile Include="Collector.cpp" />
     <ClCompile Include="food.cpp" />
@@ -33,10 +35,14 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaterialItem.cpp" />
     <ClCompile Include="Materials.cpp" />
+    <ClCompile Include="warehouse.cpp" />
+    <ClCompile Include="workshop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ant.h" />
     <ClInclude Include="anthill.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="CentralWarehouse.h" />
     <ClInclude Include="cleaner.h" />
     <ClInclude Include="Collector.h" />
     <ClInclude Include="food.h" />
@@ -50,6 +56,8 @@
     <ClInclude Include="MaterialItem.h" />
     <ClInclude Include="Materials.h" />
     <ClInclude Include="role.h" />
+    <ClInclude Include="warehouse.h" />
+    <ClInclude Include="Workshop.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

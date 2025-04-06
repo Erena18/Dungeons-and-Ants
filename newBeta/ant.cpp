@@ -58,7 +58,6 @@ void Ant::die() {
 }
 
 void Ant::updateRole() {
-    // явна€ проверка через typeid вместо dynamic_cast
     if (age >= 80 && typeid(*role) == typeid(Collector)) {
         role = std::make_unique<Cleaner>();
     }

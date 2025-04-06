@@ -7,6 +7,17 @@ Materials::Materials() {}
 void Materials::addMaterial(int amount) {
     materialItems.emplace_back(amount);
 }
+void Materials::use(int amount) {
+    if (this->amount >= amount) {
+        this->amount -= amount;
+    }
+    else {
+        this->amount = 0;
+    }
+}
+int Materials::getAmount() const {
+    return amount;
+}
 
 int Materials::consume(int amount) {
     int amountConsumed = 0;
