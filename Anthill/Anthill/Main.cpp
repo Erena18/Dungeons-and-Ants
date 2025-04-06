@@ -1,11 +1,12 @@
-#include "Header.h"
+/*#include "Header.h"
 #include <iostream>
 #include <vector>
 #include <memory>
 using namespace std;
-int main() 
-{
-    setlocale(LC_ALL, "Russian");
+*/
+//int main()
+//{
+//    setlocale(LC_ALL, "Russian");
     //ѕроверка минимальной работоспособности кода...
     /*unique_ptr<Role> initialRole = make_unique<Child>();
     Ant ant(100, 0, move(initialRole));
@@ -21,5 +22,5 @@ int main()
         ant.growth();
     }*/
 
-    return 0;
-}
+//    return 0;
+//}

@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include <iostream>
 #include <memory>
@@ -163,3 +164,6 @@ private:
 	int amountFood; 
 
 };
+
+
+*/
