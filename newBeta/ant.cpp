@@ -5,33 +5,34 @@
 #include <iostream>
 
 Ant::Ant(int initHp, int initAge, std::unique_ptr<Role> initRole)
-    : hp(initHp), age(initAge), role(std::move(initRole)), informer(std::make_unique<InformerAnt>()) {
+    : hp(initHp), age(initAge), isAlive(true), role(std::move(initRole)), informer(std::make_unique<InformerAnt>()) {
 }
+
+Ant::~Ant() {
+    // Деструктор
+}
+
 void Ant::growth() {
-    age++;
+    ++age;
+    std::cout << "Ant has grown to age " << age << ".\n";
     updateRole();
 }
-Ant::~Ant() {
-    // Деструктор по умолчанию
-}
+
 void Ant::updateRole() {
-    // Обновление роли муравья в зависимости от возраста
-    if (age >= 80 && dynamic_cast<Collector*>(role.get()) != nullptr) {
-        // Меняем роль на уборщика
+    if (age >= 80 && dynamic_cast<Collector*>(role.get())) {
+        // Переходим с Собирателя на Уборщика
+        std::cout << "Ant is changing role from Collector to Cleaner.\n";
         role = std::make_unique<Cleaner>();
-        hp = 25; // Здоровье уборщика
-        informer->report("Collector has become a Cleaner.");
     }
 }
 
 void Ant::loseHpEndDay() {
-    // Потеря здоровья в конце дня (1-3 ед.)
-    int healthLoss = rand() % 3 + 1;
-    loseHp(healthLoss);
+    // Возможно, потеря здоровья в конце дня
 }
 
 void Ant::loseHp(int damageHp) {
     hp -= damageHp;
+    std::cout << "Ant loses " << damageHp << " HP. Current HP: " << hp << ".\n";
     if (hp <= 0) {
         die();
     }
@@ -39,28 +40,23 @@ void Ant::loseHp(int damageHp) {
 
 void Ant::restoreHp(int point) {
     hp += point;
-    // Максимальное здоровье зависит от роли
-    if (dynamic_cast<Collector*>(role.get()) != nullptr && hp > 40) {
-        hp = 40;
-    }
-    else if (dynamic_cast<Cleaner*>(role.get()) != nullptr && hp > 25) {
-        hp = 25;
-    }
+    std::cout << "Ant restores " << point << " HP. Current HP: " << hp << ".\n";
 }
 
 void Ant::die() {
+    isAlive = false;
     hp = 0;
-    informer->report("An ant has died.");
+    std::cout << "Ant has died.\n";
 }
 
 void Ant::Work() {
-    if (role && hp > 0) {
+    if (isAlive) {
         role->Work(*this);
     }
 }
 
 void Ant::Eat(Food& food) {
-    if (role && hp > 0) {
+    if (isAlive) {
         role->Eat(*this, food);
     }
 }

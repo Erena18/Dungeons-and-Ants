@@ -10,9 +10,10 @@ int main() {
 
     Anthill& anthill = Anthill::getInstance();
 
-    // ƒобавл€ем муравьев-собирателей
+    // ƒобавл€ем муравьев-собирателей (возраст от 60 до 79)
     for (int i = 0; i < 5; ++i) {
-        auto collector = std::make_unique<Ant>(40, 60, std::make_unique<Collector>());
+        int age = 60 + rand() % 20;
+        auto collector = std::make_unique<Ant>(40, age, std::make_unique<Collector>());
         anthill.addAnt(std::move(collector));
     }
 

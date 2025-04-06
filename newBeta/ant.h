@@ -10,7 +10,7 @@ class InformerAnt;
 class Ant {
 public:
     Ant(int initHp, int initAge, std::unique_ptr<Role> initRole);
-    ~Ant();
+    ~Ant(); // Добавляем деструктор
 
     int getHp() const { return hp; }
     int getAge() const { return age; }
@@ -29,6 +29,7 @@ public:
 
 private:
     int hp, age;
+    bool isAlive;
     std::unique_ptr<Role> role;
     std::unique_ptr<InformerAnt> informer;
 };

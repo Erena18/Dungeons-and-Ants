@@ -12,11 +12,11 @@ public:
     virtual void Work(Ant& ant) override;
     virtual void Eat(Ant& ant, Food& food) override;
 
-    void receiveNotification(const std::string& message) override; // Добавляем override
+    void receiveNotification(const std::string& message) override;
 
 private:
-    int maxDistance;
-    int healthLossPerDay;
+    int maxDistance;            // Максимальное расстояние (15-35)
+    int healthLossPerDay;       // Потеря здоровья в день (1-3)
     InformerCleaner* informer;
 };
 
