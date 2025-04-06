@@ -1,17 +1,17 @@
+// InformerCollector.cpp
 #include "InformerCollector.h"
-#include "Collector.h"
-#include <algorithm>
+#include "Role.h"
 
-void InformerCollector::subscribe(Collector* collector) {
-    collectors.push_back(collector);
+void InformerCollector::subscribe(Role* role) {
+    subscribers.push_back(role);
 }
 
-void InformerCollector::unsubscribe(Collector* collector) {
-    collectors.erase(std::remove(collectors.begin(), collectors.end(), collector), collectors.end());
+void InformerCollector::unsubscribe(Role* role) {
+    subscribers.erase(std::remove(subscribers.begin(), subscribers.end(), role), subscribers.end());
 }
 
-void InformerCollector::notifyCollectors(const std::string& message) {
-    for (Collector* collector : collectors) {
-        collector->receiveNotification(message);
+void InformerCollector::notify(const std::string& message) {
+    for (auto role : subscribers) {
+        role->receiveNotification(message);
     }
 }

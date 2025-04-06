@@ -1,40 +1,63 @@
+// Anthill.cpp
 #include "Anthill.h"
-#include <algorithm>
-#include <iostream>
-#include <cstdlib>
-
-Anthill* Anthill::instance = nullptr;
+#include "GarbageManager.h"
 
 Anthill& Anthill::getInstance() {
-    if (!instance) {
-        instance = new Anthill();
-    }
-    return *instance;
+    static Anthill instance;
+    return instance;
 }
 
-Anthill::Anthill()
-    : food(100) {
-}
+Anthill::Anthill() {}
 
 void Anthill::addAnt(std::unique_ptr<Ant> ant) {
     ants.push_back(std::move(ant));
 }
 
-void Anthill::removeDeadAnts() {
-    ants.erase(std::remove_if(ants.begin(), ants.end(),
-        [](const std::unique_ptr<Ant>& ant) { return ant->getHp() <= 0 || ant->getAge() > 100; }), ants.end());
+void Anthill::addFood(int amount) {
+    food.addFood(amount);
+}
+
+void Anthill::addMaterials(int amount) {
+    materials.addMaterial(amount);
+}
+
+Food& Anthill::getFood() {
+    return food;
+}
+
+Materials& Anthill::getMaterials() {
+    return materials;
+}
+
+InformerCollector& Anthill::getInformerCollector() {
+    return informerCollector;
+}
+
+InformerCleaner& Anthill::getInformerCleaner() {
+    return informerCleaner;
 }
 
 void Anthill::dailyUpdate() {
     for (auto& ant : ants) {
-        ant->Eat(food);
-        ant->Work();
         ant->growth();
-        ant->loseHpEndDay();
+        ant->Work();
+        ant->Eat(food);
     }
+
     removeDeadAnts();
+
+    food.dailyUpdate();
+    materials.dailyUpdate();
 }
 
-void Anthill::addFoodSupply(int amount) {
-    food.addFood(amount);
+void Anthill::removeDeadAnts() {
+    for (auto it = ants.begin(); it != ants.end();) {
+        if (!(*it)->isAlive()) {
+            GarbageManager::getInstance().addGarbage(Garbage::Type::Corpse, 1);
+            it = ants.erase(it);
+        }
+        else {
+            ++it;
+        }
+    }
 }

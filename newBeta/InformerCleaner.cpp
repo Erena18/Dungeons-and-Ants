@@ -1,17 +1,17 @@
+// InformerCleaner.cpp
 #include "InformerCleaner.h"
-#include "Cleaner.h"
-#include <algorithm>
+#include "Role.h"
 
-void InformerCleaner::subscribe(Cleaner* cleaner) {
-    cleaners.push_back(cleaner);
+void InformerCleaner::subscribe(Role* role) {
+    subscribers.push_back(role);
 }
 
-void InformerCleaner::unsubscribe(Cleaner* cleaner) {
-    cleaners.erase(std::remove(cleaners.begin(), cleaners.end(), cleaner), cleaners.end());
+void InformerCleaner::unsubscribe(Role* role) {
+    subscribers.erase(std::remove(subscribers.begin(), subscribers.end(), role), subscribers.end());
 }
 
-void InformerCleaner::notifyCleaners(const std::string& message) {
-    for (Cleaner* cleaner : cleaners) {
-        cleaner->receiveNotification(message);
+void InformerCleaner::notify(const std::string& message) {
+    for (auto role : subscribers) {
+        role->receiveNotification(message);
     }
 }

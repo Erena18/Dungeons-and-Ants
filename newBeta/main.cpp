@@ -1,9 +1,9 @@
+// main.cpp
 #include "Anthill.h"
 #include "Collector.h"
-#include "Cleaner.h"
-#include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <memory>
 
 int main() {
     std::srand(static_cast<unsigned>(std::time(nullptr)));
@@ -19,9 +19,9 @@ int main() {
 
     // Запускаем симуляцию на 30 дней
     for (int day = 1; day <= 30; ++day) {
-        std::cout << "\nDay " << day << std::endl;
         anthill.dailyUpdate();
     }
 
     return 0;
+
 }

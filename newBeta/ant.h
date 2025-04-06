@@ -1,37 +1,34 @@
+// Ant.h
 #ifndef ANT_H
 #define ANT_H
 
+#include <memory>
 #include "Role.h"
 #include "Food.h"
-#include <memory>
-
-class InformerAnt;
 
 class Ant {
 public:
     Ant(int initHp, int initAge, std::unique_ptr<Role> initRole);
-    ~Ant(); // Добавляем деструктор
+    ~Ant();
 
-    int getHp() const { return hp; }
-    int getAge() const { return age; }
+    int getHp() const;
+    int getAge() const;
+    bool isAlive() const;
 
-    void growth();          // Увеличивает возраст
-    void updateRole();      // Обновляет роль, если необходимо
-    void loseHpEndDay();    // Потеря здоровья в конце дня
-    void loseHp(int damageHp);
-    void restoreHp(int point);
-    void die();
-
+    void growth();
     void Work();
     void Eat(Food& food);
+    void loseHp(int damageHp);
+    void restoreHp(int points);
+    void die();
 
-    std::unique_ptr<Role>& getRole() { return role; }
+    void updateRole();
 
 private:
-    int hp, age;
-    bool isAlive;
+    int hp;
+    int age;
+    bool alive;
     std::unique_ptr<Role> role;
-    std::unique_ptr<InformerAnt> informer;
 };
 
 #endif // ANT_H

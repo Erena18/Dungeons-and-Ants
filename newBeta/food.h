@@ -1,20 +1,22 @@
-#pragma once
+
 #ifndef FOOD_H
 #define FOOD_H
 
+#include "FoodItem.h"
+#include <vector>
+
 class Food {
 public:
-    Food(int amtFd) : amountFood(amtFd) {}
+    Food();
 
-    int getAmountFood() const { return amountFood; }
+    void addFood(int amount);
+    int consume(int amount);
 
-    void consume(int amtFd);
-
-    void addFood(int amtFd);
+    int getTotalAmount() const;
+    void dailyUpdate(); // Увеличивает возраст еды и удаляет испорченную
 
 private:
-    int amountFood;
+    std::vector<FoodItem> foodItems;
 };
 
-#endif // FOOD_H 
-
+#endif // FOOD_H

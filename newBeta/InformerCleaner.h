@@ -1,19 +1,20 @@
-#ifndef INFORMER_CLEANER_H
-#define INFORMER_CLEANER_H
+// InformerCleaner.h
+#ifndef INFORMERCLEANER_H
+#define INFORMERCLEANER_H
 
+#include "Informer.h"
 #include <vector>
-#include <string>
 
-class Cleaner;
+class Role;
 
-class InformerCleaner {
+class InformerCleaner : public Informer {
 public:
-    void subscribe(Cleaner* cleaner);
-    void unsubscribe(Cleaner* cleaner);
-    void notifyCleaners(const std::string& message);
+    void subscribe(Role* role) override;
+    void unsubscribe(Role* role) override;
+    void notify(const std::string& message) override;
 
 private:
-    std::vector<Cleaner*> cleaners;
+    std::vector<Role*> subscribers;
 };
 
-#endif // INFORMER_CLEANER_H
+#endif // INFORMERCLEANER_H

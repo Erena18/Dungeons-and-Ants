@@ -1,18 +1,20 @@
-#ifndef INFORMER_COLLECTOR_H
-#define INFORMER_COLLECTOR_H
+// InformerCollector.h
+#ifndef INFORMERCOLLECTOR_H
+#define INFORMERCOLLECTOR_H
 
+#include "Informer.h"
 #include <vector>
-#include <string>
 
-class Collector;
+class Role;
 
-class InformerCollector {
+class InformerCollector : public Informer {
 public:
-    void subscribe(Collector* collector);
-    void unsubscribe(Collector* collector);
-    void notifyCollectors(const std::string& message);
+    void subscribe(Role* role) override;
+    void unsubscribe(Role* role) override;
+    void notify(const std::string& message) override;
 
 private:
-    std::vector<Collector*> collectors;
+    std::vector<Role*> subscribers;
 };
-#endif
+
+#endif // INFORMERCOLLECTOR_H

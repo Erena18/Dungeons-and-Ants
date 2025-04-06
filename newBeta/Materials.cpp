@@ -1,18 +1,17 @@
-// Food.cpp
-#include "Food.h"
+// Materials.cpp
+#include "Materials.h"
 #include "GarbageManager.h"
 
-Food::Food() {}
+Materials::Materials() {}
 
-void Food::addFood(int amount) {
-    FoodItem newItem(amount);
-    foodItems.push_back(newItem);
+void Materials::addMaterial(int amount) {
+    materialItems.emplace_back(amount);
 }
 
-int Food::consume(int amount) {
+int Materials::consume(int amount) {
     int amountConsumed = 0;
 
-    for (auto it = foodItems.begin(); it != foodItems.end() && amount > 0;) {
+    for (auto it = materialItems.begin(); it != materialItems.end() && amount > 0;) {
         if (!it->isSpoiled()) {
             int itemAmount = it->getAmount();
             int consumeAmount = (itemAmount <= amount) ? itemAmount : amount;
@@ -21,7 +20,7 @@ int Food::consume(int amount) {
             amount -= consumeAmount;
 
             if (itemAmount <= consumeAmount) {
-                it = foodItems.erase(it);
+                it = materialItems.erase(it);
             }
             else {
                 it->reduceAmount(consumeAmount);
@@ -36,9 +35,9 @@ int Food::consume(int amount) {
     return amountConsumed;
 }
 
-int Food::getTotalAmount() const {
+int Materials::getTotalAmount() const {
     int total = 0;
-    for (const auto& item : foodItems) {
+    for (const auto& item : materialItems) {
         if (!item.isSpoiled()) {
             total += item.getAmount();
         }
@@ -46,13 +45,13 @@ int Food::getTotalAmount() const {
     return total;
 }
 
-void Food::dailyUpdate() {
-    for (auto it = foodItems.begin(); it != foodItems.end();) {
+void Materials::dailyUpdate() {
+    for (auto it = materialItems.begin(); it != materialItems.end();) {
         it->increaseAge();
 
         if (it->isSpoiled()) {
-            GarbageManager::getInstance().addGarbage(Garbage::Type::RottenFood, it->getAmount());
-            it = foodItems.erase(it);
+            GarbageManager::getInstance().addGarbage(Garbage::Type::RottenMaterial, it->getAmount());
+            it = materialItems.erase(it);
         }
         else {
             ++it;

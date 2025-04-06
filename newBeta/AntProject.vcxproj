@@ -24,10 +24,15 @@
     <ClCompile Include="Cleaner.cpp" />
     <ClCompile Include="Collector.cpp" />
     <ClCompile Include="food.cpp" />
+    <ClCompile Include="fooditem.cpp" />
+    <ClCompile Include="Garbage.cpp" />
+    <ClCompile Include="GarbageManager.cpp" />
     <ClCompile Include="InformerAnt.cpp" />
     <ClCompile Include="InformerCleaner.cpp" />
     <ClCompile Include="informerCollector.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaterialItem.cpp" />
+    <ClCompile Include="Materials.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ant.h" />
@@ -35,9 +40,15 @@
     <ClInclude Include="cleaner.h" />
     <ClInclude Include="Collector.h" />
     <ClInclude Include="food.h" />
+    <ClInclude Include="Fooditem.h" />
+    <ClInclude Include="garbage.h" />
+    <ClInclude Include="GarbageManager.h" />
+    <ClInclude Include="Informer.h" />
     <ClInclude Include="InformerAnt.h" />
     <ClInclude Include="InformerCleaner.h" />
     <ClInclude Include="informerCollector.h" />
+    <ClInclude Include="MaterialItem.h" />
+    <ClInclude Include="Materials.h" />
     <ClInclude Include="role.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
