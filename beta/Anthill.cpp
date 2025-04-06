@@ -62,8 +62,10 @@ void Anthill::removeCleaner(Cleaner* cleaner) {
 }
 
 void Anthill::promoteCollectorToCleaner(Collector* collector) {
-    std::cout << "A collector has aged and becomes a cleaner.\n";
-    Cleaner* cleaner = new Cleaner(this);
+    std::cout << "Collector with health " << collector->getHealth() << " has aged and becomes a cleaner.\n";
+    int health = collector->getHealth();
+    int age = collector->getAge();
+    Cleaner* cleaner = new Cleaner(this, age, health);
     addCleaner(cleaner);
     removeCollector(collector);
     delete collector;

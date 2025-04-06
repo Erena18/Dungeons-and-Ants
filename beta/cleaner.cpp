@@ -13,13 +13,20 @@ Cleaner::~Cleaner() {
 }
 
 void Cleaner::dailyUpdate() {
+    // Increase age
     age++;
 
+    // Work first
+    work();
+
+    // Health loss after working
     int healthLoss = rand() % 3 + 1;
     health -= healthLoss;
 
+    // Update maxDistance
     maxDistance = 15 + (health % 21);
 
+    // Check for death after working
     if (health <= 0) {
         std::cout << "A cleaner has died of exhaustion.\n";
         return;
@@ -30,8 +37,6 @@ void Cleaner::dailyUpdate() {
         health = 0; // Mark as dead
         return;
     }
-
-    work();
 }
 
 void Cleaner::work() {
@@ -57,12 +62,13 @@ void Cleaner::work() {
             anthill->callForCleanerHelp();
         }
     }
-// ÃŒﬂ ÿ»«¿ ÃŒ∆≈“ À”◊ÿ≈ ›“Œ » Õ≈ ƒŒ¡¿¬Àﬂ“‹
+    //THIS IS MY SHIZA SO THAT PROBABLY SHOULD NOT BE ADDED IDK
     int chance = rand() % 100;
     if (chance < 50) {
         std::cout << "Cleaner became a thief on foreign territory!\n";
         // ƒÓÔÓÎÌËÚÂÎ¸Ì‡ˇ ÎÓ„ËÍ‡ ‰Îˇ ‚Ó‡
     }
+  
 
     chance = rand() % 100;
     if (chance < 20) {
@@ -70,7 +76,7 @@ void Cleaner::work() {
         health = 0; // Mark as dead
     }
 }
-//  ŒÕ≈÷ ÿ»«€
+// END OF THE SHIZA
 int Cleaner::getAge() const {
     return age;
 }

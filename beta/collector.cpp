@@ -54,7 +54,7 @@ void Collector::work() {
     }
     
 
-    // лнъ ьхгю, лнфер ксвье щрн х ме днаюбкърэ
+    // THIS IS MY SHIZA SO THAT PROBABLY SHOULD NOT BE ADDED IDK
     int chance = rand() % 100;
     if (chance < 60) {
         std::cout << "Collector became a thief on foreign territory!\n";
@@ -68,7 +68,7 @@ void Collector::work() {
     }
 }
 
-// йнмеж ьхгш
+// END OF THE SHIZA
 
 
 int Collector::getAge() const {
