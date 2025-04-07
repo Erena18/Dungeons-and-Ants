@@ -1,6 +1,119 @@
-﻿  Visual.cpp
+﻿  Ant.cpp
+  Aphid.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Builder.h(16,15): error C3668: Builder::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(16,15): error C3668: Child::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Cleaner.h(16,15): error C3668: Cleaner::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(16,15): error C3668: Collector::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Heardsant.h(16,15): error C3668: Heardsant::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(12,15): error C3668: Nanny::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.h(17,15): error C3668: Queen::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Soldier.h(18,15): error C3668: Soldier::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.cpp(135,9): error C2660: Role::Eat: функция не принимает 2 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,15):
+       см. объявление "Role::Eat"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.cpp(135,9):
+      при попытке сопоставить список аргументов "(Ant, int)"
+  
+  Child.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
+  (компиляция исходного файла "Child.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(16,15): error C3668: Child::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Child.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(31,13): error C2084: функция "void Child::Work(void)" уже имеет текст реализации
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(12,15):
+      см. предыдущее определение "Child::Work"
+  
+  NowIsForInformers.cpp
+  Heardsant.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
+  (компиляция исходного файла "Heardsant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Heardsant.h(16,15): error C3668: Heardsant::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Heardsant.cpp")
+  
+  InformerDay.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
+  (компиляция исходного файла "InformerDay.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(12,15): error C3668: Nanny::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "InformerDay.cpp")
+  
+  Main.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Builder.h(16,15): error C3668: Builder::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(16,15): error C3668: Child::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Cleaner.h(16,15): error C3668: Cleaner::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(16,15): error C3668: Collector::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Heardsant.h(16,15): error C3668: Heardsant::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(12,15): error C3668: Nanny::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.h(17,15): error C3668: Queen::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Soldier.h(18,15): error C3668: Soldier::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Visual.h(2,10): error C1083: Не удается открыть файл включение: Header.h: No such file or directory,
+  (компиляция исходного файла "Main.cpp")
+  
+  Nanny.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
+  (компиляция исходного файла "Nanny.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(12,15): error C3668: Nanny::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Nanny.cpp")
+  
+  Queen.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
+  (компиляция исходного файла "Queen.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.h(17,15): error C3668: Queen::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Queen.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(16,15): error C3668: Child::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+  (компиляция исходного файла "Queen.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.cpp(24,13): error C2084: функция "void Queen::Work(void)" уже имеет текст реализации
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.h(13,15):
+      см. предыдущее определение "Queen::Work"
+  
+  Visual.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Visual.cpp(1,9): warning C4005: SFML_STATIC: изменение макроопределения
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Visual.cpp(1,9):
       "SFML_STATIC" ранее объявлен в командной строке
   
-  Anthill.vcxproj -> C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\x64\Debug\Anthill.exe
+  Создание кода...
