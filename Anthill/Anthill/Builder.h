@@ -10,6 +10,7 @@
 #include "Soldier.h"
 #include "Heardsant.h"
 #include "Collector.h"
+#include "Informers.h"
 
 #include "Food.h"
 #include "FoodItem.h"
@@ -23,9 +24,8 @@ using namespace std;
 class Builder : public Role
 {
 public:
-	virtual void Work() override
-	{
-		cout << "строитель Работает" << endl;
-	}
+	virtual void Work() override;
 	virtual void Eat(Ant& ant, Food& food) override;
+private:
+	Informer* informer;
 };

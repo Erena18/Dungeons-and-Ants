@@ -153,6 +153,7 @@
     <ClCompile Include="GarbageManager.cpp" />
     <ClCompile Include="Header.cpp" />
     <ClCompile Include="Heardsant.cpp" />
+    <ClCompile Include="Informers.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MateralsItem.cpp" />
     <ClCompile Include="Materials.cpp" />
@@ -171,20 +172,27 @@
     <ClInclude Include="Child.h" />
     <ClInclude Include="Cleaner.h" />
     <ClInclude Include="Collector.h" />
+    <ClInclude Include="DangerousZone.h" />
+    <ClInclude Include="EmptyZone.h" />
     <ClInclude Include="Food.h" />
     <ClInclude Include="FoodItem.h" />
+    <ClInclude Include="FoodZone.h" />
     <ClInclude Include="Garbage.h" />
     <ClInclude Include="GarbageManager.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Heardsant.h" />
+    <ClInclude Include="Informers.h" />
     <ClInclude Include="MaterialsItem.h" />
     <ClInclude Include="Materials.h" />
+    <ClInclude Include="MaterialZone.h" />
     <ClInclude Include="Nanny.h" />
+    <ClInclude Include="PastureZone.h" />
     <ClInclude Include="Queen.h" />
     <ClInclude Include="Role.h" />
     <ClInclude Include="Soldier.h" />
     <ClInclude Include="Warehouse.h" />
     <ClInclude Include="Workshop.h" />
+    <ClInclude Include="Zone.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

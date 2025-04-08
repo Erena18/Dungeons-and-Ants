@@ -23,7 +23,7 @@ public:
     Building(int capacity, int count, int constructionCost);
     virtual ~Building() {}
 
-    int getCapacity() const;
+    int getCapacity()const;
     int getCount() const;
     int getConstructionCost() const;
 

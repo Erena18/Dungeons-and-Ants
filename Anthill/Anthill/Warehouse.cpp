@@ -16,11 +16,10 @@
 #include <ctime>
 using namespace std;
 
-Warehouse::Warehouse()
-    : Building(400, 1, 0), extensionCostPer50Units(125) {
-}
+Warehouse::Warehouse() : Building(400, 1, 0), extensionCostPer50Units(125) {}
 
-void Warehouse::dailyUpdate() {
+void Warehouse::dailyUpdate() 
+{
     // Логика для центрального склада
 
     // Каждый день в центральный склад поступает случайное количество материалов

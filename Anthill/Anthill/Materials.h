@@ -17,7 +17,8 @@
 #include <ctime>
 using namespace std;
 
-class Materials {
+class Materials 
+{
 public:
     Materials();
 
@@ -29,6 +30,6 @@ public:
     void dailyUpdate(); // Увеличивает возраст материалов и удаляет испорченные
 
 private:
-    std::vector<MaterialItem> materialItems;
+    vector<MaterialItem> materialItems;
     int amount;
 };

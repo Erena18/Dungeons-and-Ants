@@ -9,6 +9,7 @@
 #include "Soldier.h"
 #include "Heardsant.h"
 #include "Collector.h"
+#include "Informers.h"
 
 #include "Food.h"
 #include "FoodItem.h"
@@ -36,4 +37,34 @@ void Builder::Eat(Ant& ant, Food& food)
 	{
 		ant.loseHp(hpLossWithoutFood);
 	}
+}
+
+void Builder::Work()
+{
+    Anthill& anthill = Anthill::getInstance();
+    int materialsAvailable = anthill.getMaterials().getAmount();
+    if (materialsAvailable > 0)
+    {
+        int repairAmount = min(materialsAvailable, 10); // èñïîëüçóåì äî 10 åäèíèö ìàòåðèàëîâ çà ðàç
+        anthill.repair(repairAmount);
+    }
+    else
+    {
+        //ÂÛÇÛÂÀÅÒÑß ÈÍÔÎÐÌÅÐ, ÊÎÒÎÐÛÉ ÂÛÇÛÂÀÅÒ ÑÁÎÐÙÈÊÎÂ
+        if (informer) 
+{
+            informer->notify("COLLECTORS WORK");
+        }
+    }
+    Warehouse& warehouse = anthill.getWarehouse();
+    if (warehouse.getCapacity() > warehouse.getCount())
+    {
+        int extensionCost = 50; // Ïðèìåðíàÿ ñòîèìîñòü ðàñøèðåíèÿ íà 50 åäèíèö
+        if (materialsAvailable >= extensionCost)
+        {
+            warehouse.extend(50, extensionCost);
+            anthill.getMaterials().use(extensionCost);
+        }
+        else {        }
+    }
 }

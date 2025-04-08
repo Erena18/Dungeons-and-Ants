@@ -16,7 +16,8 @@
 #include <ctime>
 using namespace std;
 
-class MaterialItem {
+class MaterialItem 
+{
 public:
     MaterialItem(int amount);
 

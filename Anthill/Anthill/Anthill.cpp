@@ -120,6 +120,7 @@ void Anthill::dailyUpdate()
     // Åñòåñòâåííîå ğàçğóøåíèå
     int decay = naturalDecayMin + rand() % (naturalDecayMax - naturalDecayMin + 1);
     receiveDamage(decay);
+    //ÏÎÏĞÀÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÜ
     for (auto& ant : ants) 
     {
         ant->growth();
@@ -131,7 +132,6 @@ void Anthill::dailyUpdate()
     // Îáíîâëÿåì ïîñòğîéêè
     workshop.dailyUpdate();
     warehouse.dailyUpdate();
-    centralWarehouse.dailyUpdate();
     food.dailyUpdate();
     materials.dailyUpdate();
 

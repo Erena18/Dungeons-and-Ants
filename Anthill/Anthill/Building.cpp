@@ -17,10 +17,9 @@
 #include <ctime>
 using namespace std;
 
-Building::Building(int capacity, int count, int constructionCost)
-    : capacity(capacity), count(count), constructionCost(constructionCost) {}
+Building::Building(int capacity, int count, int constructionCost): capacity(capacity), count(count), constructionCost(constructionCost) {}
 
-int Building::getCapacity() const 
+int Building::getCapacity()const
 {
     return capacity * count;
 }

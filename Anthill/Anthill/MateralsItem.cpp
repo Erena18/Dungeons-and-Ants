@@ -16,31 +16,36 @@
 #include <ctime>
 using namespace std;
 
-MaterialItem::MaterialItem(int amount)
-    : amount(amount), age(0) {
-}
+MaterialItem::MaterialItem(int amount) : amount(amount), age(0) {}
 
-int MaterialItem::getAmount() const {
+int MaterialItem::getAmount() const 
+{
     return amount;
 }
 
-int MaterialItem::getAge() const {
+int MaterialItem::getAge() const 
+{
     return age;
 }
 
-void MaterialItem::increaseAge() {
+void MaterialItem::increaseAge() 
+{
     age++;
 }
 
-bool MaterialItem::isSpoiled() const {
+bool MaterialItem::isSpoiled() const 
+{
     return age >= 10;
 }
 
-void MaterialItem::reduceAmount(int amountToReduce) {
-    if (amountToReduce >= amount) {
+void MaterialItem::reduceAmount(int amountToReduce) 
+{
+    if (amountToReduce >= amount) 
+    {
         amount = 0;
     }
-    else {
+    else 
+    {
         amount -= amountToReduce;
     }
 }

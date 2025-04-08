@@ -17,7 +17,8 @@
 #include <ctime>
 using namespace std;
 
-class Workshop : public Building {
+class Workshop : public Building 
+{
 public:
     Workshop();
     void dailyUpdate() override;
