@@ -38,5 +38,6 @@ public:
 
 private:
 	int hp, age;
+	float ant_x, ant_y;
 	unique_ptr<Role> role;
 };

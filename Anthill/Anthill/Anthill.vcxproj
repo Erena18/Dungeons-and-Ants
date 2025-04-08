@@ -114,12 +114,16 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SFML_STATIC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>"C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\SFML-2.6.2-windows-vc17-64-bit\SFML-2.6.2\include"</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>"C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\SFML-2.6.2-windows-vc17-64-bit\SFML-2.6.2\lib"</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-audio-s-d.lib;opengl32.lib;freetype.lib;winmm.lib;gdi32.lib;user32.lib;advapi32.lib;flac.lib;vorbisenc.lib;vorbisfile.lib;vorbis.lib;ogg.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -141,6 +145,8 @@
   <ItemGroup>
     <ClCompile Include="Ant.cpp" />
     <ClCompile Include="Anthill.cpp" />
+    <ClCompile Include="AntLogic.cpp" />
+    <ClCompile Include="AntVisual.cpp" />
     <ClCompile Include="Aphid.cpp" />
     <ClCompile Include="Builder.cpp" />
     <ClCompile Include="Building.cpp" />
@@ -160,12 +166,15 @@
     <ClCompile Include="Nanny.cpp" />
     <ClCompile Include="Queen.cpp" />
     <ClCompile Include="Soldier.cpp" />
+    <ClCompile Include="Visual.cpp" />
     <ClCompile Include="Warehouse.cpp" />
     <ClCompile Include="Workshop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ant.h" />
     <ClInclude Include="Anthill.h" />
+    <ClInclude Include="AntLogic.h" />
+    <ClInclude Include="AntVisual.h" />
     <ClInclude Include="Aphid.h" />
     <ClInclude Include="Builder.h" />
     <ClInclude Include="Building.h" />
@@ -173,6 +182,7 @@
     <ClInclude Include="Cleaner.h" />
     <ClInclude Include="Collector.h" />
     <ClInclude Include="Dimensions.h" />
+    <ClInclude Include="Field.h" />
     <ClInclude Include="Food.h" />
     <ClInclude Include="FoodItem.h" />
     <ClInclude Include="Garbage.h" />
@@ -187,6 +197,12 @@
     <ClInclude Include="Soldier.h" />
     <ClInclude Include="Warehouse.h" />
     <ClInclude Include="Workshop.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ant.png" />
+    <Image Include="antman.png" />
+    <Image Include="antman_food.png" />
+    <Image Include="antWithFood.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -9,6 +9,7 @@
 #include "Soldier.h"
 #include "Heardsant.h"
 #include "Collector.h"
+#include "Visual.cpp";
 #include <iostream>
 #include <vector>
 #include <memory>
@@ -31,6 +32,8 @@ int main()
         }
         ant.growth();
     }*/
+    
+    ants_like_to_Move_it();
 
     return 0;
 }
