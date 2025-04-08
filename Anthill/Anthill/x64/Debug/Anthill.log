@@ -1,5 +1,4 @@
 ﻿  Ant.cpp
-  Aphid.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
   (компиляция исходного файла "Ant.cpp")
   
@@ -44,7 +43,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(12,15):
       см. предыдущее определение "Child::Work"
   
-  NowIsForInformers.cpp
   Heardsant.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(11,19): error C2061: синтаксическая ошибка: идентификатор "Ant"
   (компиляция исходного файла "Heardsant.cpp")
@@ -85,9 +83,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "Main.cpp")
   
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Soldier.h(18,15): error C3668: Soldier::Eat: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Visual.h(2,10): error C1083: Не удается открыть файл включение: Header.h: No such file or directory,
   (компиляция исходного файла "Main.cpp")
   
   Nanny.cpp

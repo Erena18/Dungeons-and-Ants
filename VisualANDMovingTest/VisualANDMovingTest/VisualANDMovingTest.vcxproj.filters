@@ -18,6 +18,15 @@
     <ClCompile Include="Main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Vec2.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AntLogic.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="AntVisual.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vec2.h">
@@ -29,5 +38,19 @@
     <ClInclude Include="AntVisual.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="antman.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="antman_food.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="ant.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="antWithFood.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
   </ItemGroup>
 </Project>

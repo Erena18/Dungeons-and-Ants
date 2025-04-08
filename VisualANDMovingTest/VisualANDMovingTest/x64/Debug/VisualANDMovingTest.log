@@ -1,29 +1,57 @@
-﻿  Main.cpp
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\Main.cpp(20,55): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\Main.cpp(20,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+﻿  AntVisual.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244:         with
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244:         [
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244:             T=unsigned int
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244:         ]
+  (компиляция исходного файла "AntVisual.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244:         with
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244:         [
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244:             T=unsigned int
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244:         ]
+  (компиляция исходного файла "AntVisual.cpp")
+  
+  Main.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244:         with
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244:         [
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244:             T=unsigned int
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,71): warning C4244:         ]
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244: аргумент: преобразование "T" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244:         with
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244:         [
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244:             T=unsigned int
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\AntVisual.h(16,46): warning C4244:         ]
+  (компиляция исходного файла "Main.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\Main.cpp(23,55): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\VisualANDMovingTest\VisualANDMovingTest\Main.cpp(23,39): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
 sfml-graphics-s-d.lib(Transformable.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Transformable.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
-sfml-graphics-s-d.lib(VertexArray.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(VertexArray.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
-sfml-graphics-s-d.lib(Shape.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Shape.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
-sfml-graphics-s-d.lib(CircleShape.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(CircleShape.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(RenderTarget.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(RenderTarget.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
-sfml-graphics-s-d.lib(RenderWindow.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(RenderWindow.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(RenderStates.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(RenderStates.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(Color.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Color.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
-sfml-graphics-s-d.lib(Transform.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Transform.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
-sfml-graphics-s-d.lib(Vertex.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Vertex.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(Texture.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Texture.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+sfml-graphics-s-d.lib(RenderWindow.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(RenderWindow.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+sfml-graphics-s-d.lib(Sprite.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Sprite.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+sfml-graphics-s-d.lib(Transform.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Transform.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(View.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(View.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(BlendMode.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(BlendMode.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+sfml-graphics-s-d.lib(Vertex.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Vertex.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(Shader.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Shader.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(VertexBuffer.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(VertexBuffer.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(GLExtensions.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(GLExtensions.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(GLCheck.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(GLCheck.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
-sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(RenderTextureImplFBO.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(Image.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Image.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(TextureSaver.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(TextureSaver.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+sfml-graphics-s-d.lib(RenderTextureImplFBO.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(RenderTextureImplFBO.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(Glsl.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(Glsl.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
-sfml-graphics-s-d.lib(RenderTextureImpl.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(RenderTextureImpl.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-graphics-s-d.lib(ImageLoader.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(ImageLoader.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+sfml-graphics-s-d.lib(RenderTextureImpl.obj) : warning LNK4099: "" PDB не найден с "sfml-graphics-s-d.lib(RenderTextureImpl.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-window-s-d.lib(VideoMode.obj) : warning LNK4099: "" PDB не найден с "sfml-window-s-d.lib(VideoMode.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-window-s-d.lib(WindowBase.obj) : warning LNK4099: "" PDB не найден с "sfml-window-s-d.lib(WindowBase.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
 sfml-window-s-d.lib(Window.obj) : warning LNK4099: "" PDB не найден с "sfml-window-s-d.lib(Window.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных

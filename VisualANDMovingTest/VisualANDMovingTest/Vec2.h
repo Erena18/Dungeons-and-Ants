@@ -3,23 +3,19 @@
 #include <cmath>
 
 class Vec2 {
-private:
-    float x;
-    float y;
-
 public:
     Vec2(float x = 0, float y = 0) : x(x), y(y) {}
 
     float getX() const { return x; }
     float getY() const { return y; }
 
-    void set(float newX, float newY) { x = newX; y = newY; }
+    void set(float newX, float newY);
 
-    Vec2 add(const Vec2& other) const {
-        return Vec2(x + other.x, y + other.y);
-    }
+    Vec2 add(const Vec2& other) const;
 
-    Vec2 scale(float scalar) const {
-        return Vec2(x * scalar, y * scalar);
-    }
+    Vec2 scale(float scalar) const;
+
+private:
+    float x;
+    float y;
 };

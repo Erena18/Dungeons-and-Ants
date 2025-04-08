@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|solutionrelative:VisualANDMovingTest\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\AntVisual.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|solutionrelative:VisualANDMovingTest\\AntVisual.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\AntVisual.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|solutionrelative:VisualANDMovingTest\\AntVisual.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\AntLogic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|solutionrelative:VisualANDMovingTest\\AntLogic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|solutionrelative:VisualANDMovingTest\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1E8D361-73EB-47E6-B22E-D4C4D392540B}|VisualANDMovingTest\\VisualANDMovingTest.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\Vec2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,17 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AntVisual.cpp",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\AntVisual.cpp",
+              "RelativeDocumentMoniker": "VisualANDMovingTest\\AntVisual.cpp",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\AntVisual.cpp",
+              "RelativeToolTip": "VisualANDMovingTest\\AntVisual.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T13:37:13.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AntVisual.h",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\AntVisual.h",
               "RelativeDocumentMoniker": "VisualANDMovingTest\\AntVisual.h",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\AntVisual.h",
               "RelativeToolTip": "VisualANDMovingTest\\AntVisual.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-07T19:52:20.897Z",
               "EditorCaption": ""
@@ -49,33 +66,33 @@
               "RelativeDocumentMoniker": "VisualANDMovingTest\\AntLogic.h",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\AntLogic.h",
               "RelativeToolTip": "VisualANDMovingTest\\AntLogic.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-07T19:51:58.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Vec2.h",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\Vec2.h",
               "RelativeDocumentMoniker": "VisualANDMovingTest\\Vec2.h",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\Vec2.h",
               "RelativeToolTip": "VisualANDMovingTest\\Vec2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-04-07T19:51:32.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\Main.cpp",
               "RelativeDocumentMoniker": "VisualANDMovingTest\\Main.cpp",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\VisualANDMovingTest\\VisualANDMovingTest\\Main.cpp",
               "RelativeToolTip": "VisualANDMovingTest\\Main.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwCcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-07T19:51:19.426Z",
               "EditorCaption": ""
