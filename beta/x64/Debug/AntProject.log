@@ -1,0 +1,15 @@
+﻿  Anthill.cpp
+  Anthill.h
+  cleaner.cpp
+  collector.cpp
+  food.cpp
+  garbage.cpp
+  infrastructure.cpp
+  infrastructure.h
+  main.cpp
+  observer.h
+  storage.cpp
+  Создание кода...
+x64\Debug\Anthill.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+x64\Debug\infrastructure.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+  AntProject.vcxproj -> C:\Users\proek\OneDrive\Документы\Муравьи\beta\x64\Debug\AntProject.exe

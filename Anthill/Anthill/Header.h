@@ -4,7 +4,7 @@
 #include <vector>
 using namespace std;
 
-class Role //абстрактный класс Role
+/*class Role //абстрактный класс Role
 {
 public:
 	virtual void Work() = 0; //чистая виртуальная функция «Work»
@@ -35,9 +35,9 @@ public:
 private:
 	int hp, age;
 	unique_ptr<Role> role;
-};
+};*/
 
-class Aphid
+/*class Aphid
 {
 public:
 	Aphid();
@@ -49,7 +49,7 @@ public:
 private:
 	int hpAphid, ageAphid;
 
-};
+};*/
 
 //INFORMER 
 class InformerDay
@@ -63,7 +63,7 @@ private:
 	vector<Nanny*> nannies;
 };
 
-class Nanny : public Role
+/*class Nanny : public Role
 {
 public:
 	virtual void Work() override;
@@ -142,10 +142,12 @@ public:
 		cout << "собиратель Работает" << endl;
 	}
 	virtual void Eat(Ant& ant, int& food) override;
-};
+};*/
 
 
-class Food 
+
+/// Не надо..................................
+/*class Food
 {
 public:
 	Food(int amtFd) : amountFood(amtFd) {}
@@ -162,4 +164,4 @@ public:
 private:
 	int amountFood; 
 
-};
+};*/

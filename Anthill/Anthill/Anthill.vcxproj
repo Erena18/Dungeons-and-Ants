@@ -139,11 +139,52 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ant.cpp" />
+    <ClCompile Include="Anthill.cpp" />
+    <ClCompile Include="Aphid.cpp" />
+    <ClCompile Include="Builder.cpp" />
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Child.cpp" />
+    <ClCompile Include="Cleaner.cpp" />
+    <ClCompile Include="Collector.cpp" />
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="FoodItem.cpp" />
+    <ClCompile Include="Garbage.cpp" />
+    <ClCompile Include="GarbageManager.cpp" />
     <ClCompile Include="Header.cpp" />
+    <ClCompile Include="Heardsant.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MateralsItem.cpp" />
+    <ClCompile Include="Materials.cpp" />
+    <ClCompile Include="Nanny.cpp" />
+    <ClCompile Include="Queen.cpp" />
+    <ClCompile Include="Soldier.cpp" />
+    <ClCompile Include="Warehouse.cpp" />
+    <ClCompile Include="Workshop.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ant.h" />
+    <ClInclude Include="Anthill.h" />
+    <ClInclude Include="Aphid.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="Child.h" />
+    <ClInclude Include="Cleaner.h" />
+    <ClInclude Include="Collector.h" />
+    <ClInclude Include="Food.h" />
+    <ClInclude Include="FoodItem.h" />
+    <ClInclude Include="Garbage.h" />
+    <ClInclude Include="GarbageManager.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="Heardsant.h" />
+    <ClInclude Include="MaterialsItem.h" />
+    <ClInclude Include="Materials.h" />
+    <ClInclude Include="Nanny.h" />
+    <ClInclude Include="Queen.h" />
+    <ClInclude Include="Role.h" />
+    <ClInclude Include="Soldier.h" />
+    <ClInclude Include="Warehouse.h" />
+    <ClInclude Include="Workshop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

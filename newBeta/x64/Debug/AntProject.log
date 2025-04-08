@@ -1,0 +1,13 @@
+﻿  ant.cpp
+  Anthill.cpp
+  Cleaner.cpp
+  Collector.cpp
+  food.cpp
+  InformerAnt.cpp
+  InformerCleaner.cpp
+  informerCollector.cpp
+  main.cpp
+  Создание кода...
+Cleaner.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Cleaner::receiveNotification(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?receiveNotification@Cleaner@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+Collector.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __cdecl Collector::receiveNotification(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?receiveNotification@Collector@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z).
+C:\Users\proek\OneDrive\Документы\Муравьи\newBeta\x64\Debug\AntProject.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

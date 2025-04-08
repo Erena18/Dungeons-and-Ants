@@ -1,4 +1,14 @@
-#include "Header.h"
+#include "Role.h"
+#include "Ant.h"
+#include "Aphid.h"
+#include "Nanny.h"
+#include "Child.h"
+#include "Queen.h"
+#include "Builder.h"
+#include "Cleaner.h"
+#include "Soldier.h"
+#include "Heardsant.h"
+#include "Collector.h"
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -6,14 +16,13 @@
 #include <ctime>
 using namespace std;
 
-Ant::Ant() : hp(100), age(0), role(nullptr) {}
+/*Ant::Ant() : hp(100), age(0), role(nullptr) {}
 
 Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole) :
 	hp(initHp), age(initAge), role(move(initRole)) {}
 
 void Ant::updateRole()
 {
-	//srand(time(0)); //надо уточнить, законно ли сдвигать время в функции
 	if ((role != nullptr) && (dynamic_cast<Queen*>(role.get())))
 	{
 		return; //королева роли не меняет, абсолютная монархия
@@ -179,7 +188,7 @@ void Aphid::Eat(Aphid& aphid, int& amountFood)
 		aphid.restoreHpAphid(3);
 		amountFood -= 3;
 	}
-}
+}*/
 
 //INFORMER 
 void InformerDay::subscribe(Nanny* nanny)
@@ -205,7 +214,7 @@ void InformerDay::notifyChildrenWantToEat()
 
 
 //NANNY
-void Nanny::Work()
+/*void Nanny::Work()
 {
 	//ЗДЕСЬ НАДО РЕАЛИЗОВАТЬ, ЧТО НЯНЬКА 
 	//НАХОДИТСЯ В ОДНОЙ КОМНАТЕ С ДЕТЬМИ
@@ -283,7 +292,7 @@ void Heardsant::Eat(Ant& ant, int& food)
 		ant.restoreHp(15);
 		food -= 15;
 	}
-}
+}*/
 
 
 
