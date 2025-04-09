@@ -1,11 +1,46 @@
 #pragma once
 
+#include "Role.h"
+#include "Ant.h"
+#include "Aphid.h"
+#include "Builder.h"
+#include "Child.h"
+#include "Cleaner.h"
+#include "Collector.h"
+#include "Heardsant.h"
+#include "Nanny.h"
+#include "Queen.h"
+#include "Soldier.h"
+
+#include "Anthill.h"
+#include "Building.h"
+#include "Food.h"
+#include "FoodItem.h"
+#include "Garbage.h"
+#include "GarbageManager.h"
+#include "Materials.h"
+#include "MaterialsItem.h"
+#include "Warehouse.h"
+
+#include "Zone.h"
+#include "EmptyZone.h"
+#include "FoodZone.h"
+#include "MaterialZone.h"
+#include "PastureZone.h"
+
+#include "AntLogic.h"
+#include "Dimensions.h"
+
+#include "Informers.h"
+
 #include <iostream>
 #include <vector>
 #include <memory>
+#include <string>
 #include <cstdlib>
 #include <ctime>
-#include "Zone.h"
+
+class Ant;
 
 using namespace std;
 

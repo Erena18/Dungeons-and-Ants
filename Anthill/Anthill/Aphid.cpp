@@ -1,14 +1,37 @@
 #include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
-#include "Nanny.h"
-#include "Child.h"
-#include "Queen.h"
 #include "Builder.h"
+#include "Child.h"
 #include "Cleaner.h"
-#include "Soldier.h"
-#include "Heardsant.h"
 #include "Collector.h"
+#include "Heardsant.h"
+#include "Nanny.h"
+#include "Queen.h"
+#include "Soldier.h"
+
+#include "Anthill.h"
+#include "Building.h"
+#include "Food.h"
+#include "FoodItem.h"
+#include "Garbage.h"
+#include "GarbageManager.h"
+#include "Materials.h"
+#include "MaterialsItem.h"
+#include "Warehouse.h"
+
+#include "Zone.h"
+#include "DangerousZone.h"
+#include "EmptyZone.h"
+#include "FoodZone.h"
+#include "MaterialZone.h"
+#include "PastureZone.h"
+
+#include "AntLogic.h"
+#include "Dimensions.h"
+
+#include "Informers.h"
+
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -29,7 +52,7 @@ void Aphid::growthAphid(int& amountFood)
 
 void Aphid::dieAphid(int& amountFood)
 {
-	//здесь должна быть реализация, что тля умерла внутри муравейника
+	//здесь должна быть реализация, что тля умерла внутри муравейника 
 	amountFood++;
 	//если тля умерла на улице, она становится МУСОРОМ
 
@@ -56,20 +79,17 @@ void Aphid::restoreHpAphid(int point)
 	}
 }
 
-void Aphid::Eat(Aphid& aphid, int& amountFood)
+void Aphid::Eat(Food& food)
 {
-	if (!hasHeardsant) // пастух, должен быть в радиусе n-метров от тли
+	Zone* currentZone =
+		ZoneManager::getInstance().getCurrentZone(*this); //ОШИБКА 
+	PastureZone* pasture = dynamic_cast<PastureZone*>(currentZone);
+	if (pasture) 
 	{
-		//информер: ПАСТУХ КУШАТЬ
-		return;
-	}
-	if (amountFood < 1)
-	{
-		aphid.loseHpAphid(3, amountFood);
-	}
-	else
-	{
-		aphid.restoreHpAphid(3);
-		amountFood -= 3;
+		if (!pasture->isEmpty()) 
+		{
+			restoreHpAphid(1);
+			pasture->onAntEnter();
+		}
 	}
 }

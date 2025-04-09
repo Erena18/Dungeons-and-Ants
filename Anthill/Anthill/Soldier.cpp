@@ -1,14 +1,36 @@
 #include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
-#include "Nanny.h"
-#include "Child.h"
-#include "Queen.h"
 #include "Builder.h"
+#include "Child.h"
 #include "Cleaner.h"
-#include "Soldier.h"
-#include "Heardsant.h"
 #include "Collector.h"
+#include "Heardsant.h"
+#include "Nanny.h"
+#include "Queen.h"
+#include "Soldier.h"
+
+#include "Anthill.h"
+#include "Building.h"
+#include "Food.h"
+#include "FoodItem.h"
+#include "Garbage.h"
+#include "GarbageManager.h"
+#include "Materials.h"
+#include "MaterialsItem.h"
+#include "Warehouse.h"
+
+#include "Zone.h"
+#include "DangerousZone.h"
+#include "EmptyZone.h"
+#include "FoodZone.h"
+#include "MaterialZone.h"
+#include "PastureZone.h"
+
+#include "AntLogic.h"
+#include "Dimensions.h"
+
+#include "Informers.h"
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -16,15 +38,19 @@
 #include <ctime>
 using namespace std;
 
-void Soldier::Eat(Ant& ant, int& food)
+void Soldier::Eat(Ant& ant, Food& food)
 {
-	if (food < 20)
-	{
-		ant.loseHp(15);
-	}
-	else
-	{
-		ant.restoreHp(20);
-		food -= 20;
-	}
+    int foodRequired = 20;
+    int hpLossWithoutFood = 15;
+    int hpRestoreAfterEating = 30;
+
+    int consumed = food.consume(foodRequired);
+    if (consumed > 0)
+    {
+        ant.restoreHp(hpRestoreAfterEating);
+    }
+    else
+    {
+        ant.loseHp(hpLossWithoutFood);
+    }
 }

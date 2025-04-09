@@ -3,24 +3,36 @@
 #include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
-#include "Nanny.h"
-#include "Child.h"
-#include "Queen.h"
 #include "Builder.h"
+#include "Child.h"
 #include "Cleaner.h"
-#include "Soldier.h"
-#include "Heardsant.h"
 #include "Collector.h"
+#include "Heardsant.h"
+#include "Nanny.h"
+#include "Queen.h"
+#include "Soldier.h"
 
+#include "Anthill.h"
 #include "Building.h"
-#include "Warehouse.h"
 #include "Food.h"
 #include "FoodItem.h"
-#include "Materials.h"
-#include "MaterialsItem.h"
 #include "Garbage.h"
 #include "GarbageManager.h"
-#include "Workshop.h"
+#include "Materials.h"
+#include "MaterialsItem.h"
+#include "Warehouse.h"
+
+#include "Zone.h"
+#include "DangerousZone.h"
+#include "EmptyZone.h"
+#include "FoodZone.h"
+#include "MaterialZone.h"
+#include "PastureZone.h"
+
+#include "AntLogic.h"
+#include "Dimensions.h"
+
+#include "Informers.h"
 
 
 #include <iostream>
@@ -53,7 +65,7 @@ public:
     Food& getFood();
     Materials& getMaterials();
 
-    Workshop& getWorkshop();
+    //Workshop& getWorkshop();
     Warehouse& getWarehouse();
     void repair(int amount);
     void receiveDamage(int amount);
@@ -72,7 +84,7 @@ private:
     int naturalDecayMin;
     int naturalDecayMax;
 
-    Workshop workshop;
+    //Workshop workshop;
     Warehouse warehouse;
     void removeDeadAnts();
 };

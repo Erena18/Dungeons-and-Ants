@@ -1,25 +1,36 @@
 #include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
-#include "Nanny.h"
-#include "Child.h"
-#include "Queen.h"
 #include "Builder.h"
+#include "Child.h"
 #include "Cleaner.h"
-#include "Soldier.h"
-#include "Heardsant.h"
 #include "Collector.h"
-#include "Informers.h"
+#include "Heardsant.h"
+#include "Nanny.h"
+#include "Queen.h"
+#include "Soldier.h"
 
+#include "Anthill.h"
+#include "Building.h"
 #include "Food.h"
 #include "FoodItem.h"
-#include "Anthill.h"
+#include "Garbage.h"
+#include "GarbageManager.h"
+#include "Materials.h"
+#include "MaterialsItem.h"
+#include "Warehouse.h"
 
-#include  "Zone.h"
-#include  "DangerousZone.h"
-#include  "FoodZone.h"
-#include  "MaterialZone.h"
+#include "Zone.h"
+#include "DangerousZone.h"
+#include "EmptyZone.h"
+#include "FoodZone.h"
+#include "MaterialZone.h"
+#include "PastureZone.h"
 
+#include "AntLogic.h"
+#include "Dimensions.h"
+
+#include "Informers.h"
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -46,7 +57,7 @@ void Collector::Eat(Ant& ant, Food& food)
 
 void Collector::Work() 
 {
-    Zone* currentZone = getCurrentZone();
+    Zone* currentZone = getCurrentZone(); // ньхайю
     //еякх гнмю ме нопедекемю опнднкфюел дбхфемхе
 
     int foundResources = 0, foundMaterials = 0;
