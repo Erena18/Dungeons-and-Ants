@@ -17,16 +17,17 @@
 #include <ctime>
 using namespace std;
 
-class GarbageManager {
+class GarbageManager 
+{
 public:
     static GarbageManager& getInstance();
 
     void addGarbage(Garbage::Type type, int weight);
     void removeGarbage(int index);
 
-    const std::vector<Garbage>& getGarbageList() const;
+    const vector<Garbage>& getGarbageList() const;
 
 private:
     GarbageManager() {}
-    std::vector<Garbage> garbageList;
+    vector<Garbage> garbageList;
 };

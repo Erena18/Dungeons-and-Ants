@@ -9,10 +9,16 @@
 #include "Soldier.h"
 #include "Heardsant.h"
 #include "Collector.h"
+#include "Informers.h"
 
 #include "Food.h"
 #include "FoodItem.h"
 #include "Anthill.h"
+
+#include  "Zone.h"
+#include  "DangerousZone.h"
+#include  "FoodZone.h"
+#include  "MaterialZone.h"
 
 #include <iostream>
 #include <cstdlib>
@@ -38,54 +44,51 @@ void Collector::Eat(Ant& ant, Food& food)
     }
 }
 
-Collector::Collector()
-    : cargoCapacity(3), healthLossPerDay(1 + rand() % 3), helpRequested(false) {
-    informer = &Anthill::getInstance().getInformerCollector();
-    informer->subscribe(this);
-}
-
-Collector::~Collector() {
-    informer->unsubscribe(this);
-}
-
 void Collector::Work() 
 {
-    int foundResources, foundMaterials;
+    Zone* currentZone = getCurrentZone();
+    //ÅÑËÈ ÇÎÍÀ ÍÅ ÎÏÐÅÄÅËÅÍÀ ÏÐÎÄÎËÆÀÅÌ ÄÂÈÆÅÍÈÅ
 
-    if (helpRequested) {
-        foundResources = rand() % 3;
-        foundMaterials = rand() % 2;
-        helpRequested = false;
+    int foundResources = 0, foundMaterials = 0;
+
+    if (currentZone->getType() == "Food")
+    {
+        if (!currentZone->isEmpty())
+        {
+            foundResources = rand() % 5; //ÎÒÊÀËÈÁÐÎÂÀÒÜ
+            currentZone->onAntEnter();
+        }
     }
-    else {
-        foundResources = rand() % 5;
-        foundMaterials = rand() % 3;
+    else if (currentZone->getType() == "Material")
+    {
+        if (!currentZone->isEmpty())
+        {
+            foundMaterials = rand() % 3; //ÎÒÊÀËÈÁÐÎÂÀÒÜ
+            currentZone->onAntEnter();
+        }
     }
 
     int totalFound = foundResources + foundMaterials;
     int capacityLeft = cargoCapacity;
 
-    if (totalFound > 0) {
-        int cargoResources = std::min(foundResources, capacityLeft);
+    if (totalFound > 0) 
+    {
+        int cargoResources = min(foundResources, capacityLeft);
         capacityLeft -= cargoResources;
-        int cargoMaterials = std::min(foundMaterials, capacityLeft);
+        int cargoMaterials = min(foundMaterials, capacityLeft);
         capacityLeft -= cargoMaterials;
 
         Anthill::getInstance().addFood(cargoResources);
         Anthill::getInstance().addMaterials(cargoMaterials);
 
-        if (totalFound > cargoCapacity) {
-            // Îïîâåùàåì äðóãèõ ñîáèðàòåëåé
-            informer->notify("Collector needs help collecting resources!");
+        if (totalFound > cargoCapacity) 
+        {
+            CollectorInformer* collectorInformer = getInformer();
+            if (collectorInformer)
+            {
+                collectorInformer->notify(); //âûçîâ ñáîðùèêîâ
+                helpRequested = true;
+            }
         }
-    }
-
-}
-
-
-
-void Collector::receiveNotification(const std::string& message) {
-    if (message == "Collector needs help collecting resources!") {
-        helpRequested = true;
     }
 }

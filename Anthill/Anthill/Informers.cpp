@@ -73,3 +73,31 @@ void NannyInformer::notify()
 		nanny->Work();
 	}
 }
+
+//CLEANER
+void CleanerInformer::addCleaner(Cleaner* cleaner)
+{
+	cleaners.push_back(cleaner);
+}
+
+void CleanerInformer::notify()
+{
+	for (auto& cleaner : cleaners)
+	{
+		cleaner->Work();
+	}
+}
+
+//SOLDIER
+void SoldierInformer::addSoldier(Soldier* soldier)
+{
+	soldiers.push_back(soldier);
+}
+
+void SoldierInformer::notify()
+{
+	for (auto& soldier : soldiers)
+	{
+		soldier->Work();
+	}
+}

@@ -9,6 +9,7 @@
 #include "Soldier.h"
 #include "Heardsant.h"
 #include "Collector.h"
+#include "Informers.h"
 
 #include "Food.h"
 #include "FoodItem.h"
@@ -38,45 +39,32 @@ void Cleaner::Eat(Ant& ant, Food& food)
     }
 }
 
-Cleaner::Cleaner()
-    : healthLossPerDay(1 + rand() % 3), helpRequested(false) {
-    maxDistance = 15 + rand() % 21; // 15-35
-    informer = &Anthill::getInstance().getInformerCleaner();
-    informer->subscribe(this);
-}
 
-Cleaner::~Cleaner() {
-    informer->unsubscribe(this);
-}
-
-void Cleaner::Work(Ant& ant) {
+void Cleaner::Work() 
+{
     int garbageToClean = 1;
 
-    if (helpRequested) {
+    if (helpRequested) 
+    {
         garbageToClean = 2; // Убираем больше мусора
         helpRequested = false;
     }
 
     auto& garbageList = GarbageManager::getInstance().getGarbageList();
-    for (int i = 0; i < garbageToClean && !garbageList.empty(); ++i) {
+    int actualGarbageToClean = min(garbageToClean, static_cast<int>(garbageList.size()));
+    for (int i = 0; i < actualGarbageToClean; ++i)
+    {
         GarbageManager::getInstance().removeGarbage(0);
     }
 
     // Если после уборки мусор всё ещё есть
-    if (!garbageList.empty()) 
+    if (garbageList.size() > actualGarbageToClean)
     {
-        informer->notify("Cleaner needs help cleaning garbage!");
-    }
-
-    ant.loseHp(healthLossPerDay);
-    if (ant.getHp() <= 5) {
-        ant.die();
-    }
-}
-
-
-void Cleaner::receiveNotification(const std::string& message) {
-    if (message == "Cleaner needs help cleaning garbage!") {
-        helpRequested = true;
+        CleanerInformer* cleanerInformer = getInformer();
+        if (cleanerInformer)
+        {
+            cleanerInformer->notify(); //вызов сборщиков
+            helpRequested = true;
+        }
     }
 }

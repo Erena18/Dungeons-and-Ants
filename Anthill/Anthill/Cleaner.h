@@ -10,6 +10,7 @@
 #include "Soldier.h"
 #include "Heardsant.h"
 #include "Collector.h"
+#include "Informers.h"
 
 #include "Food.h"
 #include "FoodItem.h"
@@ -20,29 +21,19 @@
 #include <vector>
 using namespace std;
 
-/*class Cleaner : public Role
+class Cleaner : public Role
 {
 public:
-	virtual void Work() override
-	{
-		cout << "уборщик Работает" << endl;
-	}
-	virtual void Eat(Ant& ant, int& food) override;
-};*/
-
-class Cleaner : public Role {
-public:
-    Cleaner();
-    ~Cleaner();
-
-    void Work(Ant& ant) override;
+    virtual void Work() override;
     virtual void Eat(Ant& ant, Food& food) override;
-    void receiveNotification(const std::string& message) override;
-
+    Cleaner(CleanerInformer* informer) : informer(informer) {}
+    CleanerInformer* getInformer() const { return informer; }
+    void setInformer(CleanerInformer* informer)
+    {
+        this->informer = informer;
+    }
 private:
     int maxDistance;            // Максимальное расстояние (15-35)
-    int healthLossPerDay;       // Потеря здоровья в день (1-3)
-    InformerCleaner* informer;
-
     bool helpRequested;         // Флаг запроса помощи
+    CleanerInformer* informer;
 };

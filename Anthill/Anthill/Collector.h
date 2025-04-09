@@ -10,40 +10,40 @@
 #include "Cleaner.h"
 #include "Soldier.h"
 #include "Heardsant.h"
+#include "Informers.h"
 
 #include "Food.h"
 #include "FoodItem.h"
 #include "Anthill.h"
+
+#include  "Zone.h"
+#include  "DangerousZone.h"
+#include  "FoodZone.h"
+#include  "MaterialZone.h"
 
 #include <iostream>
 #include <memory>
 #include <vector>
 using namespace std;
 
-/*class Collector : public Role
-{
-public:
-	virtual void Work() override
-	{
-		cout << "собиратель Работает" << endl;
-	}
-	virtual void Eat(Ant& ant, int& food) override;
-};*/
-
 class Collector : public Role 
 {
 public:
-    Collector();
-    ~Collector();
-
     virtual void Work() override;
     void Eat(Ant& ant, Food& food) override;
-    void receiveNotification(const std::string& message) override;
+    Collector(CollectorInformer* informer) : informer(informer) {}
+    CollectorInformer* getInformer() const { return informer; }
+    void setInformer(CollectorInformer* informer)
+    {
+        this->informer = informer;
+    }
 
 private:
     int cargoCapacity;          // макс грузоподъем
-    int healthLossPerDay;       //потера хп
-    InformerCollector* informer;
-
+    CollectorInformer* informer;
     bool helpRequested;         // Флаг о помощи
+    Zone* getCurrentZone(Ant& ant) 
+    {
+        return ZoneManager::getInstance().getCurrentZone(ant); // Получаем текущую зону через менеджер зон
+    }
 };

@@ -51,23 +51,20 @@ void Ant::updateRole()
 		if (check == 0)
 		{
 			role = make_unique<Soldier>();
-			SoldierInformer->subscribe(role.get());
-			currentInformer = SoldierInformer;
+			SoldierInformer* soldierInformer;
+			soldierInformer->subscribe(role.get());
+			currentInformer = soldierInformer;
 			return;
 		}
 		else
 		{
 			role = make_unique<Heardsant>();
-			HeardsantInformer->subscribe(role.get());
-			currentInformer = HeardsantInformer;
 			return;
 		}
 	}
 	else if ((age >= 60) && (age < 79) && (dynamic_cast<Soldier*>(role.get())))
 	{
 		role = make_unique<Builder>(collectorInformer);
-		BuilderInformer->subscribe(role.get());
-		currentInformer = BuilderInformer;
 		return;
 	}
 	else if ((age >= 60) && (age < 79) && (dynamic_cast<Heardsant*>(role.get())))
@@ -81,8 +78,9 @@ void Ant::updateRole()
 	else if ((age >= 80) && (age < 100))
 	{
 		role = make_unique<Cleaner>();
-		CleanearInformer->subscribe(role.get());
-		currentInformer = CleanerInformer;
+		CleanerInformer* cleanerInformer;
+		cleanerInformer->subscribe(role.get());
+		currentInformer = cleanerInformer;
 		return;
 	}
 	else if (age >= 100)

@@ -36,6 +36,8 @@ public:
 	void unsubscribeFromInformer();
 	Ant() : collectorInformer(new CollectorInformer()) {}
 	Ant() : nannyInformer(new NannyInformer()) {}
+	Ant() : cleanerInformer(new CleanerInformer()) {}
+	Ant() : soldierInformer(new SoldierInformer()) {}
 
 	//Виртуальные
 	virtual void Work();
@@ -51,6 +53,8 @@ private:
 	Informer* currentInformer = nullptr;
 	CollectorInformer* collectorInformer;
 	NannyInformer* nannyInformer;
+	CleanerInformer* cleanerInformer;
+	SoldierInformer* soldierInformer;
 
 	Vec2 position;
 };

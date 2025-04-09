@@ -16,14 +16,14 @@
 #include <ctime>
 using namespace std;
 
-Garbage::Garbage(Type type, int weight)
-    : type(type), weight(weight) {
-}
+Garbage::Garbage(Type type, int weight): type(type), weight(weight) {}
 
-Garbage::Type Garbage::getType() const {
+Garbage::Type Garbage::getType() const 
+{
     return type;
 }
 
-int Garbage::getWeight() const {
+int Garbage::getWeight() const 
+{
     return weight;
 }

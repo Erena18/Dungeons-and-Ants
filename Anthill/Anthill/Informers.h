@@ -59,3 +59,25 @@ public:
 private:
     vector<Nanny*> nannys;
 };
+
+//CLEANER
+class CleanerInformer : public Informer
+{
+public:
+    void addCleaner(Cleaner* cleaner);
+    void notify();
+
+private:
+    vector<Cleaner*> cleaners;
+};
+
+//SOLDIER
+class SoldierInformer : public Informer
+{
+public:
+    void addSoldier(Soldier* soldier);
+    void notify();
+
+private:
+    vector<Soldier*> soldiers;
+};

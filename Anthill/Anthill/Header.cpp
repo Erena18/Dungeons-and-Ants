@@ -191,7 +191,7 @@ void Aphid::Eat(Aphid& aphid, int& amountFood)
 }*/
 
 //INFORMER 
-void InformerDay::subscribe(Nanny* nanny)
+/*void InformerDay::subscribe(Nanny* nanny)
 {
 	nannies.push_back(nanny);
 }
@@ -210,7 +210,7 @@ void InformerDay::notifyChildrenWantToEat()
 		//в планах, когда няню зовут, она должна прибежать к детям 
 		//и, допустим, переменная ImHere становится true и дети могут поесть
 	}
-}
+}*/
 
 
 //NANNY

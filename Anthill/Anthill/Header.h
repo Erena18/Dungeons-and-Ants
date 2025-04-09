@@ -52,7 +52,7 @@ private:
 };*/
 
 //INFORMER 
-class InformerDay
+/*class InformerDay
 {
 public:
 	void subscribe(Nanny* nanny);
@@ -61,7 +61,7 @@ public:
 
 private:
 	vector<Nanny*> nannies;
-};
+};*/
 
 /*class Nanny : public Role
 {

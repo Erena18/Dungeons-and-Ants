@@ -17,16 +17,16 @@
 #include <ctime>
 using namespace std;
 
-class Garbage {
+class Garbage 
+{
 public:
-    enum class Type {
+    enum class Type 
+    {
         RottenFood,
         RottenMaterial,
         Corpse
     };
-
     Garbage(Type type, int weight);
-
     Type getType() const;
     int getWeight() const;
 

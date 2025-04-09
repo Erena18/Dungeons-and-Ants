@@ -7,21 +7,32 @@
 #include <ctime>
 using namespace std;
 
-// Ѕазовый класс дл€ всех зон
 class Zone 
 {
 public:
     virtual ~Zone() = default;
 
-    // ќбновление состо€ни€ зоны (For instance: восстановление ресурсов или расширение)
+    // ќбновление состо€ни€ зоны
     virtual void update() = 0;
-
-    // ѕолучен. типа зоны
     virtual string getType() const = 0;
-
-    // ѕроверка простоты зоны
     virtual bool isEmpty() const { return false; }
-
-    // „то будет, если муравей попал в зону
     virtual void onAntEnter() = 0;
+};
+
+class ZoneManager 
+{
+public:
+    static ZoneManager& getInstance()
+    {
+        static ZoneManager instance;
+        return instance;
+    }
+    Zone* getCurrentZone(Ant& ant) 
+    {
+       // логика определение текущей зоны (пол€) на основе состо€ни€ муравь€
+        return currentZone;
+    }
+
+private:
+    Zone* currentZone;
 };
