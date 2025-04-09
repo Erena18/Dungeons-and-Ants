@@ -39,8 +39,9 @@ void Ant::updateRole()
 	else if ((age >= 20) && (age < 39))
 	{
 		role = make_unique<Nanny>();
-		NannyInformer->subscribe(role.get());
-		currentInformer = NannyInformer;
+		NannyInformer* nannyInformer;
+		nannyInformer->subscribe(role.get());
+		currentInformer = nannyInformer;
 		return;
 	}
 	else if ((age >= 40) && (age < 59))

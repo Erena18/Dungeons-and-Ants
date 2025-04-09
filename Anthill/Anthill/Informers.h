@@ -38,7 +38,7 @@ private:
     vector<Role*> subscribers;
 };
 
-//COLLECTORS
+//COLLECTOR
 class CollectorInformer : public Informer
 {
 public:
@@ -47,4 +47,15 @@ public:
 
 private:
     vector<Collector*> collectors;
+};
+
+//NANNY
+class NannyInformer : public Informer
+{
+public:
+    void addNanny(Nanny* nanny);
+    void notify();
+
+private:
+    vector<Nanny*> nannys;
 };

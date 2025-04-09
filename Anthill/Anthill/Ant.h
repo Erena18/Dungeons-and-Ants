@@ -35,14 +35,22 @@ public:
 	void subscribeToInformer(Informer* informer);
 	void unsubscribeFromInformer();
 	Ant() : collectorInformer(new CollectorInformer()) {}
+	Ant() : nannyInformer(new NannyInformer()) {}
 
 	//Виртуальные
 	virtual void Work();
 	virtual void Eat(Ant& ant, Food& food);
+
+	Ant(Vec2 startPos) : position(startPos) {}
+	Vec2 getPosition() const { return position;	}
+
 
 private:
 	int hp, age;
 	unique_ptr<Role> role;
 	Informer* currentInformer = nullptr;
 	CollectorInformer* collectorInformer;
+	NannyInformer* nannyInformer;
+
+	Vec2 position;
 };

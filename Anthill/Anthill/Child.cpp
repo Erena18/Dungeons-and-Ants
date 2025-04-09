@@ -9,6 +9,10 @@
 #include "Soldier.h"
 #include "Heardsant.h"
 #include "Collector.h"
+
+#include "Dimensions.h"
+#include "AntLogic.h"
+
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -16,24 +20,38 @@
 #include <ctime>
 using namespace std;
 
-void Child::Eat(Ant& ant, int& food)
+void Child::Eat(Ant& ant, Food& food)
 {
-	if (!hasNanny) //это функци€ то, что должна возвращать работа н€ни,
-	{
-		//информер: ЌяЌя  ”Ўј“№
-		return;
-	}
-	if (food < 5)
-	{
-		ant.loseHp(5);
-	}
-	else
-	{
-		ant.restoreHp(10);
-		food -= 5;
-	}
+    Vec2 nannyPosition = ant.getPosition();
+    float distance = sqrt(pow(position.getX() - nannyPosition.getX(), 2) +
+        pow(position.getY() - nannyPosition.getY(), 2));
+    if (distance >= 5.0f && distance <= 10.0f) 
+    {
+        int foodRequired = 5;
+        int hpLossWithoutFood = 5;
+        int hpRestoreAfterEating = 10;
+
+        int consumed = food.consume(foodRequired);
+        if (consumed > 0)
+        {
+            ant.restoreHp(hpRestoreAfterEating);
+        }
+        else
+        {
+            ant.loseHp(hpLossWithoutFood);
+        }
+    }
+    else 
+    {
+        NannyInformer* nannyInformer = getInformer();
+        if (nannyInformer)
+        {
+            nannyInformer->notify(); //вызов н€ни
+        }
+    }
 }
+
 void Child::Work()
 {
-	return; // дети не работают
+	return;
 }

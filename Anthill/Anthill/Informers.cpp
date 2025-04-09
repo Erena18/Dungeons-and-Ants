@@ -59,3 +59,17 @@ void CollectorInformer::notify()
 		collector->Work();
 	}
 }
+
+//NANNY
+void NannyInformer::addNanny(Nanny* nanny)
+{
+	nannys.push_back(nanny);
+}
+
+void NannyInformer::notify()
+{
+	for (auto& nanny : nannys)
+	{
+		nanny->Work();
+	}
+}

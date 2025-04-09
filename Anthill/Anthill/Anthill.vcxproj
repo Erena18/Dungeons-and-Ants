@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="Ant.cpp" />
     <ClCompile Include="Anthill.cpp" />
+    <ClCompile Include="AntLogic.cpp" />
     <ClCompile Include="Aphid.cpp" />
     <ClCompile Include="Builder.cpp" />
     <ClCompile Include="Building.cpp" />
     <ClCompile Include="Child.cpp" />
     <ClCompile Include="Cleaner.cpp" />
     <ClCompile Include="Collector.cpp" />
+    <ClCompile Include="Dimensions.cpp" />
     <ClCompile Include="Food.cpp" />
     <ClCompile Include="FoodItem.cpp" />
     <ClCompile Include="Garbage.cpp" />
@@ -166,6 +168,7 @@
   <ItemGroup>
     <ClInclude Include="Ant.h" />
     <ClInclude Include="Anthill.h" />
+    <ClInclude Include="AntLogic.h" />
     <ClInclude Include="Aphid.h" />
     <ClInclude Include="Builder.h" />
     <ClInclude Include="Building.h" />
@@ -173,6 +176,7 @@
     <ClInclude Include="Cleaner.h" />
     <ClInclude Include="Collector.h" />
     <ClInclude Include="DangerousZone.h" />
+    <ClInclude Include="Dimensions.h" />
     <ClInclude Include="EmptyZone.h" />
     <ClInclude Include="Food.h" />
     <ClInclude Include="FoodItem.h" />
