@@ -16,6 +16,13 @@
 #include <vector>
 using namespace std;
 
+class Ant;
+class Food;
+class Collector;
+class Anthill; 
+class Warehouse;
+
+
 class Role
 {
 public:

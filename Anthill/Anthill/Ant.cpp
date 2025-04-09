@@ -9,6 +9,9 @@
 #include "Soldier.h"
 #include "Heardsant.h"
 #include "Collector.h"
+
+#include "Informers.h"
+
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -25,8 +28,9 @@ void Ant::updateRole()
 {
 	if ((role != nullptr) && (dynamic_cast<Queen*>(role.get())))
 	{
-		return; //королева роли не меняет, абсолютная монархия
+		return;
 	}
+	Informer* previousInformer = currentInformer;
 	if (age < 20)
 	{
 		role = make_unique<Child>();
@@ -35,6 +39,8 @@ void Ant::updateRole()
 	else if ((age >= 20) && (age < 39))
 	{
 		role = make_unique<Nanny>();
+		NannyInformer->subscribe(role.get());
+		currentInformer = NannyInformer;
 		return;
 	}
 	else if ((age >= 40) && (age < 59))
@@ -44,32 +50,49 @@ void Ant::updateRole()
 		if (check == 0)
 		{
 			role = make_unique<Soldier>();
-			return; //Чувак не сдал ЕГЭ
+			SoldierInformer->subscribe(role.get());
+			currentInformer = SoldierInformer;
+			return;
 		}
 		else
 		{
 			role = make_unique<Heardsant>();
-			return; //Поздравляем с поступлением в Сельхоз. Институт!
+			HeardsantInformer->subscribe(role.get());
+			currentInformer = HeardsantInformer;
+			return;
 		}
 	}
 	else if ((age >= 60) && (age < 79) && (dynamic_cast<Soldier*>(role.get())))
 	{
-		role = make_unique<Builder>();
-		return; //Боб строитель
+		role = make_unique<Builder>(collectorInformer);
+		BuilderInformer->subscribe(role.get());
+		currentInformer = BuilderInformer;
+		return;
 	}
 	else if ((age >= 60) && (age < 79) && (dynamic_cast<Heardsant*>(role.get())))
 	{
 		role = make_unique<Collector>();
+		CollectorInformer* collectorInformer;
+		collectorInformer->subscribe(role.get());
+		currentInformer = collectorInformer;
 		return;
 	}
 	else if ((age >= 80) && (age < 100))
 	{
 		role = make_unique<Cleaner>();
+		CleanearInformer->subscribe(role.get());
+		currentInformer = CleanerInformer;
 		return;
 	}
 	else if (age >= 100)
+	{			
+		currentInformer->unsubscribe(role.get());
+		die();
+		return;
+	}
+	if (previousInformer)
 	{
-		return; // лёх и сдох
+		previousInformer->unsubscribe(role.get());
 	}
 }
 
@@ -112,7 +135,29 @@ void Ant::growth()
 
 void Ant::die()
 {
-	delete this; // смэрть
+	delete this;
+}
+
+void Ant::subscribeToInformer(Informer* informer)
+{
+	if (currentInformer) 
+	{
+		currentInformer->unsubscribe(role.get());
+	}
+	currentInformer = informer;
+	if (currentInformer) 
+	{
+		currentInformer->subscribe(role.get());
+	}
+}
+
+void Ant::unsubscribeFromInformer()
+{
+	if (currentInformer) 
+	{
+		currentInformer->unsubscribe(role.get());
+		currentInformer = nullptr;
+	}
 }
 
 void Ant::Work()
@@ -123,7 +168,7 @@ void Ant::Work()
 	}
 }
 
-void Ant::Eat(Ant& ant, int& food)
+void Ant::Eat(Ant& ant, Food& food)
 {
 	if (role != nullptr)
 	{

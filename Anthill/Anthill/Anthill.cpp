@@ -62,16 +62,6 @@ Materials& Anthill::getMaterials()
     return materials;
 }
 
-InformerCollector& Anthill::getInformerCollector() 
-{
-    return informerCollector;
-}
-
-InformerCleaner& Anthill::getInformerCleaner() 
-{
-    return informerCleaner;
-}
-
 Workshop& Anthill::getWorkshop() 
 {
     return workshop;

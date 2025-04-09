@@ -33,7 +33,18 @@ public:
 
     void subscribe(Role* role);
     void unsubscribe(Role* role);
-    void notify(const std::string& message);
+    void notify();
 private:
     vector<Role*> subscribers;
+};
+
+//COLLECTORS
+class CollectorInformer : public Informer
+{
+public:
+    void addCollector(Collector* collector);
+    void notify();
+
+private:
+    vector<Collector*> collectors;
 };

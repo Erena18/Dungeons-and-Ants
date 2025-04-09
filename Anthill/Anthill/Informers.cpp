@@ -26,18 +26,36 @@ using namespace std;
 
 void Informer::subscribe(Role* role)
 {
-	subscribers.push_back(role);
+	if (role != nullptr && find(subscribers.begin(), 
+		subscribers.end(), role) == subscribers.end()) 
+	{
+		subscribers.push_back(role);
+	}
 }
 
 void Informer::unsubscribe(Role* role)
 {
-	subscribers.erase(std::remove(subscribers.begin(), subscribers.end(), role), subscribers.end());
+	subscribers.erase(remove(subscribers.begin(), subscribers.end(), role), subscribers.end());
 }
 
-void Informer::notify(const std::string& message)
+void Informer::notify()
 {
-	for (Role* subscriber : subscribers)
+	for (Role* role : subscribers) 
 	{
-		subscriber->Work(); //ÌÎÆÍÎ ËÈ ÒÀÊ??????????????
+		role->Work();
+	}
+}
+
+//COLLECTORS
+void CollectorInformer::addCollector(Collector* collector)
+{
+	collectors.push_back(collector);
+}
+
+void CollectorInformer::notify()
+{
+	for (auto& collector : collectors)
+	{
+		collector->Work();
 	}
 }

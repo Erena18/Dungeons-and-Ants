@@ -48,7 +48,8 @@ Collector::~Collector() {
     informer->unsubscribe(this);
 }
 
-void Collector::Work(Ant& ant) {
+void Collector::Work() 
+{
     int foundResources, foundMaterials;
 
     if (helpRequested) {
@@ -79,7 +80,6 @@ void Collector::Work(Ant& ant) {
         }
     }
 
-    ant.loseHp(healthLossPerDay);
 }
 
 

@@ -53,8 +53,6 @@ public:
     Food& getFood();
     Materials& getMaterials();
 
-    InformerCollector& getInformerCollector();
-    InformerCleaner& getInformerCleaner();
     Workshop& getWorkshop();
     Warehouse& getWarehouse();
     void repair(int amount);
@@ -69,8 +67,6 @@ private:
     vector<unique_ptr<Ant>> ants;
     Food food;
     Materials materials;
-    InformerCollector informerCollector;
-    InformerCleaner informerCleaner;
     int maxPopulation;
     int durability;
     int naturalDecayMin;

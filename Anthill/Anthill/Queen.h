@@ -25,4 +25,7 @@ class Queen : public Role
 public:
 	virtual void Work() override;
 	virtual void Eat(Ant& ant, Food& food) override;
+	Queen(Informer* informer) : informer(informer) {}
+private:
+	Informer* informer;
 };

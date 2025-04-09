@@ -32,11 +32,17 @@ public:
 	void restoreHp(int point);
 	void die();
 
+	void subscribeToInformer(Informer* informer);
+	void unsubscribeFromInformer();
+	Ant() : collectorInformer(new CollectorInformer()) {}
+
 	//Виртуальные
-	void Work();
-	void Eat(Ant& ant, int& food);
+	virtual void Work();
+	virtual void Eat(Ant& ant, Food& food);
 
 private:
 	int hp, age;
 	unique_ptr<Role> role;
+	Informer* currentInformer = nullptr;
+	CollectorInformer* collectorInformer;
 };

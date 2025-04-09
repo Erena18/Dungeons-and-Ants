@@ -50,10 +50,10 @@ void Builder::Work()
     }
     else
     {
-        //ÂÛÇÛÂÀÅÒÑß ÈÍÔÎĞÌÅĞ, ÊÎÒÎĞÛÉ ÂÛÇÛÂÀÅÒ ÑÁÎĞÙÈÊÎÂ
-        if (informer) 
-{
-            informer->notify("COLLECTORS WORK");
+        CollectorInformer* collectorInformer = getInformer();
+        if (collectorInformer)
+        {
+            collectorInformer->notify(); //âûçîâ ñáîğùèêîâ
         }
     }
     Warehouse& warehouse = anthill.getWarehouse();

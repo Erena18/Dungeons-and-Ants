@@ -30,12 +30,13 @@ public:
 	virtual void Eat(Ant& ant, int& food) override;
 };*/
 
-class Collector : public Role {
+class Collector : public Role 
+{
 public:
     Collector();
     ~Collector();
 
-    void Work(Ant& ant) override;
+    virtual void Work() override;
     void Eat(Ant& ant, Food& food) override;
     void receiveNotification(const std::string& message) override;
 

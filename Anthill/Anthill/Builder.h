@@ -21,11 +21,18 @@
 #include <vector>
 using namespace std;
 
+
 class Builder : public Role
 {
 public:
 	virtual void Work() override;
 	virtual void Eat(Ant& ant, Food& food) override;
+	Builder(CollectorInformer* informer) : informer(informer) {}
+	CollectorInformer* getInformer() const { return informer; }
+	void setInformer(CollectorInformer* informer) 
+	{
+		this->informer = informer;
+	}
 private:
-	Informer* informer;
+	CollectorInformer* informer;
 };
