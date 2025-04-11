@@ -1,6 +1,4 @@
 ﻿  Ant.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -16,19 +14,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Anthill.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -44,32 +32,21 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(73,16): error C2440: return: невозможно преобразовать "int" в "Food &"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(134,22): error C2660: Ant::Eat: функция не принимает 1 аргументов
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(66,15): message : см. объявление "Ant::Eat"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(139,5): error C2065: workshop: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(145,8): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "const std::vector" в "const std::vector<_Ty,_Alloc> &"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(145,8): message : Причина: невозможно преобразовать "const std::vector" в "const std::vector<_Ty,_Alloc>"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(145,38): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(144,8): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "const std::vector" в "const std::vector<_Ty,_Alloc> &"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(144,8): message : Причина: невозможно преобразовать "const std::vector" в "const std::vector<_Ty,_Alloc>"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(144,38): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(1456,39): message : см. объявление "std::vector<_Ty,_Alloc>::size"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(147,9): error C2065: informerCleaner: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(155,21): error C2039: "isAlive": не является членом "Ant".
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(146,9): error C2065: informerCleaner: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(154,21): error C2039: "isAlive": не является членом "Ant".
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(41): message : см. объявление "Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(157,78): error C2660: GarbageManager::addGarbage: функция не принимает 2 аргументов
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(156,78): error C2660: GarbageManager::addGarbage: функция не принимает 2 аргументов
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,10): message : см. объявление "GarbageManager::addGarbage"
   AntLogic.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -85,20 +62,10 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\AntLogic.cpp(51,29): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
   Aphid.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -114,21 +81,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Aphid.cpp(85,50): error C2664: "Zone *ZoneManager::getCurrentZone(Ant &)": невозможно преобразовать аргумент 1 из "Aphid" в "Ant &"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Zone.h(34,11): message : см. объявление "ZoneManager::getCurrentZone"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Zone.h(35,11): message : см. объявление "ZoneManager::getCurrentZone"
   Builder.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -144,23 +101,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Builder.cpp(76,19): error C2039: "getCapacity": не является членом "Warehouse".
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(46): message : см. объявление "Warehouse"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Builder.cpp(76,45): error C2039: "getCount": не является членом "Warehouse".
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(46): message : см. объявление "Warehouse"
   Building.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -176,19 +119,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Child.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -204,20 +137,10 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.cpp(45,20): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
   Cleaner.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -233,16 +156,8 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Cleaner.cpp(71,86): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "const std::vector" в "const std::vector<_Ty,_Alloc> &"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Cleaner.cpp(71,86): message : Причина: невозможно преобразовать "const std::vector" в "const std::vector<_Ty,_Alloc>"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Cleaner.cpp(71,69): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
@@ -261,8 +176,6 @@ C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Cleane
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Cleaner.cpp(78,9): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(1456,39): message : см. объявление "std::vector<_Ty,_Alloc>::size"
   Collector.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -278,21 +191,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Collector.cpp(60,40): error C2660: Collector::getCurrentZone: функция не принимает 0 аргументов
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Collector.h(57,11): message : см. объявление "Collector::getCurrentZone"
   Dimensions.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -308,19 +211,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Food.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -336,21 +229,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Food.cpp(103,96): error C2660: GarbageManager::addGarbage: функция не принимает 2 аргументов
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,10): message : см. объявление "GarbageManager::addGarbage"
   FoodItem.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -366,19 +249,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Garbage.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -394,19 +267,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   GarbageManager.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -422,16 +285,8 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.cpp(48,1): error C2511: void GarbageManager::addGarbage(Garbage::Type,int): перегруженная функция-член не найдена в "GarbageManager"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(43): message : см. объявление "GarbageManager"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.cpp(54,8): error C2662: allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
@@ -445,8 +300,6 @@ C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Garbag
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.cpp(60,40): error C2371: GarbageManager::getGarbageList: переопределение; различные базовые типы
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "GarbageManager::getGarbageList"
   Header.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -462,19 +315,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Heardsant.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -490,19 +333,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Informers.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -518,19 +351,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Main.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -546,19 +369,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   MateralsItem.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -574,19 +387,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Materials.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -602,23 +405,13 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Materials.cpp(116,100): error C2660: GarbageManager::addGarbage: функция не принимает 2 аргументов
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,10): message : см. объявление "GarbageManager::addGarbage"
   Создание кода...
   Компиляция...
   Nanny.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -634,21 +427,11 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Nanny.cpp(65,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Nanny.cpp(87,31): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
   Queen.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -664,19 +447,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Soldier.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -692,19 +465,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Warehouse.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -720,22 +483,9 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.cpp(42,26): error C2614: Warehouse: недопустимая инициализация члена: "Building" не является базовым классом или членом
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.cpp(54,29): error C3861: getCapacity: идентификатор не найден
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.cpp(65,13): error C2065: capacity: необъявленный идентификатор
   Workshop.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(47,1): error C2504: Building: не определен базовый класс
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(50,10): error C3668: Warehouse::dailyUpdate: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
@@ -751,14 +501,6 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(53,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(59,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(60,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(61,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(62,5): error C2535: Ant::Ant(void): функция-член уже определена или объявлена
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(44): message : см. объявление "Ant::Ant"
   Создание кода...

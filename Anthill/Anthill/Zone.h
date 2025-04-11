@@ -9,6 +9,7 @@
 using namespace std;
 
 class Ant;
+class Aphid;
 class Anthill;
 
 class Zone 
@@ -36,7 +37,11 @@ public:
        // логика определение текущей зоны (поля) на основе состояния муравья
         return currentZone;
     }
-
+    Zone* getCurrentZoneaAphid(Aphid& aphid)
+    {
+        // логика определение текущей зоны (поля) на основе состояния тли
+        return currentZone;
+    }
 private:
     Zone* currentZone;
 };

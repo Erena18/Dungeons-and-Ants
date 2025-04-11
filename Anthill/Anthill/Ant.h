@@ -56,10 +56,10 @@ public:
 
 	void subscribeToInformer(Informer* informer);
 	void unsubscribeFromInformer();
-	Ant() : collectorInformer(new CollectorInformer()) {}
+	/*Ant() : collectorInformer(new CollectorInformer()) {}
 	Ant() : nannyInformer(new NannyInformer()) {}
 	Ant() : cleanerInformer(new CleanerInformer()) {}
-	Ant() : soldierInformer(new SoldierInformer()) {}
+	Ant() : soldierInformer(new SoldierInformer()) {}*/
 
 	//Виртуальные
 	virtual void Work();

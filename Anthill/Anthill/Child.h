@@ -50,6 +50,7 @@ public:
 	{
 		this->informer = informer;
 	}
+	//здесь ошибка 
 	Child(Vec2 startPos) : position(startPos) {}
 	Vec2 getPosition() const { return position; }
 private:

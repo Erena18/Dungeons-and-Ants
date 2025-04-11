@@ -136,7 +136,6 @@ void Anthill::dailyUpdate()
 
     removeDeadAnts();
     // Обновляем постройки
-    workshop.dailyUpdate();
     warehouse.dailyUpdate();
     food.dailyUpdate();
     materials.dailyUpdate();
