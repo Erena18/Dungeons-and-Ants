@@ -40,6 +40,9 @@
 #include <ctime>
 using namespace std;
 
+class Ant;
+class Anthill;
+
 class Warehouse : public Building 
 {
 public:
