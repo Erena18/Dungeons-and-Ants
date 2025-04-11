@@ -90,8 +90,7 @@
               "RelativeToolTip": "Anthill\\Dimensions.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-08T20:22:34.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T20:22:34.794Z"
             },
             {
               "$type": "Document",
@@ -103,8 +102,7 @@
               "RelativeToolTip": "Anthill\\Dimensions.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-08T18:40:49.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T18:40:49.317Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "Anthill\\Collector.h",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-08T18:29:46.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T18:29:46.245Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "Anthill\\Field.h",
               "ViewState": "AgIAALQAAAAAAAAAAAAkwMsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-08T18:02:03.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T18:02:03.427Z"
             },
             {
               "$type": "Document",
@@ -142,8 +138,7 @@
               "RelativeToolTip": "Anthill\\Main.cpp",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-08T17:59:03.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:59:03.377Z"
             },
             {
               "$type": "Document",
@@ -155,8 +150,7 @@
               "RelativeToolTip": "Anthill\\Visual.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-08T17:56:26.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:56:26.67Z"
             },
             {
               "$type": "Document",
@@ -168,8 +162,7 @@
               "RelativeToolTip": "Anthill\\AntVisual.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-08T17:53:54.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:53:54.845Z"
             },
             {
               "$type": "Document",
@@ -181,8 +174,7 @@
               "RelativeToolTip": "Anthill\\AntLogic.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-08T17:54:16.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:54:16.784Z"
             },
             {
               "$type": "Document",
@@ -194,8 +186,7 @@
               "RelativeToolTip": "Anthill\\AntLogic.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAkwCQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-08T17:55:01.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:55:01.268Z"
             },
             {
               "$type": "Document",
@@ -220,8 +211,7 @@
               "RelativeToolTip": "Anthill\\Role.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-08T17:19:50.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:19:50.64Z"
             },
             {
               "$type": "Document",
@@ -281,8 +271,7 @@
               "RelativeToolTip": "Anthill\\Ant.cpp",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAIMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-08T17:19:51.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:19:51.439Z"
             },
             {
               "$type": "Document",
@@ -294,8 +283,7 @@
               "RelativeToolTip": "Anthill\\Ant.h",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-08T17:19:51.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T17:19:51.44Z"
             }
           ]
         }
