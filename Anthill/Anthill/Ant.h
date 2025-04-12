@@ -28,9 +28,6 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "AntLogic.h"
-#include "Dimensions.h"
-
 #include "Informers.h"
 
 #include <iostream>
@@ -65,8 +62,8 @@ public:
 	virtual void Work();
 	virtual void Eat(Ant& ant, Food& food);
 
-	Ant(Vec2 startPos) : position(startPos) {}
-	Vec2 getPosition() const { return position;	}
+	//Ant(Vec2 startPos) : position(startPos) {}
+	//Vec2 getPosition() const { return position;	}
 
 
 private:

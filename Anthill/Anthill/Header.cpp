@@ -1,3 +1,5 @@
+/*
+
 #include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
@@ -15,6 +17,8 @@
 #include <vector>
 #include <ctime>
 using namespace std;
+
+*/
 
 /*Ant::Ant() : hp(100), age(0), role(nullptr) {}
 

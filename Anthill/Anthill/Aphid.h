@@ -1,7 +1,8 @@
 #pragma once
 
-#include "Role.h"
 #include "Ant.h"
+/*
+#include "Role.h"
 #include "Builder.h"
 #include "Child.h"
 #include "Cleaner.h"
@@ -28,10 +29,11 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "AntLogic.h"
-#include "Dimensions.h"
+//#include "AntLogic.h"
+//#include "Dimensions.h"
 
 #include "Informers.h"
+*/
 
 #include <iostream>
 #include <memory>

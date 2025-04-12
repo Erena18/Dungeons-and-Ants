@@ -28,14 +28,7 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "AntLogic.h"
-#include "Dimensions.h"
-
 #include "Informers.h"
-
-#include "Food.h"
-#include "FoodItem.h"
-#include "Anthill.h"
 
 #include <iostream>
 #include <memory>

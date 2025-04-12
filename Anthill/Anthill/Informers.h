@@ -29,10 +29,6 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "AntLogic.h"
-#include "Dimensions.h"
-
-
 #include <iostream>
 #include <cstdlib>
 #include <memory>

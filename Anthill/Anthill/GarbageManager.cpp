@@ -27,8 +27,8 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "AntLogic.h"
-#include "Dimensions.h"
+//#include "AntLogic.h"
+//#include "Dimensions.h"
 
 #include "Informers.h"
 #include <iostream>
