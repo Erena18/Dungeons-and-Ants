@@ -1,3 +1,4 @@
+/*
 #include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
@@ -27,14 +28,16 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "AntLogic.h"
-#include "Dimensions.h"
-
 #include "Informers.h"
+*/
+#include "extraFiles.h"
 #include <iostream>
 #include <vector>
 #include <memory>
 using namespace std;
+
+
+
 int main() 
 {
     setlocale(LC_ALL, "Russian");

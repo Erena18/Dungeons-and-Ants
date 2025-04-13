@@ -152,6 +152,7 @@
     <ClCompile Include="Child.cpp" />
     <ClCompile Include="Cleaner.cpp" />
     <ClCompile Include="Collector.cpp" />
+    <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Food.cpp" />
     <ClCompile Include="FoodItem.cpp" />
     <ClCompile Include="Garbage.cpp" />
@@ -180,6 +181,8 @@
     <ClInclude Include="Collector.h" />
     <ClInclude Include="DangerousZone.h" />
     <ClInclude Include="EmptyZone.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="extraFiles.h" />
     <ClInclude Include="Food.h" />
     <ClInclude Include="FoodItem.h" />
     <ClInclude Include="FoodZone.h" />
@@ -191,6 +194,7 @@
     <ClInclude Include="MaterialsItem.h" />
     <ClInclude Include="Materials.h" />
     <ClInclude Include="MaterialZone.h" />
+    <ClInclude Include="Mrowka.h" />
     <ClInclude Include="Nanny.h" />
     <ClInclude Include="PastureZone.h" />
     <ClInclude Include="Queen.h" />

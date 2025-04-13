@@ -75,5 +75,4 @@ private:
 	CleanerInformer* cleanerInformer;
 	SoldierInformer* soldierInformer;
 
-	Vec2 position;
 };

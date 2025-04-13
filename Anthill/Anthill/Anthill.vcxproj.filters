@@ -111,6 +111,9 @@
     <ClCompile Include="asset.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aphid.h">
@@ -201,6 +204,15 @@
       <Filter>Файлы заголовков\Work</Filter>
     </ClInclude>
     <ClInclude Include="asset.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="extraFiles.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Mrowka.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

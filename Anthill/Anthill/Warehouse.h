@@ -1,6 +1,24 @@
 #pragma once
 
-#include "Role.h"
+#include <SFML/Graphics.hpp>
+#include "SFML/Audio.hpp"
+#include <vector>
+#include <iostream>
+#include <cstdlib>
+#include <memory>
+#include <ctime>
+
+using namespace sf;
+using namespace std;
+
+#include "extraFiles.h"
+#include "Engine.h"
+
+#include "Ant.h"
+#include "Anthill.h"
+#include "Building.h"
+
+/*#include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
 #include "Builder.h"
@@ -29,13 +47,7 @@
 #include "PastureZone.h"
 
 #include "Informers.h"
-
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-using namespace std;
+*/
 
 class Ant;
 class Anthill;
@@ -43,10 +55,17 @@ class Anthill;
 class Warehouse : public Building 
 {
 public:
-    Warehouse();
+    //Warehouse();
+    Warehouse(GameDataRef data);
+    ~Warehouse();
+    void drawnWarehouse();
+    void spawnWarehouse(float x, float y);
     void dailyUpdate() override;
     void extend(int additionalCapacity, int cost);
 
 private:
-    int extensionCostPer50Units;
+    //int extensionCostPer50Units;
+    GameDataRef _data;
+    CircleShape _nestCircle;
+    float radius;
 };

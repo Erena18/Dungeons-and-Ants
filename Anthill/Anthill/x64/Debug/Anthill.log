@@ -1,4 +1,5 @@
 ﻿  Ant.cpp
+  Anthill.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
   (компиляция исходного файла "Ant.cpp")
   
@@ -129,7 +130,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.h(78,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
   (компиляция исходного файла "Ant.cpp")
   
-  Anthill.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
   (компиляция исходного файла "Anthill.cpp")
   
@@ -1118,6 +1118,137 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(57,25):
       при попытке сопоставить список аргументов "()"
   
+  Engine.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Engine.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,18):
+       см. объявление "Garbage"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,28): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Engine.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,12):
+       см. объявление "Garbage"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,21): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(54,22): error C2512: std::vector: нет подходящего конструктора по умолчанию
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(77,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(41,8): error C2061: синтаксическая ошибка: идентификатор "Vec2"
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(45,7): error C3646: getPosition: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(45,18): error C2059: синтаксическая ошибка: (
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(45,27): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(51,7): error C3646: position: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(51,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(52,7): error C3646: targetPosition: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(52,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(42,14): error C2065: startPos: необъявленный идентификатор
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(43,18): error C2065: startPos: необъявленный идентификатор
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(42,5): error C2614: Nanny: недопустимая инициализация члена: "position" не является базовым классом или членом
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(43,3): error C2614: Nanny: недопустимая инициализация члена: "targetPosition" не является базовым классом или членом
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(40,8): error C2061: синтаксическая ошибка: идентификатор "Vec2"
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(51,8): error C2061: синтаксическая ошибка: идентификатор "Vec2"
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(51,2): error C2535: Child::Child(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "Engine.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(40,2):
+       см. объявление "Child::Child"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(52,7): error C3646: getPosition: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(52,18): error C2059: синтаксическая ошибка: (
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(52,27): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(55,7): error C3646: position: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(55,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(40,34): error C2065: startPos: необъявленный идентификатор
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(40,25): error C2614: Child: недопустимая инициализация члена: "position" не является базовым классом или членом
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(51,34): error C2065: startPos: необъявленный идентификатор
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(51,25): error C2614: Child: недопустимая инициализация члена: "position" не является базовым классом или членом
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.h(78,7): error C3646: position: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.h(78,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Engine.cpp")
+  
   Food.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
   (компиляция исходного файла "Food.cpp")
@@ -1967,137 +2098,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "Informers.cpp")
   
   Main.cpp
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-  (компиляция исходного файла "Main.cpp")
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,18):
-       см. объявление "Garbage"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
-  (компиляция исходного файла "Main.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
-       см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(51,28): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
-  (компиляция исходного файла "Main.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
-       см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-  (компиляция исходного файла "Main.cpp")
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,12):
-       см. объявление "Garbage"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
-  (компиляция исходного файла "Main.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
-       см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(55,21): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
-  (компиляция исходного файла "Main.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
-       см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(54,22): error C2512: std::vector: нет подходящего конструктора по умолчанию
-  (компиляция исходного файла "Main.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
-       см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(77,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(41,8): error C2061: синтаксическая ошибка: идентификатор "Vec2"
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(45,7): error C3646: getPosition: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(45,18): error C2059: синтаксическая ошибка: (
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(45,27): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(51,7): error C3646: position: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(51,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(52,7): error C3646: targetPosition: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(52,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(42,14): error C2065: startPos: необъявленный идентификатор
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(43,18): error C2065: startPos: необъявленный идентификатор
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(42,5): error C2614: Nanny: недопустимая инициализация члена: "position" не является базовым классом или членом
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.h(43,3): error C2614: Nanny: недопустимая инициализация члена: "targetPosition" не является базовым классом или членом
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(40,8): error C2061: синтаксическая ошибка: идентификатор "Vec2"
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(51,8): error C2061: синтаксическая ошибка: идентификатор "Vec2"
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(51,2): error C2535: Child::Child(void): функция-член уже определена или объявлена
-  (компиляция исходного файла "Main.cpp")
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(40,2):
-       см. объявление "Child::Child"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(52,7): error C3646: getPosition: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(52,18): error C2059: синтаксическая ошибка: (
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(52,27): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(55,7): error C3646: position: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(55,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(40,34): error C2065: startPos: необъявленный идентификатор
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(40,25): error C2614: Child: недопустимая инициализация члена: "position" не является базовым классом или членом
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(51,34): error C2065: startPos: необъявленный идентификатор
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(51,25): error C2614: Child: недопустимая инициализация члена: "position" не является базовым классом или членом
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.h(78,7): error C3646: position: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.h(78,2): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Main.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Main.cpp(30,10): error C1083: Не удается открыть файл включение: AntLogic.h: No such file or directory,
   MateralsItem.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
   (компиляция исходного файла "MateralsItem.cpp")
@@ -2366,6 +2366,8 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(116,43):
       при попытке сопоставить список аргументов "(Garbage::Type, int)"
   
+  Создание кода...
+  Компиляция...
   Nanny.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
   (компиляция исходного файла "Nanny.cpp")
@@ -2531,8 +2533,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(84,60): error C2065: targetPosition: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(85,21): error C2065: position: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(85,39): error C2065: targetPosition: необъявленный идентификатор
-  Создание кода...
-  Компиляция...
   Queen.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
   (компиляция исходного файла "Queen.cpp")
