@@ -1,16 +1,6 @@
 #pragma once
 
-#include "Role.h"
-#include "Ant.h"
-#include "Aphid.h"
-#include "Child.h"
-#include "Cleaner.h"
-#include "Collector.h"
-#include "Heardsant.h"
-#include "Nanny.h"
-#include "Queen.h"
-#include "Soldier.h"
-
+/*
 #include "Anthill.h"
 #include "Building.h"
 #include "Food.h"
@@ -28,11 +18,15 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "Informers.h"
+#include "Informers.h"*/
 
 #include <iostream>
 #include <memory>
 #include <vector>
+
+#include "Role.h"
+#include "Ant.h"
+
 using namespace std;
 
 

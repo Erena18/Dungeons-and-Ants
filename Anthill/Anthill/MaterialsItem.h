@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Role.h"
+/*#include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
 #include "Builder.h"
@@ -18,7 +18,7 @@
 #include "FoodItem.h"
 #include "Garbage.h"
 #include "GarbageManager.h"
-#include "Materials.h"
+
 #include "MaterialsItem.h"
 #include "Warehouse.h"
 
@@ -29,13 +29,16 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "Informers.h"
+#include "Informers.h"*/
 
 #include <iostream>
 #include <cstdlib>
 #include <memory>
 #include <vector>
 #include <ctime>
+
+#include "Materials.h"
+
 using namespace std;
 
 class MaterialItem 

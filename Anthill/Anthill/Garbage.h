@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Role.h"
+/*#include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
 #include "Builder.h"
@@ -28,7 +28,7 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-#include "Informers.h"
+#include "Informers.h"*/
 
 #include <iostream>
 #include <cstdlib>

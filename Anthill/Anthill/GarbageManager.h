@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Role.h"
+/*#include "Role.h"
 #include "Ant.h"
 #include "Aphid.h"
 #include "Builder.h"
@@ -16,7 +16,7 @@
 #include "Building.h"
 #include "Food.h"
 #include "FoodItem.h"
-#include "Garbage.h"
+
 #include "Materials.h"
 #include "MaterialsItem.h"
 #include "Warehouse.h"
@@ -28,16 +28,16 @@
 #include "MaterialZone.h"
 #include "PastureZone.h"
 
-//#include "AntLogic.h"
-//#include "Dimensions.h"
-
-#include "Informers.h"
+#include "Informers.h"*/
 
 #include <iostream>
 #include <cstdlib>
 #include <memory>
 #include <vector>
 #include <ctime>
+
+#include "Garbage.h"
+
 using namespace std;
 
 class GarbageManager 

@@ -87,9 +87,6 @@
     <ClCompile Include="Soldier.cpp">
       <Filter>Исходные файлы\Ants</Filter>
     </ClCompile>
-    <ClCompile Include="Workshop.cpp">
-      <Filter>Исходные файлы\Work</Filter>
-    </ClCompile>
     <ClCompile Include="Aphid.cpp">
       <Filter>Исходные файлы\Ants</Filter>
     </ClCompile>
@@ -97,9 +94,6 @@
       <Filter>Исходные файлы\Work</Filter>
     </ClCompile>
     <ClCompile Include="MateralsItem.cpp">
-      <Filter>Исходные файлы\Work</Filter>
-    </ClCompile>
-    <ClCompile Include="Heardsant.cpp">
       <Filter>Исходные файлы\Work</Filter>
     </ClCompile>
     <ClCompile Include="Garbage.cpp">
@@ -113,6 +107,9 @@
     </ClCompile>
     <ClCompile Include="Engine.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Heardsant.cpp">
+      <Filter>Исходные файлы\Ants</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -194,13 +191,7 @@
     <ClInclude Include="GarbageManager.h">
       <Filter>Файлы заголовков\Work</Filter>
     </ClInclude>
-    <ClInclude Include="Heardsant.h">
-      <Filter>Файлы заголовков\Work</Filter>
-    </ClInclude>
     <ClInclude Include="MaterialsItem.h">
-      <Filter>Файлы заголовков\Work</Filter>
-    </ClInclude>
-    <ClInclude Include="Workshop.h">
       <Filter>Файлы заголовков\Work</Filter>
     </ClInclude>
     <ClInclude Include="asset.h">
@@ -214,6 +205,9 @@
     </ClInclude>
     <ClInclude Include="Mrowka.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Heardsant.h">
+      <Filter>Файлы заголовков\Ants</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

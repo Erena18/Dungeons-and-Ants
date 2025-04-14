@@ -167,7 +167,6 @@
     <ClCompile Include="Queen.cpp" />
     <ClCompile Include="Soldier.cpp" />
     <ClCompile Include="Warehouse.cpp" />
-    <ClCompile Include="Workshop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ant.h" />
@@ -201,7 +200,6 @@
     <ClInclude Include="Role.h" />
     <ClInclude Include="Soldier.h" />
     <ClInclude Include="Warehouse.h" />
-    <ClInclude Include="Workshop.h" />
     <ClInclude Include="Zone.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
