@@ -127,7 +127,7 @@ void Anthill::dailyUpdate()
     int decay = naturalDecayMin + rand() % (naturalDecayMax - naturalDecayMin + 1);
     receiveDamage(decay);
     //ÏÎÏÐÀÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÂÜ
-    for (auto& ant : ants) 
+    for (auto& ant : ants)
     {
         ant->growth();
         ant->Work();
