@@ -143,7 +143,11 @@ void Anthill::dailyUpdate()
     // Если мусора много, отправляем уведомление уборщикам
     if (GarbageManager::getInstance().getGarbageList().size() > 10) 
     {
-        informerCleaner.notify("Garbage accumulated, need cleaning!");
+        CleanerInformer* cleanerInformer = getInformer();
+        if (cleanerInformer)
+        {
+            cleanerInformer->notify(); //вызов сборщиков
+        }
     }
 }
 

@@ -65,7 +65,6 @@ public:
     Food& getFood();
     Materials& getMaterials();
 
-    //Workshop& getWorkshop();
     Warehouse& getWarehouse();
     void repair(int amount);
     void receiveDamage(int amount);
@@ -73,6 +72,13 @@ public:
     bool canAddAnt() const;
 
     void dailyUpdate();
+
+    Anthill(CleanerInformer* informer) : informer(informer) {}
+    CleanerInformer* getInformer() const { return informer; }
+    void setInformer(CleanerInformer* informer)
+    {
+        this->informer = informer;
+    }
 
 private:
     Anthill();
@@ -84,7 +90,8 @@ private:
     int naturalDecayMin;
     int naturalDecayMax;
 
-    //Workshop workshop;
     Warehouse warehouse;
     void removeDeadAnts();
+
+    CleanerInformer* informer;
 };
