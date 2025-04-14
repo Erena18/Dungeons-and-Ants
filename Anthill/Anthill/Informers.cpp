@@ -7,6 +7,8 @@
 #include <ctime>
 
 #include "Informers.h"
+#include "Role.h"
+#include "Collector.h"
 
 using namespace std;
 

@@ -5,6 +5,7 @@
 
 #include "Role.h"
 #include "Ant.h"
+#include "Informers.h"
 
 using namespace std;
 
@@ -12,6 +13,8 @@ class Child : public Role
 {
 public:
 	//Child(Vec2 startPos) : position(startPos) {}
+
+	Child();
 
 	virtual void Work() override;
 	virtual void Eat(Ant& ant, Food& food) override;

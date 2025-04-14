@@ -1,16 +1,4 @@
 #pragma once
-
-/*#include "Aphid.h"
-#include "Builder.h"
-#include "Child.h"
-#include "Cleaner.h"
-#include "Collector.h"
-#include "Heardsant.h"
-#include "Nanny.h"
-#include "Queen.h"
-#include "Soldier.h"*/
-
-
 /*#include "Building.h"
 #include "FoodItem.h"
 #include "Garbage.h"
@@ -22,6 +10,16 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+
+#include "Aphid.h"
+#include "Builder.h"
+#include "Child.h"
+#include "Cleaner.h"
+#include "Collector.h"
+#include "Heardsant.h"
+#include "Nanny.h"
+#include "Queen.h"
+#include "Soldier.h"
 
 #include "Role.h"
 #include "Anthill.h"
@@ -40,6 +38,7 @@ public:
 	int getHp() const { return hp; }
 	int getAge() const { return age; }
 
+	bool isAlive() const;
 	void growth();
 	void updateRole();
 	void loseHpEndDay();
@@ -56,7 +55,8 @@ public:
 
 	//Виртуальные
 	virtual void Work();
-	virtual void Eat(Ant& ant, Food& food);
+	//virtual void Eat(Ant& ant, Food& food);
+	virtual void Eat(Food& food);
 
 	//Ant(Vec2 startPos) : position(startPos) {}
 	//Vec2 getPosition() const { return position;	}

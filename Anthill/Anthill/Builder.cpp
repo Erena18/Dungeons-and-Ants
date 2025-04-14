@@ -49,8 +49,8 @@ void Builder::Work()
         if (materialsAvailable >= extensionCost)
         {
             warehouse.extend(50, extensionCost);
+            anthill.grow(warehouse.getCapacity() * 0.1f);
             anthill.getMaterials().use(extensionCost);
         }
-        else {        }
     }
 }

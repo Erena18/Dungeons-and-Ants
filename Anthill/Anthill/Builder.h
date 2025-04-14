@@ -26,6 +26,7 @@
 
 #include "Role.h"
 #include "Ant.h"
+#include "Informers.h"
 
 using namespace std;
 

@@ -35,6 +35,9 @@
 #include <memory>
 #include <vector>
 #include <ctime>
+
+#include "FoodItem.h"
+
 using namespace std;
 
 class Food 

@@ -55,17 +55,15 @@ class Anthill;
 class Warehouse : public Building 
 {
 public:
-    //Warehouse();
-    Warehouse(GameDataRef data);
-    ~Warehouse();
-    void drawnWarehouse();
-    void spawnWarehouse(float x, float y);
+    Warehouse();
+    //void drawnWarehouse();
+    //void spawnWarehouse(float x, float y);
     void dailyUpdate() override;
     void extend(int additionalCapacity, int cost);
 
 private:
-    //int extensionCostPer50Units;
-    GameDataRef _data;
-    CircleShape _nestCircle;
-    float radius;
+    int extensionCostPer50Units;
+    //GameDataRef _data;
+    //CircleShape _nestCircle;
+    //float radius;
 };

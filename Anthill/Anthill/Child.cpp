@@ -8,6 +8,10 @@
 
 using namespace std;
 
+Child::Child():informer(nullptr)
+{
+}
+
 void Child::Eat(Ant& ant, Food& food)
 {
     //Vec2 nannyPosition = ant.getPosition();

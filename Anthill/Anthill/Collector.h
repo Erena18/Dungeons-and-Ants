@@ -5,6 +5,8 @@
 
 #include "Role.h"
 #include "Ant.h"
+#include "Informers.h"
+#include "Zone.h"
 
 using namespace std;
 

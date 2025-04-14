@@ -35,6 +35,9 @@
 #include <memory>
 #include <vector>
 #include <ctime>
+
+#include "MaterialsItem.h"
+
 using namespace std;
 
 class Materials 

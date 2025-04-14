@@ -8,10 +8,40 @@
 
 using namespace std;
 
-Anthill& Anthill::getInstance() 
+Anthill::Anthill(GameDataRef data) :_data(data)
+{
+    updateRadius();
+    _nestCircle.setFillColor(Color(139, 69, 19));
+}
+
+Anthill& Anthill::getInstance()
 {
     static Anthill instance;
     return instance;
+}
+
+void Anthill::drawAnthill()
+{
+    _data->window.draw(_nestCircle);
+}
+
+void Anthill::spawnAnthill(float x, float y)
+{
+    _nestCircle.setPosition(x, y);
+    _nestCircle.setOrigin(_nestCircle.getRadius(), _nestCircle.getRadius());
+}
+
+void Anthill::grow(float amount)
+{
+    radius += amount;
+    _nestCircle.setRadius(radius);
+    _nestCircle.setOrigin(radius, radius);
+}
+
+void Anthill::setCapacity(int newCapacity)
+{
+    curCapacity = newCapacity;
+    updateRadius();
 }
 
 //Поправь данные
@@ -107,11 +137,22 @@ void Anthill::dailyUpdate()
     // Если мусора много, отправляем уведомление уборщикам
     if (GarbageManager::getInstance().getGarbageList().size() > 10) 
     {
-        informerCleaner.notify("Garbage accumulated, need cleaning!");
+        CleanerInformer* cleanerInformer = getInformer();
+        if (cleanerInformer)
+        {
+            cleanerInformer->notify();
+        }
     }
 }
 
-void Anthill::removeDeadAnts() 
+void Anthill::updateRadius()
+{
+    float radius = curCapacity * radiusPerUnit;
+    _nestCircle.setRadius(radius);
+    _nestCircle.setOrigin(radius, radius);
+}
+
+void Anthill::removeDeadAnts()
 {
     for (auto it = ants.begin(); it != ants.end();) 
     {

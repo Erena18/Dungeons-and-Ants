@@ -111,6 +111,11 @@ void Ant::restoreHp(int point)
 	}
 }
 
+bool Ant::isAlive() const
+{
+	return hp > 0;
+}
+
 void Ant::growth()
 {
 	age++;
@@ -156,7 +161,7 @@ void Ant::Work()
 	}
 }
 
-void Ant::Eat(Ant& ant, Food& food)
+void Ant::Eat(Food& food)
 {
 	if (role != nullptr)
 	{

@@ -8,7 +8,6 @@
 #include <sstream>
 
 #include "extraFiles.h"
-сс
 #include "Food.h"
 #include "Warehouse.h"
 

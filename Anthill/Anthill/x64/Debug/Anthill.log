@@ -1,54 +1,181 @@
 ﻿  Ant.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32): error C2259: "Soldier": невозможно создать экземпляр абстрактного класса
+  (компиляция исходного файла "Ant.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Soldier.h(11,7):
+       см. объявление "Soldier"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
+      из-за следующих членов:
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
+      void Role::Work(void): абстрактный
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(14,15):
+       см. объявление "Role::Work"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.cpp(42,11):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<Soldier,std::default_delete<Soldier>> std::make_unique<Soldier,,0>(void)"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35): error C2259: "Soldier": невозможно создать экземпляр абстрактного класса
+  (компиляция исходного файла "Ant.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Soldier.h(11,7):
+       см. объявление "Soldier"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
+      из-за следующих членов:
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
+      void Role::Work(void): абстрактный
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(14,15):
+       см. объявление "Role::Work"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35): error C2512: Collector::Collector: нет подходящего конструктора по умолчанию
+  (компиляция исходного файла "Ant.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
+      при попытке сопоставить список аргументов "()"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.cpp(61,10):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<Collector,std::default_delete<Collector>> std::make_unique<Collector,,0>(void)"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35): error C2512: Cleaner::Cleaner: нет подходящего конструктора по умолчанию
+  (компиляция исходного файла "Ant.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
+      при попытке сопоставить список аргументов "()"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.cpp(69,10):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<Cleaner,std::default_delete<Cleaner>> std::make_unique<Cleaner,,0>(void)"
+  
   Anthill.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
   Aphid.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Aphid.h(19,11): error C2061: синтаксическая ошибка: идентификатор "Food"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Aphid.cpp(51,21): error C2761: "void Aphid::Eat(void)": повторное объявление члена запрещено.
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Aphid.cpp(51,17): error C2065: Food: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Aphid.cpp(51,23): error C2065: food: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Aphid.cpp(52,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Aphid.cpp(52,1): error C2447: {: отсутствует заголовок функции (возможно, используется формальный список старого типа)
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(53,2): error C2065: Zone: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(53,8): error C2065: currentZone: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(54,3): error C2653: ZoneManager: не является именем класса или пространства имен
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(54,16): error C3861: getInstance: идентификатор не найден
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(55,2): error C2065: PastureZone: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(55,15): error C2065: pasture: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(55,38): error C2061: синтаксическая ошибка: идентификатор "PastureZone"
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(56,6): error C2065: pasture: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(58,8): error C2065: pasture: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(61,4): error C2065: pasture: необъявленный идентификатор
   asset.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\asset.cpp(1,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
   Builder.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
   Building.cpp
   Child.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(18,31): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(18,49): error C2065: nannyPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(19,13): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(19,31): error C2065: nannyPosition: необъявленный идентификатор
   Cleaner.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
   Collector.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(30,25): error C2660: Collector::getCurrentZone: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,11):
+       см. объявление "Collector::getCurrentZone"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(30,25):
+      при попытке сопоставить список аргументов "()"
+  
   Engine.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Engine.cpp(1,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
   Food.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.cpp(72,13): error C2653: GarbageManager: не является именем класса или пространства имен
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.cpp(72,29): error C3861: getInstance: идентификатор не найден
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.cpp(72,54): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.cpp(72,69): error C2065: RottenFood: необъявленный идентификатор
   FoodItem.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
+  (компиляция исходного файла "FoodItem.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2923: std::vector: "FoodItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "FoodItem.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12):
+       см. объявление "FoodItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "FoodItem.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,22): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "FoodItem.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
   Garbage.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
-  GarbageManager.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
-  Header.cpp
   Heardsant.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
   Informers.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
-  Main.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\extraFiles.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Audio.hpp: No such file or directory,
   MateralsItem.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "MateralsItem.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "MateralsItem.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "MateralsItem.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "MateralsItem.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
   Materials.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(86,13): error C2653: GarbageManager: не является именем класса или пространства имен
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(86,29): error C3861: getInstance: идентификатор не найден
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(86,54): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(86,69): error C2065: RottenMaterial: необъявленный идентификатор
+  Nanny.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,9): error C2065: Vec2: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "childPosition"
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,14): error C2065: childPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,37): error C2039: "getPosition": не является членом "Child".
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(12,7):
+       см. объявление "Child"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(34,35): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(34,53): error C2065: childPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(35,17): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(35,35): error C2065: childPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(38,13): error C2065: targetPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(38,30): error C2065: childPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(49,9): error C2065: Vec2: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(49,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "direction"
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(49,14): error C2065: direction: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(49,31): error C2065: targetPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(49,55): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(50,13): error C2065: targetPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(50,37): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(49,26): error C3861: Vec2: идентификатор не найден
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(51,29): error C2065: direction: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(51,48): error C2065: direction: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(51,67): error C2065: direction: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(51,86): error C2065: direction: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(54,13): error C2065: direction: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(54,25): error C2065: direction: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(55,13): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(55,24): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(55,37): error C2065: direction: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(56,42): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(56,60): error C2065: targetPosition: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(57,21): error C2065: position: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(57,39): error C2065: targetPosition: необъявленный идентификатор
+  Queen.cpp
+  Soldier.cpp
   Создание кода...
   Компиляция...
-  Nanny.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
-  Queen.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
-  Soldier.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
   Warehouse.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Warehouse.h(3,10): fatal error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(46,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(46,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(46,30): error C2238: непредвиденные лексемы перед ";"
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(78,15): error C3646: warehouse: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(78,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Warehouse.cpp")
+  
   Создание кода...
