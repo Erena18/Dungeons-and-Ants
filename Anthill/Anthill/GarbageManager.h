@@ -42,6 +42,9 @@ using namespace std;
 
 class GarbageManager 
 {
+private:
+    GarbageManager() {}
+    vector<Garbage> garbageList;
 public:
     static GarbageManager& getInstance();
 
@@ -49,8 +52,4 @@ public:
     void removeGarbage(int index);
 
     const vector<Garbage>& getGarbageList() const;
-
-private:
-    GarbageManager() {}
-    vector<Garbage> garbageList;
 };

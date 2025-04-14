@@ -1,35 +1,35 @@
 ﻿  Ant.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Anthill.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
@@ -45,40 +45,40 @@ C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthil
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(154,21): error C2039: "isAlive": не является членом "Ant".
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Ant.h(41): message : см. объявление "Ant"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.cpp(156,78): error C2660: GarbageManager::addGarbage: функция не принимает 2 аргументов
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,10): message : см. объявление "GarbageManager::addGarbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,10): message : см. объявление "GarbageManager::addGarbage"
   AntLogic.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\AntLogic.cpp(51,29): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
   Aphid.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
@@ -86,74 +86,74 @@ C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Aphid.cpp(85,50): error C2664: "Zone *ZoneManager::getCurrentZone(Ant &)": невозможно преобразовать аргумент 1 из "Aphid" в "Ant &"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Zone.h(35,11): message : см. объявление "ZoneManager::getCurrentZone"
   Builder.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Building.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Child.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.cpp(45,20): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
   Cleaner.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
@@ -176,19 +176,19 @@ C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Cleane
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Cleaner.cpp(78,9): message : Для преобразования требуется второй оператор пользовательского преобразования или конструктор
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(1456,39): message : см. объявление "std::vector<_Ty,_Alloc>::size"
   Collector.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
@@ -196,93 +196,93 @@ C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Collector.cpp(60,40): error C2660: Collector::getCurrentZone: функция не принимает 0 аргументов
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Collector.h(57,11): message : см. объявление "Collector::getCurrentZone"
   Dimensions.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Food.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Food.cpp(103,96): error C2660: GarbageManager::addGarbage: функция не принимает 2 аргументов
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,10): message : см. объявление "GarbageManager::addGarbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,10): message : см. объявление "GarbageManager::addGarbage"
   FoodItem.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Garbage.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   GarbageManager.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
@@ -296,135 +296,135 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.3070
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.cpp(56,38): error C2663: std::vector<_Ty,_Alloc>::begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.cpp(56,20): error C2663: std::vector<_Ty,_Alloc>::erase: для 2 перегрузок нет допустимого преобразования для указателя "this"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.cpp(61,1): error C2556: const std::vector<Garbage,std::allocator<Garbage>> &GarbageManager::getGarbageList(void) const: перегруженная функция отличается от "const std::vector &GarbageManager::getGarbageList(void) const" только возвращаемым типом
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "GarbageManager::getGarbageList"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "GarbageManager::getGarbageList"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.cpp(60,40): error C2371: GarbageManager::getGarbageList: переопределение; различные базовые типы
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "GarbageManager::getGarbageList"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "GarbageManager::getGarbageList"
   Header.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Heardsant.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Informers.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Main.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   MateralsItem.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Materials.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Materials.cpp(116,100): error C2660: GarbageManager::addGarbage: функция не принимает 2 аргументов
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,10): message : см. объявление "GarbageManager::addGarbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,10): message : см. объявление "GarbageManager::addGarbage"
   Создание кода...
   Компиляция...
   Nanny.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
@@ -432,73 +432,73 @@ C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Nanny.cpp(65,24): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Nanny.cpp(87,31): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
   Queen.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Soldier.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Warehouse.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(43): message : см. объявление "Child::Child"
   Workshop.cpp
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,21): error C2653: Garbage: не является именем класса или пространства имен
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(48,30): error C2061: синтаксическая ошибка: идентификатор "Type"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,18): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,11): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,12): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(47,5): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,12): error C2065: Garbage: необъявленный идентификатор
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55): message : см. объявление "Garbage"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,21): error C2653: Garbage: не является именем класса или пространства имен
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(51,30): error C2061: синтаксическая ошибка: идентификатор "Type"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,18): error C2065: Garbage: необъявленный идентификатор
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2923: std::vector: "Garbage" не является допустимым аргументом типа шаблон для параметра "_Ty"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54): message : см. объявление "Garbage"
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,11): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438): message : см. объявление "std::vector"
-C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(54,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
+C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\GarbageManager.h(46,19): error C2512: std::vector: нет подходящего конструктора по умолчанию
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\vector(438,1): message : см. объявление "std::vector"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Anthill.h(80,10): error C2079: "Anthill::food" использует не имеющую определения структуру class "Food"
 C:\Users\proek\OneDrive\Документы\Муравьи\Anthill\Anthill\Child.h(54,7): error C2535: Child::Child(Vec2): функция-член уже определена или объявлена

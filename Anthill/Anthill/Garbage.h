@@ -42,6 +42,7 @@ using namespace std;
 
 class Garbage 
 {
+
 public:
     enum class Type 
     {
@@ -52,8 +53,8 @@ public:
     Garbage(Type type, int weight);
     Type getType() const;
     int getWeight() const;
-
 private:
     Type type;
     int weight;
+
 };
