@@ -7,6 +7,8 @@
 #include "MaterialsItem.h"
 #include "Warehouse.h"*/
 
+#include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <memory>
 #include <vector>
@@ -28,6 +30,7 @@
 #include "Informers.h"
 
 using namespace std;
+using namespace sf;
 
 class Ant
 {
@@ -61,6 +64,8 @@ public:
 	//Ant(Vec2 startPos) : position(startPos) {}
 	//Vec2 getPosition() const { return position;	}
 
+	void draw(sf::RenderWindow& window);
+	void setPosition(sf::Vector2f pos);
 
 private:
 	int hp, age;
@@ -71,4 +76,6 @@ private:
 	CleanerInformer* cleanerInformer;
 	SoldierInformer* soldierInformer;
 
+	CircleShape shape;
+	Vector2f position;
 };

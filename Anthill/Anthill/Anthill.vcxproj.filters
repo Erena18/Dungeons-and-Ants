@@ -111,6 +111,12 @@
     <ClCompile Include="Heardsant.cpp">
       <Filter>Исходные файлы\Ants</Filter>
     </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DangerousZone.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Aphid.h">

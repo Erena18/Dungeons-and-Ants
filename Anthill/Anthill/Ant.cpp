@@ -1,3 +1,5 @@
+#include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -7,11 +9,27 @@
 #include "Ant.h"
 
 using namespace std;
+using namespace sf;
 
-Ant::Ant() : hp(100), age(0), role(nullptr) {}
+Ant::Ant() : hp(100), age(0), role(nullptr)
+{
+	shape.setRadius(5.f);
+	shape.setOrigin(5.f, 5.f);
+	shape.setFillColor(Color::White);
+}
 
 Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole) :
-	hp(initHp), age(initAge), role(move(initRole)) {}
+	hp(initHp), age(initAge), role(move(initRole))
+{
+	shape.setRadius(5.f);
+	shape.setOrigin(5.f, 5.f);
+	if (dynamic_cast<Builder*>(role.get())) shape.setFillColor(sf::Color::Blue);
+	else if (dynamic_cast<Collector*>(role.get())) shape.setFillColor(sf::Color::Green);
+	else if (dynamic_cast<Child*>(role.get())) shape.setFillColor(sf::Color::Magenta);
+	else if (dynamic_cast<Nanny*>(role.get())) shape.setFillColor(sf::Color::Cyan);
+	else if (dynamic_cast<Soldier*>(role.get())) shape.setFillColor(sf::Color::Red);
+	else shape.setFillColor(sf::Color::White);
+}
 
 void Ant::updateRole()
 {
@@ -167,4 +185,15 @@ void Ant::Eat(Food& food)
 	{
 		role->Eat(*this, food);
 	}
+}
+
+void Ant::draw(sf::RenderWindow& window)
+{
+	window.draw(shape);
+}
+
+void Ant::setPosition(sf::Vector2f pos)
+{
+	position = pos;
+	shape.setPosition(position);
 }

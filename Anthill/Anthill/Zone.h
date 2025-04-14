@@ -1,11 +1,16 @@
 #pragma once
-
+#include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <string>
 #include <vector>
 #include <memory>
 #include <cstdlib>
 #include <ctime>
+
+#include "Ant.h"
+#include "Aphid.h"
+
 using namespace std;
 
 class Ant;
@@ -27,21 +32,9 @@ public:
 class ZoneManager 
 {
 public:
-    static ZoneManager& getInstance()
-    {
-        static ZoneManager instance;
-        return instance;
-    }
-    Zone* getCurrentZone(Ant& ant) 
-    {
-       // логика определение текущей зоны (поля) на основе состояния муравья
-        return currentZone;
-    }
-    Zone* getCurrentZoneaAphid(Aphid& aphid)
-    {
-        // логика определение текущей зоны (поля) на основе состояния тли
-        return currentZone;
-    }
+    static ZoneManager& getInstance();
+    Zone* getCurrentZone(Ant& ant) { return currentZone; }
+    Zone* getCurrentZoneaAphid(Aphid& aphid) { return currentZone; }
 private:
     Zone* currentZone;
 };

@@ -152,6 +152,7 @@
     <ClCompile Include="Child.cpp" />
     <ClCompile Include="Cleaner.cpp" />
     <ClCompile Include="Collector.cpp" />
+    <ClCompile Include="DangerousZone.cpp" />
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="Food.cpp" />
     <ClCompile Include="FoodItem.cpp" />
@@ -167,6 +168,7 @@
     <ClCompile Include="Queen.cpp" />
     <ClCompile Include="Soldier.cpp" />
     <ClCompile Include="Warehouse.cpp" />
+    <ClCompile Include="Zone.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Ant.h" />
