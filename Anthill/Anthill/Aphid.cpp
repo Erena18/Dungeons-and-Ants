@@ -8,7 +8,14 @@
 
 using namespace std;
 
-Aphid::Aphid() : hpAphid(20), ageAphid(0) {}
+Aphid::Aphid() : hpAphid(20), ageAphid(0)
+{
+	shape.setRadius(4.f);
+	shape.setFillColor(Color::Magenta);
+	shape.setOrigin(4.f, 4.f);
+	homePosition = { 400.f, 300.f };
+	shape.setPosition(homePosition);
+}
 
 void Aphid::growthAphid(int& amountFood)
 {
@@ -21,12 +28,11 @@ void Aphid::growthAphid(int& amountFood)
 
 void Aphid::dieAphid(int& amountFood)
 {
-	//здесь должна быть реализация, что тля умерла внутри муравейника 
-	amountFood++;
-	//если тля умерла на улице, она становится МУСОРОМ
-
-	//новая рождается в муравейнике в любом случае
-	auto newAphid = make_unique<Aphid>();
+	if (isOnPasture)
+		GarbageManager::getInstance().addGarbage(Garbage::Type::Corpse, 1);
+	else
+		amountFood++;
+	hpAphid = 0;
 }
 
 void Aphid::loseHpAphid(int damageHp, int& amountFood)
@@ -50,17 +56,9 @@ void Aphid::restoreHpAphid(int point)
 
 void Aphid::Eat(Food& food)
 {
-	Zone* currentZone =
-		ZoneManager::getInstance().getCurrentZone(*this); //ОШИБКА 
-	PastureZone* pasture = dynamic_cast<PastureZone*>(currentZone);
-	if (pasture) 
-	{
-		if (!pasture->isEmpty()) 
-		{
-			restoreHpAphid(1);
-			pasture->onAntEnter();
-		}
-	}
+	if (!isOnPasture)
+		return;
+	int consumed = food.consume(1);
 }
 
 bool Aphid::isAlive()
@@ -83,5 +81,9 @@ void Aphid::setPosition(Vector2f pos)
 }
 
 void Aphid::draw(RenderWindow& window) const
+{
+}
+
+void Aphid::update(PastureZone& pasture)
 {
 }

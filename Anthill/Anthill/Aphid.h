@@ -6,6 +6,7 @@
 #include <vector>
 
 #include "Food.h"
+#include "PastureZone.h"
 
 using namespace std;
 using namespace sf;
@@ -28,7 +29,15 @@ public:
 	void setPosition(Vector2f pos);
 	void draw(RenderWindow& window) const;
 
+	void update(PastureZone& pasture);
+
 private:
 	int hpAphid, ageAphid;
 	CircleShape shape;
+
+	Vector2f homePosition;
+	bool isOnPasture = false;
+
+	Clock behaviourClock;
+	float pastureInterval = 30.f + rand() % 20;
 };

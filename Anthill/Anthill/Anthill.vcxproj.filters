@@ -105,23 +105,26 @@
     <ClCompile Include="Heardsant.cpp">
       <Filter>Исходные файлы\Ants</Filter>
     </ClCompile>
-    <ClCompile Include="Zone.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="DangerousZone.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="itemGeneration.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="MaterialsItem.cpp">
       <Filter>Исходные файлы\items</Filter>
     </ClCompile>
     <ClCompile Include="Materials.cpp">
       <Filter>Исходные файлы\items</Filter>
     </ClCompile>
-    <ClCompile Include="PastureZone.cpp">
+    <ClCompile Include="AphidManager.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PastureZone.cpp">
+      <Filter>Исходные файлы\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="DangerousZone.cpp">
+      <Filter>Исходные файлы\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="itemGeneration.cpp">
+      <Filter>Исходные файлы\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>Исходные файлы\Zones</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -223,6 +226,9 @@
     </ClInclude>
     <ClInclude Include="MaterialsItem.h">
       <Filter>Файлы заголовков\hz</Filter>
+    </ClInclude>
+    <ClInclude Include="AphidManager.h">
+      <Filter>Файлы заголовков\Ants</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

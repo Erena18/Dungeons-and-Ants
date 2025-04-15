@@ -146,6 +146,7 @@
     <ClCompile Include="Ant.cpp" />
     <ClCompile Include="Anthill.cpp" />
     <ClCompile Include="Aphid.cpp" />
+    <ClCompile Include="AphidManager.cpp" />
     <ClCompile Include="asset.cpp" />
     <ClCompile Include="Builder.cpp" />
     <ClCompile Include="Building.cpp" />
@@ -176,6 +177,7 @@
     <ClInclude Include="Ant.h" />
     <ClInclude Include="Anthill.h" />
     <ClInclude Include="Aphid.h" />
+    <ClInclude Include="AphidManager.h" />
     <ClInclude Include="asset.h" />
     <ClInclude Include="Builder.h" />
     <ClInclude Include="Building.h" />
