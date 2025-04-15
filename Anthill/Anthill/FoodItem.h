@@ -1,4 +1,6 @@
 #pragma once
+#include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -8,11 +10,12 @@
 #include "Food.h"
 
 using namespace std;
+using namespace sf;
 
 class FoodItem 
 {
 public:
-    FoodItem(int amount);
+    FoodItem(int amount = 10);
 
     int getAmount() const;
     int getAge() const;
@@ -21,7 +24,11 @@ public:
     bool isSpoiled() const;
     void reduceAmount(int amountToReduce);
 
+    void setPosition(Vector2f pos);
+    void draw(RenderWindow& window) const;
+
 private:
     int amount;
-    int age; 
+    int age;
+    CircleShape shape;
 };

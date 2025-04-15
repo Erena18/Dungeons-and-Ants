@@ -3,7 +3,7 @@
 #include "SFML/Audio.hpp"
 #include "SFML/Graphics.hpp"
 
-#define SCREEN_WIGHT 1600
+#define SCREEN_WIDTH 1600
 #define SCREEN_HEIGHT 900
 
 #define FIELD_PNG "Textures/grass.png"

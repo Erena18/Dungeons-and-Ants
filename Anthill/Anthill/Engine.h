@@ -7,6 +7,7 @@
 using namespace sf;
 
 #include "asset.h"
+#include "itemGeneration.h"
 
 struct GameData {
 	RenderWindow window;

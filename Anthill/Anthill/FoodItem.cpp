@@ -8,7 +8,12 @@
 
 using namespace std;
 
-FoodItem::FoodItem(int amount) : amount(amount), age(0) {}
+FoodItem::FoodItem(int amount) : amount(amount), age(0)
+{
+    shape.setRadius(5.f);
+    shape.setFillColor(Color::Yellow);
+    shape.setOrigin(5.f, 5.f);
+}
 
 int FoodItem::getAmount() const 
 {
@@ -40,4 +45,14 @@ void FoodItem::reduceAmount(int amountToReduce)
     {
         amount -= amountToReduce;
     }
+}
+
+void FoodItem::setPosition(Vector2f pos)
+{
+    shape.setPosition(pos);
+}
+
+void FoodItem::draw(RenderWindow& window) const
+{
+    window.draw(shape);
 }

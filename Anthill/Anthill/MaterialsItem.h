@@ -1,36 +1,6 @@
 #pragma once
-
-/*#include "Role.h"
-#include "Ant.h"
-#include "Aphid.h"
-#include "Builder.h"
-#include "Child.h"
-#include "Cleaner.h"
-#include "Collector.h"
-#include "Heardsant.h"
-#include "Nanny.h"
-#include "Queen.h"
-#include "Soldier.h"
-
-#include "Anthill.h"
-#include "Building.h"
-#include "Food.h"
-#include "FoodItem.h"
-#include "Garbage.h"
-#include "GarbageManager.h"
-
-#include "MaterialsItem.h"
-#include "Warehouse.h"
-
-#include "Zone.h"
-#include "DangerousZone.h"
-#include "EmptyZone.h"
-#include "FoodZone.h"
-#include "MaterialZone.h"
-#include "PastureZone.h"
-
-#include "Informers.h"*/
-
+#include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -40,11 +10,12 @@
 #include "Materials.h"
 
 using namespace std;
+using namespace sf;
 
 class MaterialItem 
 {
 public:
-    MaterialItem(int amount);
+    MaterialItem(int amount = 10);
 
     int getAmount() const;
     int getAge() const;
@@ -53,7 +24,11 @@ public:
     bool isSpoiled() const;
     void reduceAmount(int amountToReduce);
 
+    void setPosition(Vector2f pos);
+    void draw(RenderWindow& window) const;
+
 private:
     int amount;
-    int age; 
+    int age;
+    CircleShape shape;
 };

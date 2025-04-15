@@ -1,49 +1,77 @@
 ﻿  Ant.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32): error C2259: "Soldier": невозможно создать экземпляр абстрактного класса
-  (компиляция исходного файла "Ant.cpp")
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Soldier.h(11,7):
-       см. объявление "Soldier"
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
-      из-за следующих членов:
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
-      void Role::Work(void): абстрактный
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(14,15):
-       см. объявление "Role::Work"
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.cpp(42,11):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<Soldier,std::default_delete<Soldier>> std::make_unique<Soldier,,0>(void)"
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35): error C2259: "Soldier": невозможно создать экземпляр абстрактного класса
-  (компиляция исходного файла "Ant.cpp")
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Soldier.h(11,7):
-       см. объявление "Soldier"
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
-      из-за следующих членов:
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
-      void Role::Work(void): абстрактный
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(14,15):
-       см. объявление "Role::Work"
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35): error C2512: Collector::Collector: нет подходящего конструктора по умолчанию
-  (компиляция исходного файла "Ant.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
-      при попытке сопоставить список аргументов "()"
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.cpp(61,10):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<Collector,std::default_delete<Collector>> std::make_unique<Collector,,0>(void)"
-  
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35): error C2512: Cleaner::Cleaner: нет подходящего конструктора по умолчанию
-  (компиляция исходного файла "Ant.cpp")
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
-      при попытке сопоставить список аргументов "()"
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
-      контекст создания экземпляра шаблона (сначала самый старый)
-          C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Ant.cpp(69,10):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<Cleaner,std::default_delete<Cleaner>> std::make_unique<Cleaner,,0>(void)"
-  
   Anthill.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Ant.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Ant.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Ant.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Ant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Anthill.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Anthill.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Anthill.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Anthill.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
+  (компиляция исходного файла "Anthill.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2923: std::vector: "FoodItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Anthill.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12):
+       см. объявление "FoodItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Anthill.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,22): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Anthill.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Anthill.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Anthill.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Anthill.cpp")
+  
   Aphid.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(53,2): error C2065: Zone: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(53,8): error C2065: currentZone: необъявленный идентификатор
@@ -57,21 +85,225 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(61,4): error C2065: pasture: необъявленный идентификатор
   asset.cpp
   Builder.cpp
-  Building.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Builder.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Builder.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Builder.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Builder.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Builder.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Builder.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Builder.cpp")
+  
   Child.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Child.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Child.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Child.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Child.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Child.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Child.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Child.cpp")
+  
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(18,31): error C2065: position: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(18,49): error C2065: nannyPosition: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(19,13): error C2065: position: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(19,31): error C2065: nannyPosition: необъявленный идентификатор
   Cleaner.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Cleaner.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Cleaner.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Cleaner.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Cleaner.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Cleaner.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Cleaner.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Cleaner.cpp")
+  
   Collector.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Collector.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Collector.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Collector.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Collector.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Collector.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Collector.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Collector.cpp")
+  
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(30,25): error C2660: Collector::getCurrentZone: функция не принимает 0 аргументов
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,11):
        см. объявление "Collector::getCurrentZone"
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(30,25):
       при попытке сопоставить список аргументов "()"
   
+  DangerousZone.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "DangerousZone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "DangerousZone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(30,5): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+  (компиляция исходного файла "DangerousZone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "DangerousZone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "DangerousZone.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "DangerousZone.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "DangerousZone.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "DangerousZone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "DangerousZone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "DangerousZone.cpp")
+  
   Engine.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Engine.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2923: std::vector: "FoodItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Engine.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12):
+       см. объявление "FoodItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,22): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Engine.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(30,13): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(61,5): error C2535: Anthill::Anthill(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "Engine.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(30,5):
+       см. объявление "Anthill::Anthill"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Engine.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(35,17): error C2059: синтаксическая ошибка: .
   Food.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.cpp(72,13): error C2653: GarbageManager: не является именем класса или пространства имен
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.cpp(72,29): error C3861: getInstance: идентификатор не найден
@@ -98,7 +330,99 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   
   Garbage.cpp
   Heardsant.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Heardsant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Heardsant.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Heardsant.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Heardsant.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Heardsant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Heardsant.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Heardsant.cpp")
+  
   Informers.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Informers.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Informers.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Informers.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Informers.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Informers.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Informers.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Informers.cpp")
+  
+  itemGeneration.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "itemGeneration.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "itemGeneration.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "itemGeneration.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "itemGeneration.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
+  (компиляция исходного файла "itemGeneration.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2923: std::vector: "FoodItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "itemGeneration.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12):
+       см. объявление "FoodItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "itemGeneration.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,22): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "itemGeneration.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+  Main.cpp
   MateralsItem.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
   (компиляция исходного файла "MateralsItem.cpp")
@@ -124,6 +448,33 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(86,54): error C2653: Garbage: не является именем класса или пространства имен
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(86,69): error C2065: RottenMaterial: необъявленный идентификатор
   Nanny.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Nanny.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Nanny.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Nanny.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Nanny.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Nanny.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Nanny.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Nanny.cpp")
+  
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,9): error C2065: Vec2: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "childPosition"
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,14): error C2065: childPosition: необъявленный идентификатор
@@ -158,11 +509,104 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(56,60): error C2065: targetPosition: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(57,21): error C2065: position: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(57,39): error C2065: targetPosition: необъявленный идентификатор
-  Queen.cpp
-  Soldier.cpp
   Создание кода...
   Компиляция...
+  Queen.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Queen.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Queen.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Queen.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Queen.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Queen.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Queen.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Queen.cpp")
+  
+  Soldier.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Soldier.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Soldier.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Soldier.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Soldier.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Soldier.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Soldier.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Soldier.cpp")
+  
   Warehouse.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Warehouse.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Warehouse.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Warehouse.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2923: std::vector: "FoodItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Warehouse.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12):
+       см. объявление "FoodItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Warehouse.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,22): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Warehouse.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(30,13): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Warehouse.cpp")
+  
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(46,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
   (компиляция исходного файла "Warehouse.cpp")
   
@@ -172,10 +616,67 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(46,30): error C2238: непредвиденные лексемы перед ";"
   (компиляция исходного файла "Warehouse.cpp")
   
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(61,5): error C2535: Anthill::Anthill(void): функция-член уже определена или объявлена
+  (компиляция исходного файла "Warehouse.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(30,5):
+       см. объявление "Anthill::Anthill"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Warehouse.cpp")
+  
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(78,15): error C3646: warehouse: неизвестный спецификатор переопределения
   (компиляция исходного файла "Warehouse.cpp")
   
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(78,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
   (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Warehouse.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Warehouse.cpp")
+  
+  Zone.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+  (компиляция исходного файла "Zone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Zone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(30,5): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+  (компиляция исходного файла "Zone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Zone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Zone.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Zone.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(56,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Zone.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+  (компиляция исходного файла "Zone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,17): error C3646: _data: неизвестный спецификатор переопределения
+  (компиляция исходного файла "Zone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(32,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+  (компиляция исходного файла "Zone.cpp")
   
   Создание кода...

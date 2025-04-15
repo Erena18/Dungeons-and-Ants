@@ -8,7 +8,12 @@
 
 using namespace std;
 
-MaterialItem::MaterialItem(int amount) : amount(amount), age(0) {}
+MaterialItem::MaterialItem(int amount) : amount(amount), age(0)
+{
+    shape.setRadius(5.f);
+    shape.setFillColor(Color(139, 69, 19));
+    shape.setOrigin(5.f, 5.f);
+}
 
 int MaterialItem::getAmount() const 
 {
@@ -27,7 +32,7 @@ void MaterialItem::increaseAge()
 
 bool MaterialItem::isSpoiled() const 
 {
-    return age >= 10;
+    return age >= 20;
 }
 
 void MaterialItem::reduceAmount(int amountToReduce) 
@@ -40,4 +45,14 @@ void MaterialItem::reduceAmount(int amountToReduce)
     {
         amount -= amountToReduce;
     }
+}
+
+void MaterialItem::setPosition(Vector2f pos)
+{
+    shape.setPosition(pos);
+}
+
+void MaterialItem::draw(RenderWindow& window) const
+{
+    window.draw(shape);
 }
