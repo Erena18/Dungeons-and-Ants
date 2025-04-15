@@ -1,40 +1,21 @@
 #pragma once
+#include <SFML/Graphics.hpp>
 #include <iostream>
-#include <vector>
-#include <string>
 #include <memory>
-#include <cstdlib>
-#include <ctime>
 
-#include "Zone.h"
+#include "Aphid.h"
+#include "Heardsant.h"
 
 using namespace std;
+using namespace sf;
 
 // Пастбищная зона
 class PastureZone : public Zone 
 {
 public:
-    PastureZone(int initialCapacity) : capacity(initialCapacity) {}
+    PastureZone(Vector2f position, Vector2f size);
 
-    string getType() const override { return "Pasture"; }
-
-    void update() override 
-    {
-        if (capacity > 0 && capacity < 10) 
-        {
-            ++capacity; // Восстановление вместимости ОТКАЛИБРОВАТЬ
-        }
-    }
-    void onAntEnter() override
-    {
-        if (capacity > 0) 
-        {
-            --capacity;
-        }
-        else 
-        {        }
-    }
-
+    void draw(RenderWindow& window) const;
 private:
-    int capacity; // Вместимость корма
+    RectangleShape area;
 };

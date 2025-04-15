@@ -1,35 +1,4 @@
 #pragma once
-
-/*#include "Role.h"
-#include "Ant.h"
-#include "Aphid.h"
-#include "Builder.h"
-#include "Child.h"
-#include "Cleaner.h"
-#include "Collector.h"
-#include "Heardsant.h"
-#include "Nanny.h"
-#include "Queen.h"
-#include "Soldier.h"
-
-#include "Anthill.h"
-#include "Building.h"
-#include "Food.h"
-#include "FoodItem.h"
-#include "Garbage.h"
-#include "GarbageManager.h"
-#include "MaterialsItem.h"
-#include "Warehouse.h"
-
-#include "Zone.h"
-#include "DangerousZone.h"
-#include "EmptyZone.h"
-#include "FoodZone.h"
-#include "MaterialZone.h"
-#include "PastureZone.h"
-
-#include "Informers.h"*/
-
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -37,6 +6,8 @@
 #include <ctime>
 
 #include "MaterialsItem.h"
+#include "FoodItem.h"
+#include "GarbageManager.h"
 
 using namespace std;
 
@@ -50,9 +21,9 @@ public:
     int getAmount() const;
     int getTotalAmount() const;
     void use(int amount);
-    void dailyUpdate(); // Увеличивает возраст материалов и удаляет испорченные
+    void dailyUpdate();
 
 private:
-    vector<MaterialItem> materialItems;
+    vector<MaterialItem> materialsItems;
     int amount;
 };

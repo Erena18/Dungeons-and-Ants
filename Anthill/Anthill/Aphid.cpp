@@ -62,3 +62,26 @@ void Aphid::Eat(Food& food)
 		}
 	}
 }
+
+bool Aphid::isAlive()
+{
+	return false;
+}
+
+int Aphid::getHp() const
+{
+	return 0;
+}
+
+int Aphid::getAge() const
+{
+	return 0;
+}
+
+void Aphid::setPosition(Vector2f pos)
+{
+}
+
+void Aphid::draw(RenderWindow& window) const
+{
+}

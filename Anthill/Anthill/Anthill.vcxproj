@@ -163,9 +163,10 @@
     <ClCompile Include="Informers.cpp" />
     <ClCompile Include="itemGeneration.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="MateralsItem.cpp" />
+    <ClCompile Include="MaterialsItem.cpp" />
     <ClCompile Include="Materials.cpp" />
     <ClCompile Include="Nanny.cpp" />
+    <ClCompile Include="PastureZone.cpp" />
     <ClCompile Include="Queen.cpp" />
     <ClCompile Include="Soldier.cpp" />
     <ClCompile Include="Warehouse.cpp" />

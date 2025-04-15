@@ -12,7 +12,7 @@ Materials::Materials() {}
 
 void Materials::addMaterial(int amount) 
 {
-    materialItems.emplace_back(amount);
+    materialsItems.emplace_back(amount);
 }
 void Materials::use(int amount) 
 {
@@ -34,7 +34,7 @@ int Materials::consume(int amount)
 {
     int amountConsumed = 0;
 
-    for (auto it = materialItems.begin(); it != materialItems.end() && amount > 0;) 
+    for (auto it = materialsItems.begin(); it != materialsItems.end() && amount > 0;) 
     {
         if (!it->isSpoiled()) 
         {
@@ -46,7 +46,7 @@ int Materials::consume(int amount)
 
             if (itemAmount <= consumeAmount) 
             {
-                it = materialItems.erase(it);
+                it = materialsItems.erase(it);
             }
             else 
             {
@@ -65,7 +65,7 @@ int Materials::consume(int amount)
 int Materials::getTotalAmount() const 
 {
     int total = 0;
-    for (const auto& item : materialItems) 
+    for (const auto& item : materialsItems) 
     {
         if (!item.isSpoiled()) 
         {
@@ -77,14 +77,14 @@ int Materials::getTotalAmount() const
 
 void Materials::dailyUpdate() 
 {
-    for (auto it = materialItems.begin(); it != materialItems.end();) 
+    for (auto it = materialsItems.begin(); it != materialsItems.end();) 
     {
         it->increaseAge();
 
         if (it->isSpoiled()) 
         {
             GarbageManager::getInstance().addGarbage(Garbage::Type::RottenMaterial, it->getAmount());
-            it = materialItems.erase(it);
+            it = materialsItems.erase(it);
         }
         else 
         {

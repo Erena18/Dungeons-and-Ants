@@ -13,5 +13,6 @@ class Role
 public:
 	virtual void Work() = 0;
 	virtual void Eat(Ant& ant, Food& food) = 0;
+	virtual void Move(Ant& ant) = 0;
 	virtual ~Role() = default;
 };

@@ -90,9 +90,6 @@
     <ClCompile Include="Aphid.cpp">
       <Filter>Исходные файлы\Ants</Filter>
     </ClCompile>
-    <ClCompile Include="Materials.cpp">
-      <Filter>Исходные файлы\Work</Filter>
-    </ClCompile>
     <ClCompile Include="Garbage.cpp">
       <Filter>Исходные файлы\Work</Filter>
     </ClCompile>
@@ -117,8 +114,14 @@
     <ClCompile Include="itemGeneration.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="MateralsItem.cpp">
+    <ClCompile Include="MaterialsItem.cpp">
       <Filter>Исходные файлы\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials.cpp">
+      <Filter>Исходные файлы\items</Filter>
+    </ClCompile>
+    <ClCompile Include="PastureZone.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
