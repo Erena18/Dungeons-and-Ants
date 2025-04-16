@@ -131,7 +131,7 @@ void Ant::restoreHp(int point)
 
 bool Ant::isAlive() const
 {
-	return hp > 0;
+	return alive;
 }
 
 void Ant::growth()
@@ -146,7 +146,7 @@ void Ant::growth()
 
 void Ant::die()
 {
-	delete this;
+	alive = false;
 }
 
 void Ant::subscribeToInformer(Informer* informer)

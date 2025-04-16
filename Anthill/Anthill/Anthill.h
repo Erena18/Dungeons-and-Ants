@@ -1,9 +1,10 @@
 #pragma once
-#include "SFML/Graphics.hpp"
-#include "SFML/Audio.hpp"
+#include "GameData.h"
 #include "Engine.h"
 #include "extraFiles.h"
 
+#include "SFML/Graphics.hpp"
+#include "SFML/Audio.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <memory>
@@ -21,6 +22,7 @@
 #include "MaterialsItem.h"
 #include "Warehouse.h"
 
+
 using namespace std;
 using namespace sf;
 
@@ -28,12 +30,14 @@ class Anthill
 {
 public:
     Anthill(GameDataRef data);
-    static Anthill& getInstance();
+    static Anthill& getInstance(GameDataRef data);
+
+    vector<unique_ptr<Ant>>& getAnts() { return ants; }
 
     void drawAnthill();
+    void drawAllAnts(RenderWindow& window);
     void spawnAnthill(float x, float y);
     void grow(float amount);
-
     void setCapacity(int newCapasity);
    
 
@@ -42,8 +46,8 @@ public:
     void addMaterials(int amount);
     Food& getFood();
     Materials& getMaterials();
-
     Warehouse& getWarehouse();
+
     void repair(int amount);
     void receiveDamage(int amount);
 
@@ -51,30 +55,30 @@ public:
 
     void dailyUpdate();
 
-    Anthill(CleanerInformer* informer) : informer(informer) {}
+    //Anthill(CleanerInformer* informer) : informer(informer) {}
     CleanerInformer* getInformer() const { return informer; }
     void setInformer(CleanerInformer* informer)
     {
         this->informer = informer;
     }
 private:
-    Anthill();
-    CleanerInformer* informer;
+    //Anthill();
+    GameDataRef _data;
+    CleanerInformer* informer = nullptr;
     vector<unique_ptr<Ant>> ants;
     Food food;
     Materials materials;
+    Warehouse warehouse;
+
     int maxPopulation;
     int durability;
     int naturalDecayMin;
     int naturalDecayMax;
 
-    GameDataRef _data;
     CircleShape _nestCircle;
     int curCapacity = 100;
     const float radiusPerUnit = 0.1f;
     float radius;
     void updateRadius();
-
-    Warehouse warehouse;
     void removeDeadAnts();
 };

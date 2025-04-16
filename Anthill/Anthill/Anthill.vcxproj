@@ -191,6 +191,7 @@
     <ClInclude Include="Food.h" />
     <ClInclude Include="FoodItem.h" />
     <ClInclude Include="FoodZone.h" />
+    <ClInclude Include="GameData.h" />
     <ClInclude Include="Garbage.h" />
     <ClInclude Include="GarbageManager.h" />
     <ClInclude Include="Header.h" />

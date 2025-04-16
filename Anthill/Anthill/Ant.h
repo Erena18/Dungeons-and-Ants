@@ -1,18 +1,11 @@
 #pragma once
-/*#include "Building.h"
-#include "FoodItem.h"
-#include "Garbage.h"
-#include "GarbageManager.h"
-#include "Materials.h"
-#include "MaterialsItem.h"
-#include "Warehouse.h"*/
-
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <iostream>
 #include <memory>
 #include <vector>
 
+#include "GameData.h"
 #include "Aphid.h"
 #include "Builder.h"
 #include "Child.h"
@@ -58,7 +51,6 @@ public:
 
 	//Виртуальные
 	virtual void Work();
-	//virtual void Eat(Ant& ant, Food& food);
 	virtual void Eat(Food& food);
 
 	//Ant(Vec2 startPos) : position(startPos) {}
@@ -69,6 +61,8 @@ public:
 
 private:
 	int hp, age;
+	bool alive = true;
+
 	unique_ptr<Role> role;
 	Informer* currentInformer = nullptr;
 	CollectorInformer* collectorInformer;

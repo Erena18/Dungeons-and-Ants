@@ -6,6 +6,7 @@
 #include <cstdlib>
 #include <ctime>
 
+#include "GameData.h"
 #include "MaterialsItem.h"
 #include "FoodItem.h"
 #include "Anthill.h"

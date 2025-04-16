@@ -3,7 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 
-using std::string;
+using namespace std;
 using namespace sf;
 
 class assetManager
@@ -13,16 +13,16 @@ public:
 	~assetManager() {}
 
 	void LoadTexture(string name, string fileName);
-	sf::Texture& GetTexture(string name);
+	Texture& GetTexture(string name);
 
 	void LoadSoundBuffer(string name, string fileName);
-	sf::SoundBuffer& GetSoundBuffer(string name);
+	SoundBuffer& GetSoundBuffer(string name);
 
 	void LoadMusic(string name, string fileName);
-	sf::Music& GetMusic(string name);
+	Music& GetMusic(string name);
 	
 private:
-	std::map<string, Texture> _textures;
-	std::map<string, SoundBuffer> _soundBuffer;
-	std::map<string, std::unique_ptr<Music>> _music;
+	map<string, Texture> _textures;
+	map<string, SoundBuffer> _soundBuffer;
+	map<string, unique_ptr<Music>> _music;
 };

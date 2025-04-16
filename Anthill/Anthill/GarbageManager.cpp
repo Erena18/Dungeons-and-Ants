@@ -1,9 +1,3 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "GarbageManager.h"
 
 using namespace std;
@@ -30,4 +24,12 @@ void GarbageManager::removeGarbage(int index)
 const vector<Garbage>& GarbageManager::getGarbageList() const 
 {
     return garbageList;
+}
+
+void GarbageManager::draw(RenderWindow& window)
+{
+    for (const Garbage& g : garbageList)
+    {
+        g.draw(window);
+    }
 }

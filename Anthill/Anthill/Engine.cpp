@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
+#include "GameData.h"
 #include "Engine.h"
 #include "Ant.h"
 #include "PastureZone.h"
@@ -22,6 +23,9 @@ void Engine::Run()
 
 	PastureZone pasture({ 1000.f, 600.f }, { 250.f, 150.f });
 
+	Anthill& anthill = Anthill::getInstance(_data);
+	anthill.spawnAnthill(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2);
+
 	while (this->_data->window.isOpen())
 	{
 		newTime = this->_clock.getElapsedTime().asSeconds();
@@ -43,6 +47,10 @@ void Engine::Run()
 		_data->window.clear();
 
 		pasture.draw(_data->window);
+
+		anthill.drawAnthill();
+		anthill.drawAllAnts(_data->window);
+		GarbageManager::getInstance().draw(_data->window);
 
 		_data->window.display();
 	}

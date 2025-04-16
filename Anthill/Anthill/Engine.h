@@ -8,13 +8,14 @@ using namespace sf;
 
 #include "asset.h"
 #include "itemGeneration.h"
+#include "GameData.h"
 
-struct GameData {
+/*struct GameData {
 	RenderWindow window;
 	assetManager assets;
 };
 
-typedef std::shared_ptr<GameData> GameDataRef;
+typedef std::shared_ptr<GameData> GameDataRef;*/
 
 class Engine
 {

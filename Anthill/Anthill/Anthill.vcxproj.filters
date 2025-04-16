@@ -230,5 +230,8 @@
     <ClInclude Include="AphidManager.h">
       <Filter>Файлы заголовков\Ants</Filter>
     </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

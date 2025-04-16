@@ -17,15 +17,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Ant.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Ant.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Ant.cpp")
-  
   Anthill.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
   (компиляция исходного файла "Anthill.cpp")
@@ -63,26 +54,44 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Anthill.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Anthill.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Anthill.cpp")
-  
   Aphid.cpp
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(53,2): error C2065: Zone: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(53,8): error C2065: currentZone: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(54,3): error C2653: ZoneManager: не является именем класса или пространства имен
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(54,16): error C3861: getInstance: идентификатор не найден
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(55,2): error C2065: PastureZone: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(55,15): error C2065: pasture: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(55,38): error C2061: синтаксическая ошибка: идентификатор "PastureZone"
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(56,6): error C2065: pasture: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(58,8): error C2065: pasture: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.cpp(61,4): error C2065: pasture: необъявленный идентификатор
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "Aphid.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "Aphid.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "Aphid.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "Aphid.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+  AphidManager.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "AphidManager.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "AphidManager.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "AphidManager.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "AphidManager.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
   asset.cpp
   Builder.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
@@ -103,14 +112,11 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Builder.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Builder.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Builder.cpp")
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Builder.cpp(30,33): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
+       см. объявление "Anthill::getInstance"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Builder.cpp(30,33):
+      при попытке сопоставить список аргументов "()"
   
   Child.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
@@ -130,15 +136,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "Child.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Child.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Child.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Child.cpp")
   
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(18,31): error C2065: position: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(18,49): error C2065: nannyPosition: необъявленный идентификатор
@@ -163,15 +160,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Cleaner.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Cleaner.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Cleaner.cpp")
-  
   Collector.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
   (компиляция исходного файла "Collector.cpp")
@@ -191,19 +179,22 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Collector.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Collector.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Collector.cpp")
-  
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(30,25): error C2660: Collector::getCurrentZone: функция не принимает 0 аргументов
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,11):
        см. объявление "Collector::getCurrentZone"
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(30,25):
+      при попытке сопоставить список аргументов "()"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(62,18): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
+       см. объявление "Anthill::getInstance"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(62,18):
+      при попытке сопоставить список аргументов "()"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(63,18): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
+       см. объявление "Anthill::getInstance"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(63,18):
       при попытке сопоставить список аргументов "()"
   
   DangerousZone.cpp
@@ -233,15 +224,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "DangerousZone.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "DangerousZone.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "DangerousZone.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "DangerousZone.cpp")
   
   Engine.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
@@ -279,29 +261,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "Engine.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(30,13): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Engine.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(61,5): error C2535: Anthill::Anthill(void): функция-член уже определена или объявлена
-  (компиляция исходного файла "Engine.cpp")
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(30,5):
-       см. объявление "Anthill::Anthill"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Engine.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Engine.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Engine.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Engine.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Engine.cpp")
   
   Food.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.cpp(72,13): error C2653: GarbageManager: не является именем класса или пространства имен
@@ -347,15 +306,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Heardsant.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Heardsant.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Heardsant.cpp")
-  
   Informers.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
   (компиляция исходного файла "Informers.cpp")
@@ -374,15 +324,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "Informers.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Informers.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Informers.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Informers.cpp")
   
   itemGeneration.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
@@ -478,16 +419,8 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(15,5): error C2065: materialItems: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(37,20): error C2065: materialItems: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(37,43): error C3536: it: не может использоваться до инициализации
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(37,49): error C2065: materialItems: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(49,22): error C2065: materialItems: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(68,29): error C2065: materialItems: необъявленный идентификатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(68,22): error C2530: item: ссылки должны быть инициализированы
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(68,22): error C3531: item: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(68,27): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.cpp(68,42): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+  Создание кода...
+  Компиляция...
   Nanny.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
   (компиляция исходного файла "Nanny.cpp")
@@ -506,15 +439,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "Nanny.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Nanny.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Nanny.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Nanny.cpp")
   
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,9): error C2065: Vec2: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "childPosition"
@@ -550,8 +474,28 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(56,60): error C2065: targetPosition: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(57,21): error C2065: position: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(57,39): error C2065: targetPosition: необъявленный идентификатор
-  Создание кода...
-  Компиляция...
+  PastureZone.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Aphid.h(32,14): error C2061: синтаксическая ошибка: идентификатор "PastureZone"
+  (компиляция исходного файла "PastureZone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
+  (компиляция исходного файла "PastureZone.cpp")
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,5): error C2923: std::vector: "MaterialItem" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "PastureZone.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12):
+       см. объявление "MaterialItem"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,5): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "PastureZone.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,26): error C2955: "std::vector": для использования класс шаблон требуется список аргументов шаблон
+  (компиляция исходного файла "PastureZone.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
+       см. объявление "std::vector"
+  
   Queen.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
   (компиляция исходного файла "Queen.cpp")
@@ -571,14 +515,11 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Queen.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Queen.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Queen.cpp")
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.cpp(31,30): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
+       см. объявление "Anthill::getInstance"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.cpp(31,30):
+      при попытке сопоставить список аргументов "()"
   
   Soldier.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Materials.h(27,12): error C2065: MaterialItem: необъявленный идентификатор
@@ -598,15 +539,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "Soldier.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Soldier.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Soldier.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Soldier.cpp")
   
   Warehouse.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Food.h(55,12): error C2065: FoodItem: необъявленный идентификатор
@@ -645,43 +577,44 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(30,13): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(49,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
   (компиляция исходного файла "Warehouse.cpp")
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(46,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(49,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
   (компиляция исходного файла "Warehouse.cpp")
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(46,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(49,30): error C2238: непредвиденные лексемы перед ";"
   (компиляция исходного файла "Warehouse.cpp")
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(46,30): error C2238: непредвиденные лексемы перед ";"
-  (компиляция исходного файла "Warehouse.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(61,5): error C2535: Anthill::Anthill(void): функция-член уже определена или объявлена
-  (компиляция исходного файла "Warehouse.cpp")
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(30,5):
-       см. объявление "Anthill::Anthill"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,17): error C3646: _data: неизвестный спецификатор переопределения
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,15): error C3646: warehouse: неизвестный спецификатор переопределения
   (компиляция исходного файла "Warehouse.cpp")
   
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
   (компиляция исходного файла "Warehouse.cpp")
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(78,15): error C3646: warehouse: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Warehouse.cpp")
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(19,14): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
+       см. объявление "Anthill::getInstance"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(19,14):
+      при попытке сопоставить список аргументов "()"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(78,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Warehouse.cpp")
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(22,37): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
+       см. объявление "Anthill::getInstance"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(22,37):
+      при попытке сопоставить список аргументов "()"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Warehouse.cpp")
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(31,43): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
+       см. объявление "Anthill::getInstance"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(31,43):
+      при попытке сопоставить список аргументов "()"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Warehouse.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Warehouse.cpp")
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(35,22): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
+       см. объявление "Anthill::getInstance"
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(35,22):
+      при попытке сопоставить список аргументов "()"
   
   Zone.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
@@ -710,14 +643,5 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "Zone.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\vector(429,7):
        см. объявление "std::vector"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(21,16): error C2061: синтаксическая ошибка: идентификатор "GameDataRef"
-  (компиляция исходного файла "Zone.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,17): error C3646: _data: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Zone.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\itemGeneration.h(34,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Zone.cpp")
   
   Создание кода...

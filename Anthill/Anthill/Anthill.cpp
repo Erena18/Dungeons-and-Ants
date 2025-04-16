@@ -1,28 +1,29 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Anthill.h"
 
-using namespace std;
-
-Anthill::Anthill(GameDataRef data) :_data(data)
+Anthill::Anthill(GameDataRef data) :_data(data),
+maxPopulation(500), durability(200), naturalDecayMin(1), naturalDecayMax(2)
 {
     updateRadius();
     _nestCircle.setFillColor(Color(139, 69, 19));
 }
 
-Anthill& Anthill::getInstance()
+Anthill& Anthill::getInstance(GameDataRef data)
 {
-    static Anthill instance;
+    static Anthill instance(data);
     return instance;
 }
 
 void Anthill::drawAnthill()
 {
     _data->window.draw(_nestCircle);
+}
+
+void Anthill::drawAllAnts(RenderWindow& window)
+{
+    for (unique_ptr<Ant>& ant : ants)
+    {
+        ant->draw(window);
+    }
 }
 
 void Anthill::spawnAnthill(float x, float y)
@@ -43,9 +44,6 @@ void Anthill::setCapacity(int newCapacity)
     curCapacity = newCapacity;
     updateRadius();
 }
-
-//ѕоправь данные
-Anthill::Anthill() : maxPopulation(500), durability(200), naturalDecayMin(1), naturalDecayMax(2) {}
 
 void Anthill::addAnt(unique_ptr<Ant> ant) 
 {
@@ -72,11 +70,6 @@ Materials& Anthill::getMaterials()
     return materials;
 }
 
-/*Workshop& Anthill::getWorkshop()
-{
-    return workshop;
-}*/
-
 Warehouse& Anthill::getWarehouse() 
 {
     return warehouse;
@@ -92,8 +85,6 @@ void Anthill::repair(int amount)
     {
         materials.use(materialsToUse);
         durability += materialsToUse;
-
-        // «а каждые  25 единиц увеличени€ прочности  5 мест дл€ жизни
         maxPopulation = 12 + ((durability - 200) / 25) * 5;
     }
 }
@@ -102,11 +93,7 @@ void Anthill::receiveDamage(int amount)
 {
     durability -= amount;
     if (durability < 0) 
-    {
         durability = 0;
-        // ќбработка ситуации, когда муравейник полностью разрушен
-    }
-    // ќбновл€ем максимальную вместимость
     maxPopulation = 12 + ((durability - 200) / 25) * 5;
 }
 
@@ -117,11 +104,10 @@ bool Anthill::canAddAnt() const
 
 void Anthill::dailyUpdate() 
 {
-    // ≈стественное разрушение
     int decay = naturalDecayMin + rand() % (naturalDecayMax - naturalDecayMin + 1);
     receiveDamage(decay);
-    //ѕќѕ–ј¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬№
-    for (auto& ant : ants) 
+    
+    for (unique_ptr<Ant>& ant : ants) 
     {
         ant->growth();
         ant->Work();
@@ -129,12 +115,10 @@ void Anthill::dailyUpdate()
     }
 
     removeDeadAnts();
-    // ќбновл€ем постройки
     warehouse.dailyUpdate();
     food.dailyUpdate();
     materials.dailyUpdate();
 
-    // ≈сли мусора много, отправл€ем уведомление уборщикам
     if (GarbageManager::getInstance().getGarbageList().size() > 10) 
     {
         CleanerInformer* cleanerInformer = getInformer();
@@ -154,16 +138,16 @@ void Anthill::updateRadius()
 
 void Anthill::removeDeadAnts()
 {
-    for (auto it = ants.begin(); it != ants.end();) 
+    for (size_t i = 0; i < ants.size(); )
     {
-        if (!(*it)->isAlive()) 
+        if (!ants[i]->isAlive())
         {
             GarbageManager::getInstance().addGarbage(Garbage::Type::Corpse, 1);
-            it = ants.erase(it);
+            ants.erase(ants.begin() + i);
         }
-        else 
+        else
         {
-            ++it;
+            ++i;
         }
     }
 }
