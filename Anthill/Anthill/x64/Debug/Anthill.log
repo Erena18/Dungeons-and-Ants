@@ -203,12 +203,6 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.3480
   Aphid.cpp
   AphidManager.cpp
   Builder.cpp
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Builder.cpp(30,33): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
-       см. объявление "Anthill::getInstance"
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Builder.cpp(30,33):
-      при попытке сопоставить список аргументов "()"
-  
   Child.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(18,31): error C2065: position: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.cpp(18,49): error C2065: nannyPosition: необъявленный идентификатор
@@ -222,18 +216,6 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
       C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(30,25):
       при попытке сопоставить список аргументов "()"
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(62,18): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
-       см. объявление "Anthill::getInstance"
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(62,18):
-      при попытке сопоставить список аргументов "()"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(63,18): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
-       см. объявление "Anthill::getInstance"
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.cpp(63,18):
-      при попытке сопоставить список аргументов "()"
-  
   DangerousZone.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
   (компиляция исходного файла "DangerousZone.cpp")
@@ -245,13 +227,10 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "DangerousZone.cpp")
   
   Engine.cpp
-  Food.cpp
   Heardsant.cpp
   Informers.cpp
   itemGeneration.cpp
   Main.cpp
-  MaterialsItem.cpp
-  Materials.cpp
   Nanny.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,9): error C2065: Vec2: необъявленный идентификатор
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Nanny.cpp(33,14): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "childPosition"
@@ -292,55 +271,34 @@ C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants
   (компиляция исходного файла "PastureZone.cpp")
   
   Queen.cpp
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.cpp(31,30): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
-       см. объявление "Anthill::getInstance"
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.cpp(31,30):
-      при попытке сопоставить список аргументов "()"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32): error C2259: "Child": невозможно создать экземпляр абстрактного класса
+  (компиляция исходного файла "Queen.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(12,7):
+       см. объявление "Child"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
+      из-за следующих членов:
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
+      void Role::Move(Ant &): абстрактный
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(16,15):
+       см. объявление "Role::Move"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,32):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Queen.cpp(39,53):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::unique_ptr<Child,std::default_delete<Child>> std::make_unique<Child,,0>(void)"
   
-  Создание кода...
-  Компиляция...
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35): error C2259: "Child": невозможно создать экземпляр абстрактного класса
+  (компиляция исходного файла "Queen.cpp")
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Child.h(12,7):
+       см. объявление "Child"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
+      из-за следующих членов:
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\memory(3594,35):
+      void Role::Move(Ant &): абстрактный
+      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Role.h(16,15):
+       см. объявление "Role::Move"
+  
   Soldier.cpp
   Warehouse.cpp
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(49,14): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-  (компиляция исходного файла "Warehouse.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(49,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Warehouse.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(49,30): error C2238: непредвиденные лексемы перед ";"
-  (компиляция исходного файла "Warehouse.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,15): error C3646: warehouse: неизвестный спецификатор переопределения
-  (компиляция исходного файла "Warehouse.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(71,5): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-  (компиляция исходного файла "Warehouse.cpp")
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(19,14): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
-       см. объявление "Anthill::getInstance"
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(19,14):
-      при попытке сопоставить список аргументов "()"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(22,37): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
-       см. объявление "Anthill::getInstance"
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(22,37):
-      при попытке сопоставить список аргументов "()"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(31,43): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
-       см. объявление "Anthill::getInstance"
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(31,43):
-      при попытке сопоставить список аргументов "()"
-  
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(35,22): error C2660: Anthill::getInstance: функция не принимает 0 аргументов
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Anthill.h(33,21):
-       см. объявление "Anthill::getInstance"
-      C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Warehouse.cpp(35,22):
-      при попытке сопоставить список аргументов "()"
-  
   Zone.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Collector.h(29,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
   (компиляция исходного файла "Zone.cpp")

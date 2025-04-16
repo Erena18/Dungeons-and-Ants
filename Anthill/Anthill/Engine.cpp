@@ -48,6 +48,7 @@ void Engine::Run()
 
 		pasture.draw(_data->window);
 
+
 		anthill.drawAnthill();
 		anthill.drawAllAnts(_data->window);
 		GarbageManager::getInstance().draw(_data->window);

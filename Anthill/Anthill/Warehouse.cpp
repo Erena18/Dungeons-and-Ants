@@ -1,42 +1,28 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Warehouse.h"
-
-using namespace std;
+#include "Anthill.h"
+#include <cstdlib> 
 
 Warehouse::Warehouse() : Building(400, 1, 0), extensionCostPer50Units(125) {}
 
 void Warehouse::dailyUpdate()
 {
-    // Логика для центрального склада
-
-    // Каждый день в центральный склад поступает случайное количество материалов
-    int materialsIncoming = rand() % 30 + 20; // От 20 до 49 единиц приходящих материалов
+    int materialsIncoming = rand() % 30 + 20;
     Anthill::getInstance().addMaterials(materialsIncoming);
 
-    // Проверка общего количества материалов
     int currentMaterials = Anthill::getInstance().getMaterials().getAmount();
-    int warehouseCapacity = getCapacity(); // Получаем общую вместимость
+    int warehouseCapacity = getCapacity();
  }
 
 void Warehouse::extend(int additionalCapacity, int cost)
 {
     if (cost >= extensionCostPer50Units && cost <= extensionCostPer50Units + 25) 
    {
-        // Проверяем, есть ли достаточное количество материалов
         int materialsAvailable = Anthill::getInstance().getMaterials().getAmount();
         if (materialsAvailable >= cost) 
         {
             capacity += additionalCapacity;
             Anthill::getInstance().getMaterials().use(cost);
-            // Увеличиваем стоимость следующего расширения
-           extensionCostPer50Units += 25;
+            extensionCostPer50Units += 25;
         }
     }
 }
-
-

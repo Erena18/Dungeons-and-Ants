@@ -1,12 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Nanny.h"
-
-using namespace std;
 
 void Nanny::Eat(Ant& ant, Food& food)
 {

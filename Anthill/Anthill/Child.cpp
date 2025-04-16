@@ -1,12 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Child.h"
-
-using namespace std;
 
 Child::Child():informer(nullptr)
 {

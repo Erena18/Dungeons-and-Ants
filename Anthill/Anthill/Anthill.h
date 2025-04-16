@@ -1,6 +1,5 @@
 #pragma once
 #include "GameData.h"
-//#include "Engine.h"
 #include "extraFiles.h"
 
 #include "SFML/Graphics.hpp"
@@ -31,6 +30,7 @@ class Anthill
 public:
     Anthill(GameDataRef data);
     static Anthill& getInstance(GameDataRef data);
+    static Anthill& getInstance();
 
     vector<unique_ptr<Ant>>& getAnts() { return ants; }
 

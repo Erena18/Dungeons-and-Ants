@@ -1,5 +1,7 @@
 #include "Anthill.h"
 
+static Anthill* s_instance = nullptr;
+
 Anthill::Anthill(GameDataRef data) :_data(data),
 maxPopulation(500), durability(200), naturalDecayMin(1), naturalDecayMax(2)
 {
@@ -9,8 +11,15 @@ maxPopulation(500), durability(200), naturalDecayMin(1), naturalDecayMax(2)
 
 Anthill& Anthill::getInstance(GameDataRef data)
 {
-    static Anthill instance(data);
-    return instance;
+    if (s_instance == nullptr) {
+        s_instance = new Anthill(data);
+    }
+    return *s_instance;
+}
+
+Anthill& Anthill::getInstance()
+{
+    return *s_instance;
 }
 
 void Anthill::drawAnthill()
