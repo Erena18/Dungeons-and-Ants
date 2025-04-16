@@ -50,3 +50,8 @@ void FoodItem::draw(RenderWindow& window) const
 {
     window.draw(shape);
 }
+
+Vector2f FoodItem::getPosition() const
+{
+    return shape.getPosition();
+}

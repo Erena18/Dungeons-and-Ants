@@ -1,12 +1,12 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Cleaner.h"
 
-using namespace std;
+Cleaner::Cleaner()
+{
+    dumpPos = sf::Vector2f(800.f, 300.f);
+    dumpArea.setSize({ 40.f, 40.f });
+    dumpArea.setFillColor(sf::Color::Black);
+    dumpArea.setPosition(dumpPos);
+}
 
 void Cleaner::Eat(Ant& ant, Food& food)
 {
@@ -25,32 +25,21 @@ void Cleaner::Eat(Ant& ant, Food& food)
     }
 }
 
-
-void Cleaner::Work() 
+void Cleaner::Move(Ant& ant)
 {
-    int garbageToClean = 1;
+    ant.move();
+}
 
-    if (helpRequested) 
-    {
-        garbageToClean = 2; // Убираем больше мусора
-        helpRequested = false;
-    }
+void Cleaner::drawDump(sf::RenderWindow& window)
+{
+    window.draw(dumpArea);
+}
 
+void Cleaner::Work(Ant& ant)
+{
     auto& garbageList = GarbageManager::getInstance().getGarbageList();
-    int actualGarbageToClean = min(garbageToClean, static_cast<int>(garbageList.size()));
-    for (int i = 0; i < actualGarbageToClean; ++i)
+    if (!garbageList.empty())
     {
-        GarbageManager::getInstance().removeGarbage(0);
-    }
-
-    // Если после уборки мусор всё ещё есть
-    if (garbageList.size() > actualGarbageToClean)
-    {
-        CleanerInformer* cleanerInformer = getInformer();
-        if (cleanerInformer)
-        {
-            cleanerInformer->notify(); //вызов сборщиков
-            helpRequested = true;
-        }
+        GarbageManager::getInstance().removeGarbage(1);
     }
 }

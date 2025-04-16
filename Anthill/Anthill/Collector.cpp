@@ -1,12 +1,90 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Collector.h"
 
-using namespace std;
+Collector::Collector(float gatherRadius) : radius(gatherRadius) {}
+
+void Collector::setFoodItems(vector<FoodItem>* foods)
+{
+    foodItems = foods;
+}
+
+void Collector::setMaterialItems(vector<MaterialItem>* mats)
+{
+    materialItems = mats;
+}
+
+void Collector::setHomePosition(const Vector2f& home)
+{
+    homePos = home;
+}
+
+void Collector::Work(Ant& ant)
+{
+	auto pos = ant.getPosition();
+
+	if (!carrying)
+	{
+		if (foodItems)
+		{
+			for (auto it = foodItems->begin(); it != foodItems->end(); ++it)
+			{
+				Vector2f itemPos = it->getPosition();
+				float dx = pos.x - itemPos.x, dy = pos.y - itemPos.y;
+				if (std::sqrt(dx * dx + dy * dy) <= radius)
+				{
+					carriedFood = it->getAmount();
+					foodItems->erase(it);
+					carrying = true;
+					ant.setTarget(homePos);
+					return;
+				}
+			}
+		}
+
+		if (materialItems)
+		{
+			for (auto it = materialItems->begin(); it != materialItems->end(); ++it)
+			{
+				Vector2f itemPos = it->getPosition();
+				float dx = pos.x - itemPos.x, dy = pos.y - itemPos.y;
+				if (std::sqrt(dx * dx + dy * dy) <= radius)
+				{
+					carriedMaterials = it->getAmount();
+					materialItems->erase(it);
+					carrying = true;
+					ant.setTarget(homePos);
+					return;
+				}
+			}
+		}
+
+		if (ant.getTarget() == homePos || ant.getTarget() == Vector2f(0.f, 0.f))
+		{
+			ant.setRandomDirection();
+			Vector2f wanderTarget = pos + ant.getRandomDirection() * 100.f;
+			ant.setTarget(wanderTarget);
+		}
+
+		ant.move();
+	}
+	else
+	{
+		float dx = pos.x - homePos.x, dy = pos.y - homePos.y;
+		if (std::sqrt(dx * dx + dy * dy) <= radius)
+		{
+			Anthill::getInstance().addFood(carriedFood);
+			Anthill::getInstance().addMaterials(carriedMaterials);
+			carrying = false;
+			carriedFood = carriedMaterials = 0;
+			ant.setTarget({});
+		}
+		else
+		{
+			ant.setTarget(homePos);
+			ant.move();
+		}
+	}
+}
+
 
 void Collector::Eat(Ant& ant, Food& food)
 {
@@ -22,54 +100,5 @@ void Collector::Eat(Ant& ant, Food& food)
     else
     {
         ant.loseHp(hpLossWithoutFood);
-    }
-}
-
-void Collector::Work() 
-{
-    Zone* currentZone = getCurrentZone(); // ÎØÈÁÊÀ
-    //ÅÑËÈ ÇÎÍÀ ÍÅ ÎÏÐÅÄÅËÅÍÀ ÏÐÎÄÎËÆÀÅÌ ÄÂÈÆÅÍÈÅ
-
-    int foundResources = 0, foundMaterials = 0;
-
-    if (currentZone->getType() == "Food")
-    {
-        if (!currentZone->isEmpty())
-        {
-            foundResources = rand() % 5; //ÎÒÊÀËÈÁÐÎÂÀÒÜ
-            currentZone->onAntEnter();
-        }
-    }
-    else if (currentZone->getType() == "Material")
-    {
-        if (!currentZone->isEmpty())
-        {
-            foundMaterials = rand() % 3; //ÎÒÊÀËÈÁÐÎÂÀÒÜ
-            currentZone->onAntEnter();
-        }
-    }
-
-    int totalFound = foundResources + foundMaterials;
-    int capacityLeft = cargoCapacity;
-
-    if (totalFound > 0) 
-    {
-        int cargoResources = min(foundResources, capacityLeft);
-        capacityLeft -= cargoResources;
-        int cargoMaterials = min(foundMaterials, capacityLeft);
-        capacityLeft -= cargoMaterials;
-
-        Anthill::getInstance().addFood(cargoResources);
-        Anthill::getInstance().addMaterials(cargoMaterials);
-
-        if (totalFound > cargoCapacity) 
-        {
-            CollectorInformer* collectorInformer = getInformer();
-            if (collectorInformer)
-            {
-                collectorInformer->notify(); //âûçîâ ñáîðùèêîâ
-                helpRequested = true;
-            }
-        }
     }
 }

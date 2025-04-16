@@ -1,25 +1,4 @@
 #pragma once
-
-/*
-#include "Anthill.h"
-#include "Building.h"
-#include "Food.h"
-#include "FoodItem.h"
-#include "Garbage.h"
-#include "GarbageManager.h"
-#include "Materials.h"
-#include "MaterialsItem.h"
-#include "Warehouse.h"
-
-#include "Zone.h"
-#include "DangerousZone.h"
-#include "EmptyZone.h"
-#include "FoodZone.h"
-#include "MaterialZone.h"
-#include "PastureZone.h"
-
-#include "Informers.h"*/
-
 #include <iostream>
 #include <memory>
 #include <vector>
@@ -34,14 +13,15 @@ using namespace std;
 class Builder : public Role
 {
 public:
-	virtual void Work() override;
-	virtual void Eat(Ant& ant, Food& food) override;
-	Builder(CollectorInformer* informer) : informer(informer) {}
+	void Work(Ant& ant) override;
+	void Eat(Ant& ant, Food& food) override;
+	void Move(Ant& ant) override;
+	/*Builder(CollectorInformer* informer) : informer(informer) {}
 	CollectorInformer* getInformer() const { return informer; }
 	void setInformer(CollectorInformer* informer) 
 	{
 		this->informer = informer;
-	}
+	}*/
 private:
-	CollectorInformer* informer;
+	//CollectorInformer* informer;
 };

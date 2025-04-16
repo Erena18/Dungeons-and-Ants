@@ -128,14 +128,19 @@ void Anthill::dailyUpdate()
     food.dailyUpdate();
     materials.dailyUpdate();
 
-    if (GarbageManager::getInstance().getGarbageList().size() > 10) 
+    /*if (GarbageManager::getInstance().getGarbageList().size() > 10)
     {
         CleanerInformer* cleanerInformer = getInformer();
         if (cleanerInformer)
         {
             cleanerInformer->notify();
         }
-    }
+    }*/
+}
+
+Vector2f Anthill::getCenter() const
+{
+    return _nestCircle.getPosition();
 }
 
 void Anthill::updateRadius()

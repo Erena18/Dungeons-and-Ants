@@ -25,32 +25,11 @@ void Builder::Eat(Ant& ant, Food& food)
 	}
 }
 
-void Builder::Work()
+void Builder::Move(Ant& ant)
 {
-    Anthill& anthill = Anthill::getInstance();
-    int materialsAvailable = anthill.getMaterials().getAmount();
-    if (materialsAvailable > 0)
-    {
-        int repairAmount = min(materialsAvailable, 10); // используем до 10 единиц материалов за раз
-        anthill.repair(repairAmount);
-    }
-    else
-    {
-        CollectorInformer* collectorInformer = getInformer();
-        if (collectorInformer)
-        {
-            collectorInformer->notify(); //вызов сборщиков
-        }
-    }
-    Warehouse& warehouse = anthill.getWarehouse();
-    if (warehouse.getCapacity() > warehouse.getCount())
-    {
-        int extensionCost = 50; // Примерная стоимость расширения на 50 единиц
-        if (materialsAvailable >= extensionCost)
-        {
-            warehouse.extend(50, extensionCost);
-            anthill.grow(warehouse.getCapacity() * 0.1f);
-            anthill.getMaterials().use(extensionCost);
-        }
-    }
+}
+
+void Builder::Work(Ant& ant)
+{
+	Anthill::getInstance().repair(5);
 }

@@ -1,5 +1,7 @@
 #include "Nanny.h"
 
+Nanny::Nanny() {}
+
 void Nanny::Eat(Ant& ant, Food& food)
 {
 	int foodRequired = 7;
@@ -17,40 +19,24 @@ void Nanny::Eat(Ant& ant, Food& food)
 	}
 }
 
-void Nanny::Work() 
+void Nanny::Move(Ant& ant)
 {
-    vector<Child*> children;
-    for (Child* child : children) 
+}
+
+void Nanny::Work(Ant& ant)
+{
+    /*vector<Child*> children;
+    for (Child* child : children)
     {
         Vec2 childPosition = child->getPosition();
         float distance = sqrt(pow(position.getX() - childPosition.getX(), 2) +
             pow(position.getY() - childPosition.getY(), 2));
-        if (distance > 10.0f) 
+        if (distance > 10.0f)
         {
             targetPosition = childPosition;
             isMoving = true;
             return;
         }
     }
-}
-
-void Nanny::update(float dt) 
-{
-    if (isMoving) 
-    {
-        Vec2 direction = Vec2(targetPosition.getX() - position.getX(),
-            targetPosition.getY() - position.getY());
-        float length = sqrt(direction.getX() * direction.getX() + direction.getY() * direction.getY());
-        if (length > 0) 
-        {
-            direction = direction.scale(1.0f / length);
-            position = position.add(direction.scale(speed * dt));
-            float newDistance = sqrt(pow(position.getX() - targetPosition.getX(), 2) +
-                pow(position.getY() - targetPosition.getY(), 2));
-            if (newDistance <= 10.0f) 
-            { 
-                isMoving = false;
-            }
-        }
-    }
+}*/
 }

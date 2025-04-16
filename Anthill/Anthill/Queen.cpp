@@ -26,7 +26,7 @@ void Queen::Eat(Ant& ant, Food& food)
 	}
 }
 
-void Queen::Work()
+void Queen::Work(Ant& ant)
 {
 	Anthill& anthill = Anthill::getInstance();
 	if (!anthill.canAddAnt()) 

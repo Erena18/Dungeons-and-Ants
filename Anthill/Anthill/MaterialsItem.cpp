@@ -48,3 +48,8 @@ void MaterialItem::draw(RenderWindow& window) const
 {
     window.draw(shape);
 }
+
+Vector2f MaterialItem::getPosition() const
+{
+    return shape.getPosition();
+}

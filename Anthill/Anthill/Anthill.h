@@ -56,15 +56,16 @@ public:
     void dailyUpdate();
 
     //Anthill(CleanerInformer* informer) : informer(informer) {}
-    CleanerInformer* getInformer() const { return informer; }
+    /*CleanerInformer* getInformer() const { return informer; }
     void setInformer(CleanerInformer* informer)
     {
         this->informer = informer;
-    }
+    }*/
+    Vector2f getCenter() const;
 private:
     //Anthill();
     GameDataRef _data;
-    CleanerInformer* informer = nullptr;
+    //CleanerInformer* informer = nullptr;
     vector<unique_ptr<Ant>> ants;
     Food food;
     Materials materials;

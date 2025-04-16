@@ -1,13 +1,11 @@
 #include "Child.h"
 
-Child::Child():informer(nullptr)
-{
-}
+Child::Child() {}
 
 void Child::Eat(Ant& ant, Food& food)
 {
     //Vec2 nannyPosition = ant.getPosition();
-    float distance = sqrt(pow(position.getX() - nannyPosition.getX(), 2) +
+    /*float distance = sqrt(pow(position.getX() - nannyPosition.getX(), 2) +
         pow(position.getY() - nannyPosition.getY(), 2));
     if (distance >= 5.0f && distance <= 10.0f) 
     {
@@ -32,10 +30,10 @@ void Child::Eat(Ant& ant, Food& food)
         {
             nannyInformer->notify(); //вызов няни
         }
-    }
+    }*/
+
 }
 
-void Child::Work()
+void Child::Work(Ant& ant)
 {
-	return;
 }

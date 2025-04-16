@@ -19,7 +19,6 @@
 #include "Role.h"
 #include "Anthill.h"
 #include "Food.h"
-#include "Zone.h"
 #include "Informers.h"
 
 using namespace std;
@@ -28,13 +27,14 @@ using namespace sf;
 class Ant
 {
 public:
-	Ant();
-	Ant(int initHp, int initAge, unique_ptr<Role> initRole);
+	//Ant();
+	explicit Ant(GameDataRef data);
+	Ant(int initHp, int initAge, unique_ptr<Role> initRole, GameDataRef data);
 
 	int getHp() const { return hp; }
 	int getAge() const { return age; }
-
-	bool isAlive() const;
+	bool isAlive() const { return alive; }
+	
 	void growth();
 	void updateRole();
 	void loseHpEndDay();
@@ -42,34 +42,39 @@ public:
 	void restoreHp(int point);
 	void die();
 
+	void setRole(std::unique_ptr<Role> newRole);
+
+	void setPosition(const Vector2f& pos);
+
 	void subscribeToInformer(Informer* informer);
 	void unsubscribeFromInformer();
-	/*Ant() : collectorInformer(new CollectorInformer()) {}
-	Ant() : nannyInformer(new NannyInformer()) {}
-	Ant() : cleanerInformer(new CleanerInformer()) {}
-	Ant() : soldierInformer(new SoldierInformer()) {}*/
 
-	//Виртуальные
-	virtual void Work();
-	virtual void Eat(Food& food);
-
-	//Ant(Vec2 startPos) : position(startPos) {}
-	//Vec2 getPosition() const { return position;	}
+	Role* getRole() const { return role.get(); }
+	
+	void Work();
+	void Eat(Food& food);
+	void move();
 
 	void draw(sf::RenderWindow& window);
-	void setPosition(sf::Vector2f pos);
+	Vector2f getPosition() const;
+
+	void setTarget(const Vector2f& t);
+	Vector2f getTarget() const;
+	void setRandomDirection();
+	Vector2f getRandomDirection() const;
 
 private:
-	int hp, age;
+	int hp = 100, age = 0;
 	bool alive = true;
+	GameDataRef _data;
 
 	unique_ptr<Role> role;
 	Informer* currentInformer = nullptr;
-	CollectorInformer* collectorInformer;
-	NannyInformer* nannyInformer;
-	CleanerInformer* cleanerInformer;
-	SoldierInformer* soldierInformer;
 
 	CircleShape shape;
 	Vector2f position;
+
+	Vector2f targetPosition;
+	Vector2f target = { 0.f, 0.f };
+	Vector2f randomDirection = { 0.f, 0.f };
 };

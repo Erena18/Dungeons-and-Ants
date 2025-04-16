@@ -3,19 +3,14 @@
 #include <SFML/Audio.hpp>
 #include <string>
 #include <memory>
+#include <iostream>
 
+using namespace std;
 using namespace sf;
 
 #include "asset.h"
 #include "itemGeneration.h"
 #include "GameData.h"
-
-/*struct GameData {
-	RenderWindow window;
-	assetManager assets;
-};
-
-typedef std::shared_ptr<GameData> GameDataRef;*/
 
 class Engine
 {

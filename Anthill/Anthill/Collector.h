@@ -1,4 +1,5 @@
 #pragma once
+#include <SFML/System.hpp>
 #include <iostream>
 #include <memory>
 #include <vector>
@@ -6,28 +7,41 @@
 #include "Role.h"
 #include "Ant.h"
 #include "Informers.h"
-#include "Zone.h"
+#include <cmath>
 
 using namespace std;
+using namespace sf;
+
+class Ant;
+class FoodItem;
+class MaterialsItem;
 
 class Collector : public Role 
 {
 public:
-    virtual void Work() override;
+    explicit Collector(float gatherRadius = 10.f);
+
+    void Work(Ant& ant) override;
     void Eat(Ant& ant, Food& food) override;
-    Collector(CollectorInformer* informer) : informer(informer) {}
+
+    /*Collector(CollectorInformer* informer) : informer(informer) {}
     CollectorInformer* getInformer() const { return informer; }
     void setInformer(CollectorInformer* informer)
     {
         this->informer = informer;
-    }
+    }*/
+
+    void setFoodItems(std::vector<FoodItem>* foods);
+    void setMaterialItems(std::vector<MaterialItem>* mats);
+    void setHomePosition(const sf::Vector2f& home);
 
 private:
-    int cargoCapacity;          // макс грузоподъем
-    CollectorInformer* informer;
-    bool helpRequested;         // Флаг о помощи
-    Zone* getCurrentZone(Ant& ant) 
-    {
-        return ZoneManager::getInstance().getCurrentZone(ant); // Получаем текущую зону через менеджер зон
-    }
+    float radius;                            
+    bool carrying = false;                  
+    int carriedFood = 0;
+    int carriedMaterials = 0;
+    Vector2f homePos;                   
+    vector<FoodItem>* foodItems = nullptr;
+    vector<MaterialItem>* materialItems = nullptr;
+    /*CollectorInformer* informer; */
 };

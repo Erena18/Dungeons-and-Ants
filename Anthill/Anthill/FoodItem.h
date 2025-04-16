@@ -22,6 +22,7 @@ public:
     void setPosition(Vector2f pos);
     void draw(RenderWindow& window) const;
 
+    Vector2f getPosition() const;
 private:
     int amount;
     int age;
