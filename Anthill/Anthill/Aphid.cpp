@@ -1,12 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Aphid.h"
-
-using namespace std;
 
 Aphid::Aphid() : hpAphid(20), ageAphid(0)
 {
@@ -17,31 +9,31 @@ Aphid::Aphid() : hpAphid(20), ageAphid(0)
 	shape.setPosition(homePosition);
 }
 
-void Aphid::growthAphid(int& amountFood)
+void Aphid::growthAphid(Food& food)
 {
 	ageAphid++;
 	if ((hpAphid <= 0) || (ageAphid > 10))
 	{
-		dieAphid(amountFood);
+		dieAphid(food);
 	}
 }
 
-void Aphid::dieAphid(int& amountFood)
+void Aphid::dieAphid(Food& food)
 {
 	if (isOnPasture)
 		GarbageManager::getInstance().addGarbage(Garbage::Type::Corpse, 1);
 	else
-		amountFood++;
+		food.addFood(1);
+
 	hpAphid = 0;
 }
 
-void Aphid::loseHpAphid(int damageHp, int& amountFood)
+void Aphid::loseHpAphid(int damageHp, Food& food)
 {
 	hpAphid -= damageHp;
 	if (hpAphid < 0)
 	{
-		//int countFood = getAmountFood();
-		dieAphid(amountFood);
+		dieAphid(food);
 	}
 }
 
@@ -61,9 +53,17 @@ void Aphid::Eat(Food& food)
 	int consumed = food.consume(1);
 }
 
-bool Aphid::isAlive()
+void Aphid::update(PastureZone& pasture)
 {
-	return false;
+	isOnPasture = true;
+
+	// Тут можно добавить логику "пасения", взаимодействия с Heardsant и т.д.
+	// Пока ничего не делает — просто помечает, что тля активна.
+}
+
+bool Aphid::isAlive() const
+{
+	return hpAphid > 0;
 }
 
 int Aphid::getHp() const
@@ -76,14 +76,19 @@ int Aphid::getAge() const
 	return 0;
 }
 
+Vector2f Aphid::getPosition() const
+{
+	return shape.getPosition();
+}
+
 void Aphid::setPosition(Vector2f pos)
 {
+	shape.setPosition(pos);
 }
 
 void Aphid::draw(RenderWindow& window) const
 {
+	if (isAlive())
+		window.draw(shape);
 }
 
-void Aphid::update(PastureZone& pasture)
-{
-}

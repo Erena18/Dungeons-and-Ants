@@ -3,9 +3,7 @@
 #include <iostream>
 #include <memory>
 
-#include "Aphid.h"
 #include "Food.h"
-#include "Heardsant.h"
 
 using namespace std;
 using namespace sf;

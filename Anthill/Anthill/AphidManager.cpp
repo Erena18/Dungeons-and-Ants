@@ -7,7 +7,7 @@ void AphidManager::add(Vector2f position)
 	aphids.push_back(move(a));
 }
 
-void AphidManager::update(PastureZone& pasture, int& food)
+void AphidManager::update(PastureZone& pasture, Food& food)
 {
 	pasture.update();
 
@@ -17,6 +17,8 @@ void AphidManager::update(PastureZone& pasture, int& food)
 		a->update(pasture);
 		a->Eat(pasture.getFood());
 	}
+
+	removeDead();
 }
 
 void AphidManager::draw(sf::RenderWindow& window)

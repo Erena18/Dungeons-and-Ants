@@ -1,12 +1,13 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Soldier.h"
 
-using namespace std;
+Soldier::Soldier()
+{
+}
+
+void Soldier::Work(Ant& ant)
+{
+    Move(ant);
+}
 
 void Soldier::Eat(Ant& ant, Food& food)
 {
@@ -23,4 +24,24 @@ void Soldier::Eat(Ant& ant, Food& food)
     {
         ant.loseHp(hpLossWithoutFood);
     }
+}
+
+void Soldier::Move(Ant& ant)
+{
+    Vector2f pos = ant.getPosition();
+    Vector2f target = ant.getTarget();
+
+    float dx = target.x - pos.x;
+    float dy = target.y - pos.y;
+    float dist = std::sqrt(dx * dx + dy * dy);
+
+    if (dist < 5.f || target == Vector2f(0.f, 0.f))
+    {
+        // Задать новое случайное направление в пределах патруля
+        ant.setRandomDirection();
+        Vector2f newTarget = pos + ant.getRandomDirection() * patrolRadius;
+        ant.setTarget(newTarget);
+    }
+
+    ant.move();
 }

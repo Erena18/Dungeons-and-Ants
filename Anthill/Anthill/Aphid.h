@@ -16,20 +16,20 @@ class Aphid
 public:
 	Aphid();
 
-	void growthAphid(int& amountFood);
-	void dieAphid(int& amountFood);
-	void loseHpAphid(int damageHp, int& amountFood);
+	void growthAphid(Food& food);
+	void dieAphid(Food& food);
+	void loseHpAphid(int damageHp, Food& food);
 	void restoreHpAphid(int point);
 	void Eat(Food& food);
 
-	bool isAlive();
+	void update(PastureZone& pasture);
+	bool isAlive() const;
 	int getHp() const;
 	int getAge() const;
+	Vector2f getPosition() const;
 
 	void setPosition(Vector2f pos);
 	void draw(RenderWindow& window) const;
-
-	void update(PastureZone& pasture);
 
 private:
 	int hpAphid, ageAphid;

@@ -13,8 +13,8 @@ alive(true), currentInformer(nullptr), shape(5.f)
 	shape.setFillColor(Color::White);
 }
 
-Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole, GameDataRef data)
-	: _data(data), hp(initHp), age(initAge), alive(true), role(std::move(initRole)), currentInformer(nullptr), shape(5.f)
+Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole)
+	: hp(initHp), age(initAge), alive(true), role(std::move(initRole)), currentInformer(nullptr), shape(5.f)
 {
 	shape.setOrigin(5.f, 5.f);
 	if (dynamic_cast<Builder*>(role.get()))        shape.setFillColor(Color::Blue);
@@ -216,6 +216,7 @@ Vector2f Ant::getPosition() const
 void Ant::setTarget(const Vector2f& t)
 {
 	target = t;
+	targetPosition = t;
 }
 
 Vector2f Ant::getTarget() const

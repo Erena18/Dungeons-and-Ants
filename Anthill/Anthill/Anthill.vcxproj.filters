@@ -111,9 +111,6 @@
     <ClCompile Include="Materials.cpp">
       <Filter>Исходные файлы\items</Filter>
     </ClCompile>
-    <ClCompile Include="AphidManager.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="PastureZone.cpp">
       <Filter>Исходные файлы\Zones</Filter>
     </ClCompile>
@@ -125,6 +122,9 @@
     </ClCompile>
     <ClCompile Include="Zone.cpp">
       <Filter>Исходные файлы\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="AphidManager.cpp">
+      <Filter>Исходные файлы\Work</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -224,11 +224,11 @@
     <ClInclude Include="MaterialsItem.h">
       <Filter>Файлы заголовков\hz</Filter>
     </ClInclude>
-    <ClInclude Include="AphidManager.h">
-      <Filter>Файлы заголовков\Ants</Filter>
-    </ClInclude>
     <ClInclude Include="GameData.h">
       <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AphidManager.h">
+      <Filter>Файлы заголовков\Work</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -7,6 +7,8 @@
 #include "Role.h"
 #include "Ant.h"
 #include "Informers.h"
+#include "MaterialsItem.h"
+#include "FoodItem.h"
 #include <cmath>
 
 using namespace std;
@@ -23,6 +25,7 @@ public:
 
     void Work(Ant& ant) override;
     void Eat(Ant& ant, Food& food) override;
+    void Move(Ant& ant) override;
 
     /*Collector(CollectorInformer* informer) : informer(informer) {}
     CollectorInformer* getInformer() const { return informer; }

@@ -84,6 +84,11 @@ Warehouse& Anthill::getWarehouse()
     return warehouse;
 }
 
+AphidManager& Anthill::getAphidManager()
+{
+    return aphidManager;
+}
+
 void Anthill::repair(int amount) 
 {
     // Используем материалы для ремонта

@@ -19,7 +19,7 @@ void Collector::setHomePosition(const Vector2f& home)
 
 void Collector::Work(Ant& ant)
 {
-	auto pos = ant.getPosition();
+	Vector2f pos = ant.getPosition();
 
 	if (!carrying)
 	{
@@ -46,7 +46,7 @@ void Collector::Work(Ant& ant)
 			{
 				Vector2f itemPos = it->getPosition();
 				float dx = pos.x - itemPos.x, dy = pos.y - itemPos.y;
-				if (std::sqrt(dx * dx + dy * dy) <= radius)
+				if (sqrt(dx * dx + dy * dy) <= radius)
 				{
 					carriedMaterials = it->getAmount();
 					materialItems->erase(it);
@@ -57,7 +57,12 @@ void Collector::Work(Ant& ant)
 			}
 		}
 
-		if (ant.getTarget() == homePos || ant.getTarget() == Vector2f(0.f, 0.f))
+		Vector2f currentTarget = ant.getTarget();
+		float dx = currentTarget.x - pos.x;
+		float dy = currentTarget.y - pos.y;
+		float dist = sqrt(dx * dx + dy * dy);
+
+		if (dist < 5.f || currentTarget == Vector2f(0.f, 0.f))
 		{
 			ant.setRandomDirection();
 			Vector2f wanderTarget = pos + ant.getRandomDirection() * 100.f;
@@ -69,13 +74,14 @@ void Collector::Work(Ant& ant)
 	else
 	{
 		float dx = pos.x - homePos.x, dy = pos.y - homePos.y;
-		if (std::sqrt(dx * dx + dy * dy) <= radius)
+		float dist = std::sqrt(dx * dx + dy * dy);
+		if (dist <= radius)
 		{
 			Anthill::getInstance().addFood(carriedFood);
 			Anthill::getInstance().addMaterials(carriedMaterials);
 			carrying = false;
 			carriedFood = carriedMaterials = 0;
-			ant.setTarget({});
+			ant.setTarget(Vector2f(0.f, 0.f));
 		}
 		else
 		{
@@ -101,4 +107,9 @@ void Collector::Eat(Ant& ant, Food& food)
     {
         ant.loseHp(hpLossWithoutFood);
     }
+}
+
+void Collector::Move(Ant& ant)
+{
+	ant.move();
 }

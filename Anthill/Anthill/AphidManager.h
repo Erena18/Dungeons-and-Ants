@@ -9,13 +9,15 @@
 using namespace std;
 using namespace sf;
 
+class PastureZone;
+
 class AphidManager
 {
 public:
     void add(Vector2f position);
-    void update(PastureZone& pasture, int& food);
+    void update(PastureZone& pasture, Food& food);
     void draw(RenderWindow& window);
-
+    const vector<unique_ptr<Aphid>>& getAphids() const { return aphids; }
 private:
     std::vector<unique_ptr<Aphid>> aphids;
     void removeDead();

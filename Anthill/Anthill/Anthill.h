@@ -20,7 +20,7 @@
 #include "Materials.h"
 #include "MaterialsItem.h"
 #include "Warehouse.h"
-
+#include "AphidManager.h"
 
 using namespace std;
 using namespace sf;
@@ -47,6 +47,7 @@ public:
     Food& getFood();
     Materials& getMaterials();
     Warehouse& getWarehouse();
+    AphidManager& getAphidManager();
 
     void repair(int amount);
     void receiveDamage(int amount);
@@ -70,6 +71,7 @@ private:
     Food food;
     Materials materials;
     Warehouse warehouse;
+    AphidManager aphidManager;
 
     int maxPopulation;
     int durability;

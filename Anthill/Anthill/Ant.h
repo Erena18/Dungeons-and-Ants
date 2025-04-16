@@ -29,7 +29,7 @@ class Ant
 public:
 	//Ant();
 	explicit Ant(GameDataRef data);
-	Ant(int initHp, int initAge, unique_ptr<Role> initRole, GameDataRef data);
+	Ant(int initHp, int initAge, unique_ptr<Role> initRole);
 
 	int getHp() const { return hp; }
 	int getAge() const { return age; }

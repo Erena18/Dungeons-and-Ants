@@ -8,9 +8,16 @@
 
 using namespace std;
 
+class Ant;
+
 class Soldier : public Role
 {
 public:
-	//virtual void Work(Ant& ant) override;
-	virtual void Eat(Ant& ant, Food& food) override;
+    Soldier();
+
+    void Work(Ant& ant) override;
+    void Eat(Ant& ant, Food& food) override;
+    void Move(Ant& ant) override;
+private:
+    float patrolRadius = 100.f;
 };
