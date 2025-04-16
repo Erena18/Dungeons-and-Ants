@@ -201,7 +201,6 @@
     <ClInclude Include="MaterialsItem.h" />
     <ClInclude Include="Materials.h" />
     <ClInclude Include="MaterialZone.h" />
-    <ClInclude Include="Mrowka.h" />
     <ClInclude Include="Nanny.h" />
     <ClInclude Include="PastureZone.h" />
     <ClInclude Include="Queen.h" />

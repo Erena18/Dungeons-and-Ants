@@ -1,56 +1,51 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Materials.h"
 
-using namespace std;
+Materials::Materials() : amount(0) {}
 
-Materials::Materials() {}
-
-void Materials::addMaterial(int amount) 
+void Materials::addMaterial(int a) 
 {
-    materialsItems.emplace_back(amount);
+    materialsItems.emplace_back(a);
+    amount += a;
 }
-void Materials::use(int amount) 
+
+void Materials::use(int u) 
 {
-    if (this->amount >= amount) 
+    if (amount >= u) 
     {
-        this->amount -= amount;
+        amount -= u;
     }
     else 
     {
-        this->amount = 0;
+        amount = 0;
     }
 }
+
 int Materials::getAmount() const 
 {
     return amount;
 }
 
-int Materials::consume(int amount) 
+int Materials::consume(int need) 
 {
-    int amountConsumed = 0;
+    int consumed = 0;
 
-    for (auto it = materialsItems.begin(); it != materialsItems.end() && amount > 0;) 
+    for (auto it = materialsItems.begin(); it != materialsItems.end() && need > 0;)
     {
         if (!it->isSpoiled()) 
         {
-            int itemAmount = it->getAmount();
-            int consumeAmount = (itemAmount <= amount) ? itemAmount : amount;
+            int have = it->getAmount();
+            int take = (have <= need) ? have : need;
 
-            amountConsumed += consumeAmount;
-            amount -= consumeAmount;
+            consumed += take;
+            need -= take;
 
-            if (itemAmount <= consumeAmount) 
+            if (take >= have)
             {
                 it = materialsItems.erase(it);
             }
             else 
             {
-                it->reduceAmount(consumeAmount);
+                it->reduceAmount(take);
                 ++it;
             }
         }
@@ -59,7 +54,7 @@ int Materials::consume(int amount)
             ++it;
         }
     }
-    return amountConsumed;
+    return consumed;
 }
 
 int Materials::getTotalAmount() const 
@@ -90,5 +85,13 @@ void Materials::dailyUpdate()
         {
             ++it;
         }
+    }
+}
+
+void Materials::drawAllMaterials(RenderWindow& window)
+{
+    for (MaterialItem& item : materialsItems)
+    {
+        item.draw(window);
     }
 }

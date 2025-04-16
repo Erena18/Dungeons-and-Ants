@@ -1,12 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "MaterialsItem.h"
-
-using namespace std;
 
 MaterialItem::MaterialItem(int amount) : amount(amount), age(0)
 {
@@ -27,7 +19,7 @@ int MaterialItem::getAge() const
 
 void MaterialItem::increaseAge() 
 {
-    age++;
+    ++age;
 }
 
 bool MaterialItem::isSpoiled() const 

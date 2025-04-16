@@ -2,12 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <iostream>
-#include <cstdlib>
-#include <memory>
 #include <vector>
-#include <ctime>
-
-#include "Food.h"
 
 using namespace std;
 using namespace sf;

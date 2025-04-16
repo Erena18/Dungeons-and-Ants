@@ -215,9 +215,6 @@
     <ClInclude Include="extraFiles.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="Mrowka.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Heardsant.h">
       <Filter>Файлы заголовков\Ants</Filter>
     </ClInclude>

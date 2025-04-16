@@ -1,15 +1,13 @@
 #pragma once
 #include <iostream>
-#include <cstdlib>
 #include <memory>
 #include <vector>
-#include <ctime>
 
 #include "MaterialsItem.h"
-#include "FoodItem.h"
 #include "GarbageManager.h"
 
 using namespace std;
+using namespace sf;
 
 class Materials 
 {
@@ -22,6 +20,8 @@ public:
     int getTotalAmount() const;
     void use(int amount);
     void dailyUpdate();
+
+    void drawAllMaterials(RenderWindow& window);
 
 private:
     vector<MaterialItem> materialsItems;

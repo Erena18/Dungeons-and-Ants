@@ -1,9 +1,3 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "FoodItem.h"
 
 using namespace std;

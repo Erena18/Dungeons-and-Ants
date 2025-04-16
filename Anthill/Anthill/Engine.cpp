@@ -51,6 +51,8 @@ void Engine::Run()
 		anthill.drawAnthill();
 		anthill.drawAllAnts(_data->window);
 		GarbageManager::getInstance().draw(_data->window);
+		anthill.getFood().drawAll(_data->window);
+		anthill.getMaterials().drawAllMaterials(_data->window);
 
 		_data->window.display();
 	}

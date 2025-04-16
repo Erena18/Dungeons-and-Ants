@@ -78,3 +78,11 @@ void Food::dailyUpdate()
         }
     }
 }
+
+void Food::drawAll(RenderWindow& window)
+{
+    for (auto& item : foodItems)
+    {
+        item.draw(window);
+    }
+}
