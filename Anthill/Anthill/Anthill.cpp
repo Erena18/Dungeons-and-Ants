@@ -56,7 +56,8 @@ void Anthill::setCapacity(int newCapacity)
 
 void Anthill::addAnt(unique_ptr<Ant> ant) 
 {
-    ants.push_back(move(ant));
+    if (ants.size() >= curCapacity) return;
+    ants.push_back(std::move(ant));
 }
 
 void Anthill::addFood(int amount) 
@@ -91,7 +92,6 @@ AphidManager& Anthill::getAphidManager()
 
 void Anthill::repair(int amount) 
 {
-    // Используем материалы для ремонта
     int materialsAvailable = materials.getAmount();
     int materialsToUse = min(amount, materialsAvailable);
 
@@ -109,11 +109,6 @@ void Anthill::receiveDamage(int amount)
     if (durability < 0) 
         durability = 0;
     maxPopulation = 12 + ((durability - 200) / 25) * 5;
-}
-
-bool Anthill::canAddAnt() const 
-{
-    return static_cast<int>(ants.size()) < maxPopulation;
 }
 
 void Anthill::dailyUpdate() 

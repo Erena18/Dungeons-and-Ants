@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Collector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Collector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Collector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Collector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Cleaner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Cleaner.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\AphidManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\AphidManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\AphidManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\AphidManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Ant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -39,8 +15,16 @@
       "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Ant.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Anthill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Anthill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Queen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -51,56 +35,12 @@
       "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Anthill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Aphid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Aphid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\itemGeneration.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\itemGeneration.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\itemGeneration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\itemGeneration.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\extraFiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\extraFiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\FoodItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\FoodItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\MaterialsItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\MaterialsItem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\MaterialsItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\MaterialsItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\FoodItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\FoodItem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Child.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Child.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Child.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Child.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Aphid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Aphid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Food.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C593D323-7365-460A-AD6B-A5C8ADAC5C1B}|Anthill\\Anthill.vcxproj|solutionrelative:Anthill\\Food.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Engine.cpp",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Engine.cpp",
               "RelativeDocumentMoniker": "Anthill\\Engine.cpp",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Engine.cpp",
               "RelativeToolTip": "Anthill\\Engine.cpp",
-              "ViewState": "AgIAALwAAAAAAAAAAAAiwM4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAAwNYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-16T22:01:40.416Z",
               "IsPinned": true,
@@ -128,41 +68,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Collector.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Collector.h",
-              "RelativeDocumentMoniker": "Anthill\\Collector.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Collector.h*",
-              "RelativeToolTip": "Anthill\\Collector.h*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-17T17:18:16.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Collector.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Collector.cpp",
-              "RelativeDocumentMoniker": "Anthill\\Collector.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Collector.cpp*",
-              "RelativeToolTip": "Anthill\\Collector.cpp*",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "Title": "Ant.cpp",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Ant.cpp",
+              "RelativeDocumentMoniker": "Anthill\\Ant.cpp",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Ant.cpp",
+              "RelativeToolTip": "Anthill\\Ant.cpp",
+              "ViewState": "AgIAACMBAAAAAAAAAAAAADUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-17T17:16:23.238Z",
+              "WhenOpened": "2025-04-17T17:53:40.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cleaner.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Cleaner.cpp",
-              "RelativeDocumentMoniker": "Anthill\\Cleaner.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Cleaner.cpp",
-              "RelativeToolTip": "Anthill\\Cleaner.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Anthill.cpp",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.cpp",
+              "RelativeDocumentMoniker": "Anthill\\Anthill.cpp",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.cpp",
+              "RelativeToolTip": "Anthill\\Anthill.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-17T17:16:05.603Z",
+              "WhenOpened": "2025-04-17T17:33:59.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Anthill.h",
+              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.h",
+              "RelativeDocumentMoniker": "Anthill\\Anthill.h",
+              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.h",
+              "RelativeToolTip": "Anthill\\Anthill.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAFYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-17T17:33:55.061Z",
               "EditorCaption": ""
             },
             {
@@ -171,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Engine.h",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Engine.h",
               "RelativeDocumentMoniker": "Anthill\\Engine.h",
@@ -179,60 +119,51 @@
               "RelativeToolTip": "Anthill\\Engine.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-17T11:39:36.501Z"
+              "WhenOpened": "2025-04-17T11:39:36.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Ant.h",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Ant.h",
               "RelativeDocumentMoniker": "Anthill\\Ant.h",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Ant.h",
               "RelativeToolTip": "Anthill\\Ant.h",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-17T16:17:30.732Z"
+              "WhenOpened": "2025-04-17T16:17:30.732Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Ant.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Ant.cpp",
-              "RelativeDocumentMoniker": "Anthill\\Ant.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Ant.cpp",
-              "RelativeToolTip": "Anthill\\Ant.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-17T13:25:05.108Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Queen.cpp",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Queen.cpp",
               "RelativeDocumentMoniker": "Anthill\\Queen.cpp",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Queen.cpp",
               "RelativeToolTip": "Anthill\\Queen.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-17T15:53:24.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Queen.h",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Queen.h",
               "RelativeDocumentMoniker": "Anthill\\Queen.h",
               "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Queen.h",
               "RelativeToolTip": "Anthill\\Queen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-17T15:53:21.106Z"
+              "WhenOpened": "2025-04-17T15:53:21.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 8,
               "Title": "extraFiles.h",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\extraFiles.h",
               "RelativeDocumentMoniker": "Anthill\\extraFiles.h",
@@ -244,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 9,
               "Title": "MaterialsItem.cpp",
               "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\MaterialsItem.cpp",
               "RelativeDocumentMoniker": "Anthill\\MaterialsItem.cpp",
@@ -253,176 +184,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-17T14:05:23.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FoodItem.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\FoodItem.cpp",
-              "RelativeDocumentMoniker": "Anthill\\FoodItem.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\FoodItem.cpp",
-              "RelativeToolTip": "Anthill\\FoodItem.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-17T14:05:22.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MaterialsItem.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\MaterialsItem.h",
-              "RelativeDocumentMoniker": "Anthill\\MaterialsItem.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\MaterialsItem.h",
-              "RelativeToolTip": "Anthill\\MaterialsItem.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-17T14:02:51.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FoodItem.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\FoodItem.h",
-              "RelativeDocumentMoniker": "Anthill\\FoodItem.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\FoodItem.h",
-              "RelativeToolTip": "Anthill\\FoodItem.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-17T14:02:46.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "itemGeneration.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\itemGeneration.h",
-              "RelativeDocumentMoniker": "Anthill\\itemGeneration.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\itemGeneration.h",
-              "RelativeToolTip": "Anthill\\itemGeneration.h",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-17T13:34:33.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "itemGeneration.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\itemGeneration.cpp",
-              "RelativeDocumentMoniker": "Anthill\\itemGeneration.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\itemGeneration.cpp",
-              "RelativeToolTip": "Anthill\\itemGeneration.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-17T13:33:33.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Child.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Child.h",
-              "RelativeDocumentMoniker": "Anthill\\Child.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Child.h",
-              "RelativeToolTip": "Anthill\\Child.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-17T11:37:02.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Child.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Child.cpp",
-              "RelativeDocumentMoniker": "Anthill\\Child.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Child.cpp",
-              "RelativeToolTip": "Anthill\\Child.cpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-17T11:36:47.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Aphid.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Aphid.cpp",
-              "RelativeDocumentMoniker": "Anthill\\Aphid.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Aphid.cpp",
-              "RelativeToolTip": "Anthill\\Aphid.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-16T23:00:48.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Aphid.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Aphid.h",
-              "RelativeDocumentMoniker": "Anthill\\Aphid.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Aphid.h",
-              "RelativeToolTip": "Anthill\\Aphid.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-16T23:00:45.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AphidManager.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\AphidManager.cpp",
-              "RelativeDocumentMoniker": "Anthill\\AphidManager.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\AphidManager.cpp",
-              "RelativeToolTip": "Anthill\\AphidManager.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-16T22:59:43.299Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Food.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Food.h",
-              "RelativeDocumentMoniker": "Anthill\\Food.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Food.h",
-              "RelativeToolTip": "Anthill\\Food.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-16T22:57:43.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AphidManager.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\AphidManager.h",
-              "RelativeDocumentMoniker": "Anthill\\AphidManager.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\AphidManager.h",
-              "RelativeToolTip": "Anthill\\AphidManager.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-16T22:50:40.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Anthill.cpp",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.cpp",
-              "RelativeDocumentMoniker": "Anthill\\Anthill.cpp",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.cpp",
-              "RelativeToolTip": "Anthill\\Anthill.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-16T22:49:37.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Anthill.h",
-              "DocumentMoniker": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.h",
-              "RelativeDocumentMoniker": "Anthill\\Anthill.h",
-              "ToolTip": "C:\\Users\\Huawei\\Desktop\\\u043C\u0423\u0447\u0451\u0431\u0430 \u0432 \u0412\u0428\u0423\\\u041F\u0440\u043E\u0433\u0430\\Ants\\Dungeons-and-Ants\\Anthill\\Anthill\\Anthill.h",
-              "RelativeToolTip": "Anthill\\Anthill.h",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-16T22:48:55.247Z"
             }
           ]
         }

@@ -53,7 +53,10 @@ public:
     void repair(int amount);
     void receiveDamage(int amount);
 
-    bool canAddAnt() const;
+    bool canAddAnt() const
+    {
+        return ants.size() < curCapacity;
+    }
 
     void dailyUpdate();
 
@@ -80,8 +83,8 @@ private:
     int naturalDecayMax;
 
     CircleShape _nestCircle;
-    int curCapacity = 300;
-    const float radiusPerUnit = 0.5f;
+    int curCapacity = 500;
+    const float radiusPerUnit = 0.4f;
     float radius;
     void updateRadius();
     void removeDeadAnts();

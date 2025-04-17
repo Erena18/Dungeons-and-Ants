@@ -25,7 +25,7 @@ Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole)
 	else                                           shape.setFillColor(Color::White);
 }
 
-/*Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole, GameDataRef data)
+Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole, GameDataRef data)
 {
 	shape.setRadius(5.f);
 	shape.setOrigin(5.f, 5.f);
@@ -39,7 +39,7 @@ Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole)
 	else if (dynamic_cast<Heardsant*>(role.get())) shape.setFillColor(Color(255, 165, 0));
 	else if (dynamic_cast<Cleaner*>(role.get()))   shape.setFillColor(Color(160, 160, 160));
 	else                                           shape.setFillColor(Color::White);
-}*/
+}
 
 void Ant::growth()
 {

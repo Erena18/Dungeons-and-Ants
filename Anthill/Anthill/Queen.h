@@ -2,6 +2,7 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+#include <SFML/System.hpp>
 
 #include "Role.h"
 #include "Ant.h"
@@ -9,15 +10,16 @@
 #include "Anthill.h"
 
 using namespace std;
+using namespace sf;
 
 
 class Queen : public Role
 {
 public:
-	virtual void Work(Ant& ant) override;
-	virtual void Eat(Ant& ant, Food& food) override;
-	//void Move(Ant& ant) override;
-	//Queen(Informer* informer) : informer(informer) {}
+	void Work(Ant& ant) override;
+	void Eat(Ant& ant, Food& food) override;
+	void Move(Ant& ant) override;
 private:
-	//Informer* informer;
+	Clock birthClock;
+	float birthInterval = 6.f;
 };

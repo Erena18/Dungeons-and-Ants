@@ -20,6 +20,15 @@
 using namespace std;
 using namespace sf;
 
+Vector2f getRandomPositionNearNest(const Vector2f& center, float radius = 40.f)
+{
+	float angle = static_cast<float>(rand()) / RAND_MAX * 2 * 3.1415926f;
+	float dist = static_cast<float>(rand()) / RAND_MAX * radius;
+	float x = center.x + cos(angle) * dist;
+	float y = center.y + sin(angle) * dist;
+	return { x, y };
+}
+
 Engine::Engine(int widht, int hight, string title)
 {
 	_data->window.create(sf::VideoMode(widht, hight),
@@ -45,8 +54,8 @@ void Engine::Run()
 	vector<Text> textLines;
 
 	RectangleShape panel;
-	panel.setSize(Vector2f(250.f, 240.f));
-	panel.setPosition(5.f, SCREEN_HEIGHT - 220.f);
+	panel.setSize(Vector2f(250.f, 300.f));
+	panel.setPosition(5.f, SCREEN_HEIGHT - 300.f);
 	panel.setFillColor(Color(0, 0, 0, 100));
 
 	float newTime, frameTime, interpolation;
@@ -56,18 +65,20 @@ void Engine::Run()
 	
 	PastureZone pasture({ 1000.f, 600.f }, { 250.f, 150.f });
 	itemGenerator generator(_data);
-	Anthill& anthill = Anthill::getInstance(_data);
+	Anthill& anthill = Anthill::getInstance(_data);	
 	anthill.spawnAnthill(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2);
 
 
 	auto addAnts = [&](auto rolePtr) {
 		for (int i = 0; i < 3; ++i) {
 			auto ant = make_unique<Ant>(_data);
-			ant->setPosition(anthill.getCenter());
-			ant->setRole(make_unique<std::remove_pointer_t<decltype(rolePtr)>>());
-			anthill.addAnt(std::move(ant));
+			Vector2f spawnPos = getRandomPositionNearNest(anthill.getCenter());
+			ant->setPosition(spawnPos);
+			ant->setTarget(spawnPos);
+			ant->setRole(make_unique<remove_pointer_t<decltype(rolePtr)>>());
+			anthill.addAnt(move(ant));
 		}
-		};
+	};
 
 	addAnts((Child*)nullptr);
 	addAnts((Nanny*)nullptr);
@@ -77,9 +88,15 @@ void Engine::Run()
 	addAnts((Heardsant*)nullptr);
 	addAnts((Cleaner*)nullptr);
 
-
 	vector<FoodItem> foodItems;
 	vector<MaterialItem> materialItems;
+
+	auto queenAnt = make_unique<Ant>(_data);
+	Vector2f spawnPos = getRandomPositionNearNest(anthill.getCenter());
+	queenAnt->setPosition(spawnPos);
+	queenAnt->setTarget(spawnPos);
+	queenAnt->setRole(make_unique<Queen>());
+	anthill.addAnt(move(queenAnt));
 
 	auto collectorRole = make_unique<Collector>(10.f);
 	collectorRole->setFoodItems(&foodItems);
@@ -175,6 +192,30 @@ void Engine::Run()
 		if (dayClock.getElapsedTime().asSeconds() >= 3.f) {
 			days++;
 			dayClock.restart();
+
+
+			if (days % 2 == 0 && anthill.canAddAnt()) {
+				int count = 1 + rand() % 3;
+				for (int i = 0; i < count && anthill.canAddAnt(); ++i) {
+					auto child = make_unique<Ant>(_data);
+					child->setRole(make_unique<Child>());
+
+					Vector2f offset(static_cast<float>((rand() % 61) - 30),
+						static_cast<float>((rand() % 61) - 30));
+					Vector2f spawnPos = anthill.getCenter() + offset;
+
+					child->setPosition(spawnPos);
+					child->setTarget(spawnPos);
+
+					anthill.addAnt(move(child));
+				}
+			}
+
+			for (auto& ant : anthill.getAnts()) {
+				if (ant->isAlive()) {
+					ant->growth();
+				}
+			}
 		}
 
 		textLines.clear();
@@ -185,7 +226,7 @@ void Engine::Run()
 			line.setCharacterSize(16);
 			line.setFillColor(color);
 			line.setString(str);
-			line.setPosition(10.f, SCREEN_HEIGHT - 200.f + offsetY);
+			line.setPosition(10.f, SCREEN_HEIGHT - 280.f + offsetY);
 			textLines.push_back(line);
 			};
 
