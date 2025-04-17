@@ -41,21 +41,26 @@ void Cleaner::Work(Ant& ant)
     if (!garbageList.empty())
     {
         GarbageManager::getInstance().removeGarbage(1);
+        return;
     }
-    else
-    {
-        Vector2f currentTarget = ant.getTarget();
-        Vector2f pos = ant.getPosition();
-        float dx = currentTarget.x - pos.x;
-        float dy = currentTarget.y - pos.y;
-        float dist = sqrt(dx * dx + dy * dy);
 
-        if (dist < 5.f || currentTarget == Vector2f(0.f, 0.f)) {
-            ant.setRandomDirection();
-            Vector2f newTarget = pos + ant.getRandomDirection() * 100.f;
-            ant.setTarget(newTarget);
-        }
+    Vector2f pos = ant.getPosition();
+    Vector2f target = ant.getTarget();
 
-        ant.move();
+    float dx = target.x - pos.x;
+    float dy = target.y - pos.y;
+    float dist = std::sqrt(dx * dx + dy * dy);
+
+    if (dist < 5.f || target == Vector2f(0.f, 0.f)) {
+        Vector2f center = Anthill::getInstance().getCenter();
+        float radius = Anthill::getInstance().getNestRadius();
+
+        float angle = static_cast<float>(rand()) / RAND_MAX * 2 * 3.1415926f;
+        float r = static_cast<float>(rand()) / RAND_MAX * (radius - 10.f);
+
+        Vector2f newTarget = center + Vector2f(std::cos(angle), std::sin(angle)) * r;
+        ant.setTarget(newTarget);
     }
+
+    ant.move();
 }

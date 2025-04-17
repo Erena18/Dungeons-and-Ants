@@ -4,33 +4,29 @@
 
 void Heardsant::Work(Ant& ant)
 {
-    Vector2f antPos = ant.getPosition();
+    Anthill& anthill = Anthill::getInstance();
+    homePos = anthill.getCenter();
 
-    // Пример поиска ближайшей тли
-    AphidManager& aphidManager = Anthill::getInstance().getAphidManager();
-    auto& aphids = aphidManager.getAphids(); 
-
-    for (auto& aphid : aphids)
+    if (waiting)
     {
-        if (!aphid->isAlive()) continue;
-
-        Vector2f pos = aphid->getPosition();
-        float dx = pos.x - antPos.x;
-        float dy = pos.y - antPos.y;
-        float dist = sqrt(dx * dx + dy * dy);
-
-        if (dist <= searchRadius)
+        if (waitClock.getElapsedTime().asSeconds() >= 1.f)
         {
-            targetPos = pos;
-            movingToAphid = true;
-            ant.setTarget(targetPos);
-            return;
+            waiting = false;
+            goingToPasture = !goingToPasture;
+            movementClock.restart();
+            nextMoveInterval = 2.f + static_cast<float>(rand() % 1000) / 2000.f - 0.5f;
+            ant.setTarget(goingToPasture ? pasturePos : homePos);
         }
+        return;
     }
 
-    ant.setRandomDirection();
-    Vector2f wander = antPos + ant.getRandomDirection() * 50.f;
-    ant.setTarget(wander);
+    if (movementClock.getElapsedTime().asSeconds() >= nextMoveInterval)
+    {
+        waiting = true;
+        waitClock.restart();
+    }
+
+    ant.move();
 }
 
 void Heardsant::Eat(Ant& ant, Food& food)
