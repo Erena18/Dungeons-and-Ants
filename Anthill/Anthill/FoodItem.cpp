@@ -4,7 +4,7 @@ using namespace std;
 
 FoodItem::FoodItem(int amount) : amount(amount), age(0)
 {
-    shape.setRadius(5.f);
+    shape.setSize(Vector2f(10.f, 10.f));
     shape.setFillColor(Color::Yellow);
     shape.setOrigin(5.f, 5.f);
 }

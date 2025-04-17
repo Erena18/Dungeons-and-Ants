@@ -40,6 +40,7 @@ public:
     void grow(float amount);
     void setCapacity(int newCapasity);
    
+    //GameDataRef getData() const { return _data; }
 
     void addAnt(std::unique_ptr<Ant> ant);
     void addFood(int amount);
@@ -79,8 +80,8 @@ private:
     int naturalDecayMax;
 
     CircleShape _nestCircle;
-    int curCapacity = 100;
-    const float radiusPerUnit = 0.1f;
+    int curCapacity = 300;
+    const float radiusPerUnit = 0.5f;
     float radius;
     void updateRadius();
     void removeDeadAnts();

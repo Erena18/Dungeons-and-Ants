@@ -26,5 +26,5 @@ public:
 private:
     int amount;
     int age;
-    CircleShape shape;
+    RectangleShape shape;
 };

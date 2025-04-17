@@ -7,31 +7,61 @@ itemGenerator::itemGenerator(GameDataRef data)
 	srand(static_cast<unsigned>(time(nullptr)));
 }
 
-void itemGenerator::update(float dt)
+void itemGenerator::update(float dt, std::vector<FoodItem>& foodItems, std::vector<MaterialItem>& materialItems)
 {
 	if (generationClock.getElapsedTime().asSeconds() >= generateInterval)
 	{
-		generateFood(3, 150.f);        
-		generateMaterials(2, 150.f);   
+		generateFood(5, 80.f, foodItems);
+		generateMaterials(3, 80.f, materialItems);
 		generationClock.restart();
+	}
+}
+
+void itemGenerator::generateFood(int count, float minDistFromCenter, std::vector<FoodItem>& foodItems)
+{
+	for (int i = 0; i < count; i++)
+	{
+		FoodItem food;
+		food.setPosition(getRandomPosition(minDistFromCenter));
+		foodItems.push_back(food);
+	}
+}
+
+void itemGenerator::generateMaterials(int count, float minDistFromCenter, std::vector<MaterialItem>& materialsItems)
+{
+	for (int i = 0; i < count; i++)
+	{
+		MaterialItem material;
+		material.setPosition(getRandomPosition(minDistFromCenter));
+		materialsItems.push_back(material);
 	}
 }
 
 Vector2f itemGenerator::getRandomPosition(float minDist)
 {
-	float x = 0.f, y = 0.f;
+	FloatRect anthillZone(SCREEN_WIDTH / 2 - 100, SCREEN_HEIGHT / 2 - 100, 200, 200);
+	FloatRect dumpZone(100, 100, 100, 100); // замените на реальные координаты свалки
+	FloatRect pastureZone(1000.f, 600.f, 250.f, 150.f); // размеры пастбища
 
-	while (sqrt(pow(x - SCREEN_WIDTH / 2, 2) + pow(y + SCREEN_HEIGHT / 2, 2)) < minDist)
-	{
-		x = static_cast<float>(rand() % SCREEN_WIDTH);
-		y = static_cast<float>(rand() % SCREEN_HEIGHT);
-	}
+	Vector2f pos;
+	int maxAttempts = 200;
+	int attempts = 0;
 
-	return Vector2f(x, y);
+	do {
+		pos.x = static_cast<float>(rand() % SCREEN_WIDTH);
+		pos.y = static_cast<float>(rand() % SCREEN_HEIGHT);
+		attempts++;
+
+		// Повторять, пока попадает в запрещённые зоны
+	} while ((anthillZone.contains(pos) ||
+		dumpZone.contains(pos) ||
+		pastureZone.contains(pos)) && attempts < maxAttempts);
+
+	return pos;
 }
 
 
-void itemGenerator::generateFood(int count, float minDistFromCenter)
+/*void itemGenerator::generateFood(int count, float minDistFromCenter)
 {
 	for (int i = 0; i < count; i++)
 	{
@@ -50,7 +80,7 @@ void itemGenerator::generateMaterials(int count, float minDistFromCenter)
 		material.setPosition(getRandomPosition(minDistFromCenter));
 		materialsItems.push_back(material);
 	}
-}
+}*/
 
 void itemGenerator::drawItems(sf::RenderWindow& window)
 {

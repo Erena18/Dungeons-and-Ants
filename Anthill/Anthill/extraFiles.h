@@ -2,9 +2,12 @@
 
 #include "SFML/Audio.hpp"
 #include "SFML/Graphics.hpp"
+#include <SFML/Graphics/Font.hpp>
 
-#define SCREEN_WIDTH 1600
-#define SCREEN_HEIGHT 900
+#define SCREEN_WIDTH 1000
+#define SCREEN_HEIGHT 700
+
+#define INTERFACE_FONT "Textures/Roboto.ttf"
 
 #define FIELD_PNG "Textures/grass.png"
 #define ANT_PNG "Textures/ant.png"

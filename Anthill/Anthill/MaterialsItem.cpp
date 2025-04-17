@@ -2,8 +2,8 @@
 
 MaterialItem::MaterialItem(int amount) : amount(amount), age(0)
 {
-    shape.setRadius(5.f);
-    shape.setFillColor(Color(139, 69, 19));
+    shape.setSize(Vector2f(10.f, 10.f));
+    shape.setFillColor(Color(139, 0, 139));
     shape.setOrigin(5.f, 5.f);
 }
 

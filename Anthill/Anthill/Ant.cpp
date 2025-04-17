@@ -25,6 +25,22 @@ Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole)
 	else                                           shape.setFillColor(Color::White);
 }
 
+/*Ant::Ant(int initHp, int initAge, unique_ptr<Role> initRole, GameDataRef data)
+{
+	shape.setRadius(5.f);
+	shape.setOrigin(5.f, 5.f);
+
+	if (dynamic_cast<Builder*>(role.get()))        shape.setFillColor(Color::Blue);
+	else if (dynamic_cast<Collector*>(role.get())) shape.setFillColor(Color::Green);
+	else if (dynamic_cast<Child*>(role.get()))     shape.setFillColor(Color::Magenta);
+	else if (dynamic_cast<Nanny*>(role.get()))     shape.setFillColor(Color::Cyan);
+	else if (dynamic_cast<Soldier*>(role.get()))   shape.setFillColor(Color::Red);
+	else if (dynamic_cast<Queen*>(role.get()))     shape.setFillColor(Color::Yellow);
+	else if (dynamic_cast<Heardsant*>(role.get())) shape.setFillColor(Color(255, 165, 0));
+	else if (dynamic_cast<Cleaner*>(role.get()))   shape.setFillColor(Color(160, 160, 160));
+	else                                           shape.setFillColor(Color::White);
+}*/
+
 void Ant::growth()
 {
 	age++;
@@ -91,20 +107,33 @@ void Ant::updateRole()
 
 		role = std::move(newRole);
 
-		/*if (role) {
-			currentInformer = Anthill::getInstance().getInformer();
-
-			if (currentInformer) {
-				currentInformer->subscribe(role.get());
-			}
-		}*/
-
-		if (dynamic_cast<Builder*>(role.get()))        shape.setFillColor(Color::Blue);
-		else if (dynamic_cast<Collector*>(role.get())) shape.setFillColor(Color::Green);
-		else if (dynamic_cast<Child*>(role.get()))     shape.setFillColor(Color::Magenta);
-		else if (dynamic_cast<Nanny*>(role.get()))     shape.setFillColor(Color::Cyan);
-		else if (dynamic_cast<Soldier*>(role.get()))   shape.setFillColor(Color::Red);
-		else                                           shape.setFillColor(Color::White);
+		if (dynamic_cast<Builder*>(role.get())) {
+			shape.setFillColor(Color::Blue);
+		}
+		else if (dynamic_cast<Collector*>(role.get())) {
+			shape.setFillColor(Color::Green);
+		}
+		else if (dynamic_cast<Child*>(role.get())) {
+			shape.setFillColor(Color::Magenta);
+		}
+		else if (dynamic_cast<Nanny*>(role.get())) {
+			shape.setFillColor(Color::Cyan);
+		}
+		else if (dynamic_cast<Soldier*>(role.get())) {
+			shape.setFillColor(Color::Red);
+		}
+		else if (dynamic_cast<Queen*>(role.get())) {
+			shape.setFillColor(Color::Yellow);
+		}
+		else if (dynamic_cast<Heardsant*>(role.get())) {
+			shape.setFillColor(Color(255, 165, 0));
+		}
+		else if (dynamic_cast<Cleaner*>(role.get())) {
+			shape.setFillColor(Color(160, 160, 160));
+		}
+		else {
+			shape.setFillColor(Color::White);
+		}
 	}
 }
 
@@ -141,13 +170,33 @@ void Ant::setRole(std::unique_ptr<Role> newRole)
 
 	role = std::move(newRole);
 
-	// Можно здесь обновить цвет муравья
-	if (dynamic_cast<Builder*>(role.get()))        shape.setFillColor(Color::Blue);
-	else if (dynamic_cast<Collector*>(role.get())) shape.setFillColor(Color::Green);
-	else if (dynamic_cast<Child*>(role.get()))     shape.setFillColor(Color::Magenta);
-	else if (dynamic_cast<Nanny*>(role.get()))     shape.setFillColor(Color::Cyan);
-	else if (dynamic_cast<Soldier*>(role.get()))   shape.setFillColor(Color::Red);
-	else                                           shape.setFillColor(Color::White);
+	if (dynamic_cast<Builder*>(role.get())) {
+		shape.setFillColor(Color::Blue);
+	}
+	else if (dynamic_cast<Collector*>(role.get())) {
+		shape.setFillColor(Color::Green);
+	}
+	else if (dynamic_cast<Child*>(role.get())) {
+		shape.setFillColor(Color::Magenta);
+	}
+	else if (dynamic_cast<Nanny*>(role.get())) {
+		shape.setFillColor(Color::Cyan);
+	}
+	else if (dynamic_cast<Soldier*>(role.get())) {
+		shape.setFillColor(Color::Red);
+	}
+	else if (dynamic_cast<Queen*>(role.get())) {
+		shape.setFillColor(Color::Yellow);
+	}
+	else if (dynamic_cast<Heardsant*>(role.get())) {
+		shape.setFillColor(Color(255, 165, 0));
+	}
+	else if (dynamic_cast<Cleaner*>(role.get())) {
+		shape.setFillColor(Color(160, 160, 160));
+	}
+	else {
+		shape.setFillColor(Color::White);
+	}
 }
 
 void Ant::setPosition(const sf::Vector2f& pos)
@@ -191,14 +240,38 @@ void Ant::Eat(Food& food)
 
 void Ant::move()
 {
-	float speed = 1.5f;
-	Vector2f dir = targetPosition - position;
+	float speed = 0.3f;
+	float radius = shape.getRadius();
+	Vector2f dir = target - position;
 	float distance = std::sqrt(dir.x * dir.x + dir.y * dir.y);
 
 	if (distance > 1.f)
 	{
 		dir /= distance;
 		position += dir * speed;
+		bool hitWall = false;
+		if (position.x < radius) {
+			position.x = radius;
+			hitWall = true;
+		}
+		if (position.x > SCREEN_WIDTH - radius) {
+			position.x = SCREEN_WIDTH - radius;
+			hitWall = true;
+		}
+		if (position.y < radius) {
+			position.y = radius;
+			hitWall = true;
+		}
+		if (position.y > SCREEN_HEIGHT - radius) {
+			position.y = SCREEN_HEIGHT - radius;
+			hitWall = true;
+		}
+		if (hitWall) {
+			setRandomDirection();
+			Vector2f newTarget = position + getRandomDirection() * 100.f;
+			setTarget(newTarget);
+		}
+
 		shape.setPosition(position);
 	}
 }

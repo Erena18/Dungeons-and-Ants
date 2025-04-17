@@ -21,10 +21,10 @@ class itemGenerator
 public:
 	itemGenerator(GameDataRef data);
 
-    void update(float dt);
+    void update(float dt, vector<FoodItem>& foodItems, vector<MaterialItem>& materialItems);
 
-    void generateFood(int count, float minDistFromCenter);
-    void generateMaterials(int count, float minDistFromCenter);
+    void generateFood(int count, float minDistFromCenter, vector<FoodItem>& target);
+    void generateMaterials(int count, float minDistFromCenter, vector<MaterialItem>& target);
 
     void drawItems(sf::RenderWindow& window);
 
@@ -35,7 +35,7 @@ private:
     GameDataRef _data;
 
     Clock generationClock;
-    float generateInterval = 10.0f;
+    float generateInterval = 3.0f;
 
     vector<FoodItem> foodItems;
     vector<MaterialItem> materialsItems;
