@@ -13,12 +13,12 @@ void assetManager::LoadTexture(string name, string fileName)
 	}
 }
 
-sf::Texture& assetManager::GetTexture(std::string name)
+Texture& assetManager::GetTexture(string name)
 {
 	return this->_textures.at(name);
 }
 
-void assetManager::LoadSoundBuffer(string name, string fileName)
+/*void assetManager::LoadSoundBuffer(string name, string fileName)
 {
 	SoundBuffer buffer;
 	if (buffer.loadFromFile(fileName))
@@ -45,3 +45,4 @@ sf::Music& assetManager::GetMusic(string name)
 {
 	return *this->_music.at(name);
 }
+*/

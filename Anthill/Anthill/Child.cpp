@@ -34,6 +34,10 @@ void Child::Eat(Ant& ant, Food& food)
 
 }
 
+void Child::Move(Ant& ant)
+{
+}
+
 void Child::Work(Ant& ant)
 {
 }
