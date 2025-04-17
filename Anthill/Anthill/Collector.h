@@ -39,7 +39,7 @@ public:
     void setHomePosition(const sf::Vector2f& home);
 
 private:
-    float radius;                            
+    float radius = 40.f;                            
     bool carrying = false;                  
     int carriedFood = 0;
     int carriedMaterials = 0;

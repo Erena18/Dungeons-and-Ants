@@ -17,9 +17,10 @@
 #include "FoodItem.h"
 #include "MaterialsItem.h"
 
+using namespace std;
 using namespace sf;
 
-Engine::Engine(int widht, int hight, std::string title)
+Engine::Engine(int widht, int hight, string title)
 {
 	_data->window.create(sf::VideoMode(widht, hight),
 		title, Style::Close | Style::Titlebar);
@@ -34,11 +35,14 @@ void Engine::Run()
 	Font font;
 	if (!font.loadFromFile("C:/Windows/Fonts/arial.ttf")) {
 	}
-	Text uiText;
+	
+	/*Text uiText;
 	uiText.setFont(font);
 	uiText.setCharacterSize(16);
 	uiText.setFillColor(Color::Black);
-	uiText.setPosition(10.f, SCREEN_HEIGHT - 200.f);
+	uiText.setPosition(10.f, SCREEN_HEIGHT - 200.f);*/
+
+	vector<Text> textLines;
 
 	RectangleShape panel;
 	panel.setSize(Vector2f(250.f, 240.f));
@@ -173,7 +177,37 @@ void Engine::Run()
 			dayClock.restart();
 		}
 
-		std::ostringstream ss;
+		textLines.clear();
+
+		auto makeLine = [&](const std::string& str, Color color, float offsetY) {
+			Text line;
+			line.setFont(font);
+			line.setCharacterSize(16);
+			line.setFillColor(color);
+			line.setString(str);
+			line.setPosition(10.f, SCREEN_HEIGHT - 200.f + offsetY);
+			textLines.push_back(line);
+			};
+
+		int lineOffset = 0;
+		makeLine("Day: " + std::to_string(days), Color::Black, lineOffset += 0);
+		makeLine("Total ants: " + std::to_string(total), Color::Black, lineOffset += 20);
+		makeLine("Children: " + std::to_string(child), Color::Magenta, lineOffset += 20);
+		makeLine("Nannies: " + std::to_string(nanny), Color::Cyan, lineOffset += 20);
+		makeLine("Soldiers: " + std::to_string(soldier), Color::Red, lineOffset += 20);
+		makeLine("Collectors: " + std::to_string(collector), Color::Green, lineOffset += 20);
+		makeLine("Builders: " + std::to_string(builder), Color::Blue, lineOffset += 20);
+		makeLine("Heardsants: " + std::to_string(heardsant), Color(255, 165, 0), lineOffset += 20); // оранжевый
+		makeLine("Cleaners: " + std::to_string(cleaner), Color(160, 160, 160), lineOffset += 20); // серый
+		makeLine("Queen: " + std::to_string(queen), Color::Yellow, lineOffset += 20);
+		makeLine("Food: " + std::to_string(anthill.getFood().getTotalAmount()), Color::Yellow, lineOffset += 20);
+		makeLine("Materials: " + std::to_string(anthill.getMaterials().getTotalAmount()), Color(139, 69, 19), lineOffset += 20); // коричневый
+		makeLine("Aphids: " + std::to_string(anthill.getAphidManager().getAphidsCount()), Color::Magenta, lineOffset += 20); // или другой цвет для тли
+
+		for (const auto& line : textLines)
+			_data->window.draw(line);
+
+		/*ostringstream ss;
 		ss << "Day: " << days << "\n";
 		ss << "Total ants: " << total << "\n";
 		ss << "Children: " << child << "\nNannies: " << nanny << "\nSoldiers: " << soldier << "\n";
@@ -181,11 +215,11 @@ void Engine::Run()
 		ss << "Heardsants: " << heardsant << "\nCleaners: " << cleaner << "\n";
 		ss << "Queen: " << queen << "\n";
 		ss << "Food: " << anthill.getFood().getTotalAmount() << "\n";
-		ss << "Materials: " << anthill.getMaterials().getTotalAmount() << "\n";
+		ss << "Materials: " << anthill.getMaterials().getTotalAmount() << "\n";*/
 
-		uiText.setString(ss.str());
+		//uiText.setString(ss.str());
 		_data->window.draw(panel);
-		_data->window.draw(uiText);
+		//_data->window.draw(uiText);
 
 		_data->window.display();
 	}

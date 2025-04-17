@@ -18,6 +18,7 @@ public:
     void update(PastureZone& pasture, Food& food);
     void draw(RenderWindow& window);
     const vector<unique_ptr<Aphid>>& getAphids() const { return aphids; }
+    int getAphidsCount() const { return aphids.size(); }
 private:
     std::vector<unique_ptr<Aphid>> aphids;
     void removeDead();
