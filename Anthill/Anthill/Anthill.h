@@ -42,6 +42,8 @@ public:
    
     //GameDataRef getData() const { return _data; }
 
+    float getNestRadius() const;
+
     void addAnt(std::unique_ptr<Ant> ant);
     void addFood(int amount);
     void addMaterials(int amount);

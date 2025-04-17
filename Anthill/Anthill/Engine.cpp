@@ -210,12 +210,6 @@ void Engine::Run()
 					anthill.addAnt(move(child));
 				}
 			}
-
-			for (auto& ant : anthill.getAnts()) {
-				if (ant->isAlive()) {
-					ant->growth();
-				}
-			}
 		}
 
 		textLines.clear();

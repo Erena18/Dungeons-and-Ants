@@ -42,4 +42,20 @@ void Cleaner::Work(Ant& ant)
     {
         GarbageManager::getInstance().removeGarbage(1);
     }
+    else
+    {
+        Vector2f currentTarget = ant.getTarget();
+        Vector2f pos = ant.getPosition();
+        float dx = currentTarget.x - pos.x;
+        float dy = currentTarget.y - pos.y;
+        float dist = sqrt(dx * dx + dy * dy);
+
+        if (dist < 5.f || currentTarget == Vector2f(0.f, 0.f)) {
+            ant.setRandomDirection();
+            Vector2f newTarget = pos + ant.getRandomDirection() * 100.f;
+            ant.setTarget(newTarget);
+        }
+
+        ant.move();
+    }
 }

@@ -7,6 +7,9 @@ maxPopulation(500), durability(200), naturalDecayMin(1), naturalDecayMax(2)
 {
     updateRadius();
     _nestCircle.setFillColor(Color(139, 69, 19));
+
+    food.addFood(400); 
+    materials.addMaterial(150);
 }
 
 Anthill& Anthill::getInstance(GameDataRef data)
@@ -54,7 +57,12 @@ void Anthill::setCapacity(int newCapacity)
     updateRadius();
 }
 
-void Anthill::addAnt(unique_ptr<Ant> ant) 
+float Anthill::getNestRadius() const
+{
+    return _nestCircle.getRadius();
+}
+
+void Anthill::addAnt(unique_ptr<Ant> ant)
 {
     if (ants.size() >= curCapacity) return;
     ants.push_back(std::move(ant));

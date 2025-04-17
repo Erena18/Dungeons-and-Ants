@@ -1,18 +1,79 @@
-﻿  Engine.cpp
+﻿  Ant.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Ant.cpp")
+  
+  Anthill.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Anthill.cpp")
+  
+  Builder.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Builder.cpp")
+  
+  Child.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Child.cpp")
+  
+  Cleaner.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Cleaner.cpp")
+  
+  Collector.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Collector.cpp")
+  
+  DangerousZone.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "DangerousZone.cpp")
+  
+  Engine.cpp
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
   (компиляция исходного файла "Engine.cpp")
   
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(234,69): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(235,77): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(236,77): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(228,69): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(229,77): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(230,77): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(231,73): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(232,75): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(233,81): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(234,76): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(235,87): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(236,85): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
 C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(237,73): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(238,75): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(239,81): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(240,76): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(241,87): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(242,85): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(243,73): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(244,101): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(245,116): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(246,112): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(238,101): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(239,116): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\Engine.cpp(240,112): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Heardsant.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Heardsant.cpp")
+  
+  Main.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Main.cpp")
+  
+  Nanny.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Nanny.cpp")
+  
+  Queen.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Queen.cpp")
+  
+  Soldier.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Soldier.cpp")
+  
+  Warehouse.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Warehouse.cpp")
+  
+  Zone.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "Zone.cpp")
+  
+  itemGeneration.cpp
+C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\Anthill\AphidManager.h(21,52): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "itemGeneration.cpp")
+  
+  Создание кода...
   Anthill.vcxproj -> C:\Users\Huawei\Desktop\мУчёба в ВШУ\Прога\Ants\Dungeons-and-Ants\Anthill\x64\Debug\Anthill.exe

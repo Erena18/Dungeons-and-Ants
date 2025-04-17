@@ -25,18 +25,23 @@ void Nanny::Move(Ant& ant)
 
 void Nanny::Work(Ant& ant)
 {
-    /*vector<Child*> children;
-    for (Child* child : children)
-    {
-        Vec2 childPosition = child->getPosition();
-        float distance = sqrt(pow(position.getX() - childPosition.getX(), 2) +
-            pow(position.getY() - childPosition.getY(), 2));
-        if (distance > 10.0f)
-        {
-            targetPosition = childPosition;
-            isMoving = true;
-            return;
-        }
+    Vector2f pos = ant.getPosition();
+    Vector2f target = ant.getTarget();
+
+    float dx = target.x - pos.x;
+    float dy = target.y - pos.y;
+    float dist = std::sqrt(dx * dx + dy * dy);
+
+    if (dist < 5.f || target == Vector2f(0.f, 0.f)) {
+        Vector2f center = Anthill::getInstance().getCenter();
+        float radius = Anthill::getInstance().getNestRadius(); 
+
+        float angle = static_cast<float>(rand()) / RAND_MAX * 2 * 3.1415926f;
+        float r = static_cast<float>(rand()) / RAND_MAX * (radius - 10.f);
+        Vector2f newTarget = center + Vector2f(std::cos(angle), std::sin(angle)) * r;
+
+        ant.setTarget(newTarget);
     }
-}*/
+
+    ant.move();
 }

@@ -34,12 +34,12 @@ public:
         this->informer = informer;
     }*/
 
-    void setFoodItems(std::vector<FoodItem>* foods);
-    void setMaterialItems(std::vector<MaterialItem>* mats);
-    void setHomePosition(const sf::Vector2f& home);
+    void setFoodItems(vector<FoodItem>* foods);
+    void setMaterialItems(vector<MaterialItem>* mats);
+    void setHomePosition(const Vector2f& home);
 
 private:
-    float radius = 40.f;                            
+    float radius = 80.f;                            
     bool carrying = false;                  
     int carriedFood = 0;
     int carriedMaterials = 0;

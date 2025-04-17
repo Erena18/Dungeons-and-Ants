@@ -161,6 +161,10 @@ void Ant::restoreHp(int point)
 void Ant::die()
 {
 	alive = false;
+
+	shape.setFillColor(sf::Color::Black);
+	shape.setRadius(3.f); 
+	shape.setOrigin(3.f, 3.f);
 }
 
 void Ant::setRole(std::unique_ptr<Role> newRole)
