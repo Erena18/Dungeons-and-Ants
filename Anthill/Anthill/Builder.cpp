@@ -10,9 +10,9 @@ using namespace std;
 
 void Builder::Eat(Ant& ant, Food& food)
 {
-	int foodRequired = 20;
-	int hpLossWithoutFood = 10;
-	int hpRestoreAfterEating = 15;
+	int foodRequired = 10;
+	int hpLossWithoutFood = 5;
+	int hpRestoreAfterEating = 10;
 
 	int consumed = food.consume(foodRequired);
 	if (consumed > 0)
@@ -31,5 +31,9 @@ void Builder::Move(Ant& ant)
 
 void Builder::Work(Ant& ant)
 {
-	Anthill::getInstance().repair(5);
+	if (workClock.getElapsedTime().asSeconds() >= workInterval)
+	{
+		workClock.restart();
+		Anthill::getInstance().repair(3);
+	}
 }

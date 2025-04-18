@@ -193,6 +193,7 @@ void Engine::Run()
 			days++;
 			dayClock.restart();
 
+			//anthill.dailyUpdate();
 
 			if (days % 2 == 0 && anthill.canAddAnt()) {
 				int count = 1 + rand() % 3;

@@ -1,12 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-#include <memory>
-#include <vector>
-#include <ctime>
-
 #include "Food.h"
-
-using namespace std;
 
 Food::Food() {}
 

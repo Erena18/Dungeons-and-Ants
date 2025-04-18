@@ -8,8 +8,8 @@ maxPopulation(500), durability(200), naturalDecayMin(1), naturalDecayMax(2)
     updateRadius();
     _nestCircle.setFillColor(Color(139, 69, 19));
 
-    food.addFood(400); 
-    materials.addMaterial(150);
+    food.addFood(500); 
+    materials.addMaterial(400);
 }
 
 Anthill& Anthill::getInstance(GameDataRef data)
@@ -100,13 +100,10 @@ AphidManager& Anthill::getAphidManager()
 
 void Anthill::repair(int amount) 
 {
-    int materialsAvailable = materials.getAmount();
-    int materialsToUse = min(amount, materialsAvailable);
-
-    if (materialsToUse > 0) 
+    int consumed = materials.consume(amount);
+    if (consumed > 0)
     {
-        materials.use(materialsToUse);
-        durability += materialsToUse;
+        durability += consumed;
         maxPopulation = 12 + ((durability - 200) / 25) * 5;
     }
 }

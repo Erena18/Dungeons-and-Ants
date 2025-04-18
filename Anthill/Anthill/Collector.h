@@ -21,7 +21,7 @@ class MaterialsItem;
 class Collector : public Role 
 {
 public:
-    explicit Collector(float gatherRadius = 10.f);
+    explicit Collector(float gatherRadius = 80.f);
 
     void Work(Ant& ant) override;
     void Eat(Ant& ant, Food& food) override;

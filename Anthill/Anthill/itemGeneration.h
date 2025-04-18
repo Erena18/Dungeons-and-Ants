@@ -35,7 +35,7 @@ private:
     GameDataRef _data;
 
     Clock generationClock;
-    float generateInterval = 3.0f;
+    float generateInterval = 2.0f;
 
     vector<FoodItem> foodItems;
     vector<MaterialItem> materialsItems;

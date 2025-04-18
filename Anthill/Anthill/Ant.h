@@ -32,6 +32,8 @@ public:
 	Ant(int initHp, int initAge, unique_ptr<Role> initRole);
 	Ant(int initHp, int initAge, unique_ptr<Role> initRole, GameDataRef data);
 
+	void setAge(int a) { age = a; }
+
 	int getHp() const { return hp; }
 	int getAge() const { return age; }
 	bool isAlive() const { return alive; }

@@ -8,16 +8,12 @@ void Materials::addMaterial(int a)
     amount += a;
 }
 
-void Materials::use(int u) 
+void Materials::use(int u)
 {
-    if (amount >= u) 
-    {
-        amount -= u;
-    }
-    else 
-    {
-        amount = 0;
-    }
+    int actuallyConsumed = consume(u);
+    amount -= actuallyConsumed;         
+
+    if (amount < 0) amount = 0;
 }
 
 int Materials::getAmount() const 

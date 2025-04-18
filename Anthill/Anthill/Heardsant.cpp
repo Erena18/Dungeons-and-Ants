@@ -31,9 +31,9 @@ void Heardsant::Work(Ant& ant)
 
 void Heardsant::Eat(Ant& ant, Food& food)
 {
-	int foodRequired = 15;
-	int hpLossWithoutFood = 10;
-	int hpRestoreAfterEating = 15;
+	int foodRequired = 7;
+	int hpLossWithoutFood = 5;
+	int hpRestoreAfterEating = 10;
 
 	int consumed = food.consume(foodRequired);
 	if (consumed > 0)

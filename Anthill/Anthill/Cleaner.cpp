@@ -10,9 +10,9 @@ Cleaner::Cleaner()
 
 void Cleaner::Eat(Ant& ant, Food& food)
 {
-    int foodRequired = 10;
-    int hpLossWithoutFood = 10;
-    int hpRestoreAfterEating = 15;
+    int foodRequired = 6;
+    int hpLossWithoutFood = 8;
+    int hpRestoreAfterEating = 10;
 
     int consumed = food.consume(foodRequired);
     if (consumed > 0)
